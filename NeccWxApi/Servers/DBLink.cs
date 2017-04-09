@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.IO;
@@ -9,6 +10,11 @@ namespace NeccWxApi
     {
         public static string SqlConString = "";
 
+
+        public static Dictionary<string, string> Province = new Dictionary<string, string>()
+        {
+            {"河南" , "Yu"} , {"陕西" , "Shan"}
+        };
         /// <summary>
         /// 打开数据库通道
         /// </summary>

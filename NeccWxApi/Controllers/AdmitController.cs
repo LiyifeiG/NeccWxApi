@@ -19,7 +19,7 @@ namespace NeccWxApi.Controllers
         /// </summary>
         /// <returns>The profession list.</returns>
         [HttpGet("ProfessionList&lp={localProvince}")]
-        public IEnumerable<Tuple<string , string>> GetProfessionList(string localProvince)
+        public IEnumerable<object> GetProfessionList(string localProvince)
         {
             var addr = Request.HttpContext.Connection.RemoteIpAddress;
             DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[查询专业列表]");
@@ -29,7 +29,7 @@ namespace NeccWxApi.Controllers
         }
 
         [HttpGet("UniversityList&lp={localProvince}")]
-        public IEnumerable<Tuple<string , string>> GetUniversityList(string localProvince)
+        public IEnumerable<object> GetUniversityList(string localProvince)
         {
             var addr = Request.HttpContext.Connection.RemoteIpAddress;
             DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[查询学校列表]");
