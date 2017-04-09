@@ -11,7 +11,7 @@ namespace NeccWxApi.Controllers
         [HttpGet]
         public string Get()
         {
-            return "Admit连接正常";
+            return "API Admit连接正常,可以使用";
         }
 
         /// <summary>
