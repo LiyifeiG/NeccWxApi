@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using NeccWxApi;
@@ -10,7 +11,7 @@ public class AdmitServer
     /// Gets the profession list.
     /// </summary>
     /// <returns>The profession list.</returns>
-	public static List<string> GetProfessionList()
+	public static List<Tuple<string , string>> GetProfessionList(string localProvince)
     {
         DBLink.Log("开始连接");
 
@@ -23,9 +24,9 @@ public class AdmitServer
             return null;
         }
 
-        var re = new List<string>();
+        var re = new List<Tuple<string , string>>();
 
-        const string sqlStr = "SELECT DISTINCT proName FROM sf_score_admit ORDER BY sf_score_admit.proName";
+        const string sqlStr = "SELECT DISTINCT proID , proName FROM sf_score_admit ORDER BY sf_score_admit.proName";
 
         var sc = new SqlCommand(sqlStr , con);
 
@@ -37,7 +38,7 @@ public class AdmitServer
 
         while (reader.Read())
         {
-            re.Add(reader[0] as string);
+            re.Add(new Tuple<string , string>( (int)reader[0] + ""  , (string)reader[1]));
         }
 
         DBLink.Log("获得结果 " + re.Count + "条");
@@ -53,7 +54,7 @@ public class AdmitServer
     /// Gets the university list
     /// </summary>
     /// <returns>the university list</returns>
-    public static List<string> GetUniversityList()
+    public static List<Tuple<string , string>> GetUniversityList(string localProvince)
     {
         DBLink.Log("开始连接");
         var con = DBLink.Connect();
@@ -63,9 +64,9 @@ public class AdmitServer
             return null;
         }
 
-        var re = new List<string>();
+        var re = new List<Tuple<string , string>>();
 
-        const string sqlStr = "SELECT DISTINCT uniName FROM sf_score_admit ORDER BY sf_score_admit.uniName";
+        const string sqlStr = "SELECT DISTINCT uniID , uniName FROM sf_score_admit ORDER BY sf_score_admit.uniName";
 
         var sc = new SqlCommand(sqlStr , con);
 
@@ -77,7 +78,7 @@ public class AdmitServer
 
         while (reader.Read())
         {
-            re.Add(reader[0] as string);
+            re.Add(new Tuple<string , string>((int)reader[0] + "" , (string)reader[1]));
         }
 
         DBLink.Log("获得结果 " + re.Count + "条");

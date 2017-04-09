@@ -61,7 +61,7 @@ namespace NeccWxApi
         }
 
         /// <summary>
-        /// 错误日志
+        /// 日志
         /// </summary>
         /// <param name="msg"></param>
         public static void Log(string msg)
