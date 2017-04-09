@@ -60,7 +60,7 @@ public class AdmitServer
     /// Gets the university list
     /// </summary>
     /// <returns>the university list</returns>
-    public static List<Object> GetUniversityList(string localProvince)
+    public static List<object> GetUniversityList(string localProvince)
     {
         DBLink.Log("开始连接");
         var con = DBLink.Connect();

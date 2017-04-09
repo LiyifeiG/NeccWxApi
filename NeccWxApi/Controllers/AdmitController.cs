@@ -28,6 +28,11 @@ namespace NeccWxApi.Controllers
             return re;
         }
 
+        /// <summary>
+        /// Get the university list.
+        /// </summary>
+        /// <param name="localProvince"></param>
+        /// <returns>The university list.</returns>
         [HttpGet("UniversityList&lp={localProvince}")]
         public IEnumerable<object> GetUniversityList(string localProvince)
         {
@@ -38,30 +43,5 @@ namespace NeccWxApi.Controllers
             return re;
         }
 
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 }

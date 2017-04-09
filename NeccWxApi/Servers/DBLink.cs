@@ -8,9 +8,13 @@ namespace NeccWxApi
 {
     public class DBLink
     {
+        /// <summary>
+        /// 连接字符串
+        /// </summary>
         public static string SqlConString = "";
-
-
+        /// <summary>
+        /// 生源地与数据库对照字典
+        /// </summary>
         public static Dictionary<string, string> Province = new Dictionary<string, string>()
         {
             {"河南" , "Yu"} , {"陕西" , "Shan"}
