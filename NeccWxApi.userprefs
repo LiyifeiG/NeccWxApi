@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{25AC486E-502F-4999-95CC-398F0F04AC83}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NeccWxApi/Servers/DBLink.cs">
+    <Files>
+      <File FileName="NeccWxApi/Controllers/ValuesController.cs" Line="39" Column="10" />
+      <File FileName="NeccWxApi/Servers/ProfessionServer.cs" Line="8" Column="2" />
+      <File FileName="NeccWxApi/Startup.cs" Line="1" Column="1" />
+      <File FileName="NeccWxApi/Program.cs" Line="18" Column="36" />
+      <File FileName="NeccWxApi/Servers/DBLink.cs" Line="10" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.NeccWxApi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

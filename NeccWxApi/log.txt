@@ -1,0 +1,53 @@
+04/09/2017 14:37:29 : 读取不到连接字符串 , 配置文件内容为 : <connect><connectionstringstring="DataSource=120.77.35.251;UserID=sa;Password=Zl04131177;InitialCatalog=sf_gaokao"/></connect>
+04/09/2017 14:37:29 : 读取到连接字符串 : DataSource=120.77.35.251;UserID=sa;Password=Zl04131177;InitialCatalog=sf_gaokao
+04/09/2017 14:37:43 : 开始连接
+04/09/2017 14:37:48 : 开始连接
+04/09/2017 14:37:50 : 开始连接
+04/09/2017 14:39:27 : 读取不到连接字符串 , 配置文件内容为 : <connect><connectionstringstring="DataSource=120.77.35.251;UserID=sa;Password=Zl04131177;InitialCatalog=sf_gaokao"/></connect>
+04/09/2017 14:39:27 : 读取到连接字符串 : DataSource=120.77.35.251;UserID=sa;Password=Zl04131177;InitialCatalog=sf_gaokao
+04/09/2017 14:39:33 : 开始连接
+04/09/2017 14:39:33 : 准备连接，连接字符串为DataSource=120.77.35.251;UserID=sa;Password=Zl04131177;InitialCatalog=sf_gaokao
+04/09/2017 14:42:42 : 读取不到连接字符串 , 配置文件内容为 : <connect><connectionstringstring="DataSource=120.77.35.251;UserID=sa;Password=Zl04131177;InitialCatalog=sf_gaokao"/></connect>
+04/09/2017 14:42:42 : 读取到连接字符串 : DataSource=120.77.35.251;UserID=sa;Password=Zl04131177;InitialCatalog=sf_gaokao
+04/09/2017 14:42:51 : 用户0.0.0.1接入接口[查询专业列表]
+04/09/2017 14:42:51 : 开始连接
+04/09/2017 14:42:51 : 准备连接，连接字符串为 : DataS ource=120.77.35.251;User ID=sa;Password=Zl04131177;Initial Catalog=sf_gaokao
+04/09/2017 14:45:12 : 读取不到连接字符串 , 配置文件内容为 : <connect>
+    <connectionstring string = "Data Source=120.77.35.251; User ID=sa; Password=Zl04131177; Initial Catalog=sf_gaokao"/>
+</connect>
+
+04/09/2017 14:45:12 : 读取到连接字符串 : Data Source=120.77.35.251; User ID=sa; Password=Zl04131177; Initial Catalog=sf_gaokao
+04/09/2017 14:45:19 : 开始连接
+04/09/2017 14:45:19 : 准备连接，连接字符串为 : Data Source=120.77.35.251; User ID=sa; Password=Zl04131177; Initial Catalog=sf_gaokao
+04/09/2017 14:45:20 : 连接正常
+04/09/2017 14:45:20 : 开始查询并统计 : 语句为SELECT DISTINCT uniName FROM sf_score_admit ORDER BY sf_score_admit.uniName
+04/09/2017 14:45:21 : 获得结果 2102条
+04/09/2017 14:45:21 : 连接关闭
+04/09/2017 14:57:07 : 读取不到连接字符串 , 配置文件内容为 : <connect>
+    <connectionstring string = "Data Source=120.77.35.251; User ID=sa; Password=Zl04131177; Initial Catalog=sf_gaokao"/>
+</connect>
+
+04/09/2017 14:57:07 : 读取到连接字符串 : Data Source=120.77.35.251; User ID=sa; Password=Zl04131177; Initial Catalog=sf_gaokao
+04/09/2017 14:57:20 : 开始连接
+04/09/2017 14:57:20 : 准备连接，连接字符串为 : Data Source=120.77.35.251; User ID=sa; Password=Zl04131177; Initial Catalog=sf_gaokao
+04/09/2017 14:57:21 : 开始连接
+04/09/2017 14:57:21 : 准备连接，连接字符串为 : Data Source=120.77.35.251; User ID=sa; Password=Zl04131177; Initial Catalog=sf_gaokao
+04/09/2017 14:57:22 : 连接正常
+04/09/2017 14:57:22 : 开始查询并统计 : 语句为SELECT DISTINCT uniName FROM sf_score_admit ORDER BY sf_score_admit.uniName
+04/09/2017 14:57:22 : 获得结果 2102条
+04/09/2017 14:57:22 : 连接关闭
+04/09/2017 14:57:23 : 连接正常
+04/09/2017 14:57:23 : 开始查询并统计 : 语句为SELECT DISTINCT uniName FROM sf_score_admit ORDER BY sf_score_admit.uniName
+04/09/2017 14:57:24 : 获得结果 2102条
+04/09/2017 14:57:24 : 连接关闭
+04/09/2017 15:10:24 : 读取不到连接字符串 , 配置文件内容为 : <connect>
+    <connectionstring string = "Data Source=120.77.35.251; User ID=sa; Password=Zl04131177; Initial Catalog=sf_gaokao"/>
+</connect>
+
+04/09/2017 15:10:24 : 读取到连接字符串 : Data Source=120.77.35.251; User ID=sa; Password=Zl04131177; Initial Catalog=sf_gaokao
+04/09/2017 15:10:30 : 开始连接
+04/09/2017 15:10:30 : 准备连接，连接字符串为 : Data Source=120.77.35.251; User ID=sa; Password=Zl04131177; Initial Catalog=sf_gaokao
+04/09/2017 15:10:31 : 连接正常
+04/09/2017 15:10:31 : 开始查询并统计 : 语句为SELECT DISTINCT uniName FROM sf_score_admit ORDER BY sf_score_admit.uniName
+04/09/2017 15:10:32 : 获得结果 2102条
+04/09/2017 15:10:32 : 连接关闭
