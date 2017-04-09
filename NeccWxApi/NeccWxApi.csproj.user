@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
-    <StartAction>Project</StartAction>
+    <StartAction>http://localhost:5000/api/Admit/UniversityList</StartAction>
     <ApplicationURL>http://localhost:53254</ApplicationURL>
-    <LaunchUrl></LaunchUrl>
-  </PropertyGroup>
+    <LaunchUrl>http://localhost:5555</LaunchUrl>
+    </PropertyGroup>
 </Project>
