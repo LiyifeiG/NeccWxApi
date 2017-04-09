@@ -87,7 +87,7 @@ public class AdmitServer
             re.Add(new
             {
                 学校ID = (int)reader[0] ,
-                学校名称 = (string)reader[1]
+                院校名称 = (string)reader[1]
             });
         }
 
