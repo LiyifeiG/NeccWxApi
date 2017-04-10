@@ -31,7 +31,7 @@ namespace NeccWxApi.Controllers
         /// <summary>
         /// Get the university list.
         /// </summary>
-        /// <param name="localProvince"></param>
+        /// <param name="localProvince">学生归属地</param>
         /// <returns>The university list.</returns>
         [HttpGet("UniversityList&lp={localProvince}")]
         public IEnumerable<object> GetUniversityList(string localProvince)
@@ -43,5 +43,33 @@ namespace NeccWxApi.Controllers
             return re;
         }
 
+        /// <summary>
+        /// Get the university detail information.
+        /// </summary>
+        /// <param name="uniName">学校名称</param>
+        /// <returns>The university detail information.</returns>
+        [HttpGet("UniversityInformation&uniName={uniName}")]
+        public object GetUniversityInformation(string uniName)
+        {
+            var addr = Request.HttpContext.Connection.RemoteIpAddress;
+            DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[查询学校具体信息]");
+            var re = AdmitServer.GetUniversityInformation(uniName);
+            DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+            return re;
+        }
+
+        /// <summary>
+        /// get profession detail information
+        /// </summary>
+        /// <returns>the profession detail information</returns>
+        [HttpGet("ProfessionInformation&proName={proName}")]
+        public object GetProfessionInformation(string proName)
+        {
+            var addr = Request.HttpContext.Connection.RemoteIpAddress;
+            DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[查询专业具体信息]");
+            var re = AdmitServer.GetProfessionInformation(proName);
+            DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+            return re;
+        }
     }
 }

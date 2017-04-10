@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e692e318-d585-4a95-a2f8-f51b1bdac3f0" name="Default" comment="Move to Rider and Fix">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.csproj.CoreCompileInputs.cache" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.dll" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.pdb" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/CoreCompileInputs.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.dll" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.pdb" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.NeccWxApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.NeccWxApi/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/Controllers/AdmitController.cs" afterPath="$PROJECT_DIR$/NeccWxApi/Controllers/AdmitController.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/Servers/AdmitServer.cs" afterPath="$PROJECT_DIR$/NeccWxApi/Servers/AdmitServer.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.csproj.FileListAbsolute.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,24 +19,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdmitServer.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AdmitServer.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/AdmitServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="62" column="70" lean-forward="false" selection-start-line="62" selection-start-column="70" selection-end-line="62" selection-end-column="70" />
+            <state relative-caret-position="315">
+              <caret line="129" column="31" lean-forward="true" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="31" />
               <folding>
-                <marker date="1491742094000" expanded="true" signature="6:112" ph="..." />
-                <marker date="1491742094000" expanded="true" signature="139:2261" ph="{...}" />
-                <marker date="1491742094000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-                <marker date="1491742094000" expanded="false" signature="328:1227" ph="{...}" />
-                <marker date="1491742094000" expanded="true" signature="447:526" ph="{...}" />
-                <marker date="1491742094000" expanded="true" signature="888:1092" ph="{...}" />
-                <marker date="1491742094000" expanded="true" signature="938:1079" ph="{...}" />
-                <marker date="1491742094000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-                <marker date="1491742094000" expanded="false" signature="1416:2259" ph="{...}" />
-                <marker date="1491742094000" expanded="true" signature="1533:1611" ph="{...}" />
-                <marker date="1491742094000" expanded="true" signature="1970:2124" ph="{...}" />
-                <marker date="1491742094000" expanded="true" signature="2016:2112" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
+                <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
+                <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
+                <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="2265:2400" ph="/// get university detail information ... " />
+                <marker date="1491794932000" expanded="true" signature="2466:3497" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="2583:2661" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="3002:3407" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="3048:3396" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="3503:3638" ph="/// get profession detail information ... " />
+                <marker date="1491794932000" expanded="true" signature="3704:4744" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="3821:3899" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="4244:4654" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="4290:4643" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -57,27 +65,31 @@
       <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="-2793">
               <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdmitController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdmitController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/AdmitController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="359">
+              <caret line="69" column="51" lean-forward="false" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
               <folding>
-                <marker date="1491743157000" expanded="true" signature="6:79" ph="..." />
-                <marker date="1491743157000" expanded="true" signature="112:1526" ph="{...}" />
-                <marker date="1491743157000" expanded="true" signature="192:1524" ph="{...}" />
-                <marker date="1491743157000" expanded="true" signature="270:331" ph="{...}" />
-                <marker date="1491743157000" expanded="true" signature="341:467" ph="/// Gets the profession list. ... " />
-                <marker date="1491743157000" expanded="true" signature="597:900" ph="{...}" />
-                <marker date="1491743157000" expanded="true" signature="910:1084" ph="/// Get the university list. ... " />
-                <marker date="1491743157000" expanded="true" signature="1214:1517" ph="{...}" />
+                <marker date="1491794781000" expanded="true" signature="6:79" ph="..." />
+                <marker date="1491794781000" expanded="true" signature="112:2757" ph="{...}" />
+                <marker date="1491794781000" expanded="true" signature="192:2755" ph="{...}" />
+                <marker date="1491794781000" expanded="true" signature="270:331" ph="{...}" />
+                <marker date="1491794781000" expanded="true" signature="341:467" ph="/// Gets the profession list. ... " />
+                <marker date="1491794781000" expanded="true" signature="597:900" ph="{...}" />
+                <marker date="1491794781000" expanded="true" signature="910:1089" ph="/// Get the university list. ... " />
+                <marker date="1491794781000" expanded="true" signature="1219:1522" ph="{...}" />
+                <marker date="1491794781000" expanded="true" signature="1532:1732" ph="/// Get the university detail information. ... " />
+                <marker date="1491794781000" expanded="true" signature="1856:2162" ph="{...}" />
+                <marker date="1491794781000" expanded="true" signature="2172:2319" ph="/// get profession detail information ... " />
+                <marker date="1491794781000" expanded="true" signature="2443:2749" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -173,8 +185,8 @@
         <option value="$PROJECT_DIR$/NeccWxApi/log.txt" />
         <option value="$PROJECT_DIR$/NeccWxApi/WebApi.config" />
         <option value="$PROJECT_DIR$/NeccWxApi/Servers/DBLink.cs" />
-        <option value="$PROJECT_DIR$/NeccWxApi/Servers/AdmitServer.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Controllers/AdmitController.cs" />
+        <option value="$PROJECT_DIR$/NeccWxApi/Servers/AdmitServer.cs" />
       </list>
     </option>
   </component>
@@ -365,7 +377,8 @@
       <workItem from="1491713917145" duration="971000" />
       <workItem from="1491717408446" duration="2344000" />
       <workItem from="1491719788919" duration="5333000" />
-      <workItem from="1491737968085" duration="3716000" />
+      <workItem from="1491737968085" duration="3765000" />
+      <workItem from="1491792860057" duration="2110000" />
     </task>
     <task id="LOCAL-00001" summary="Move to Rider">
       <created>1491651952548</created>
@@ -392,7 +405,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24395000" />
+    <option name="totallyTimeSpent" value="26554000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,9 +423,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.528125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.53125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.471875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.46875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -450,31 +463,33 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/AdmitServer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1491742094000" expanded="true" signature="6:112" ph="..." />
-            <marker date="1491742094000" expanded="true" signature="139:2261" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-            <marker date="1491742094000" expanded="false" signature="328:1227" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="447:526" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="888:1092" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="938:1079" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-            <marker date="1491742094000" expanded="false" signature="1416:2259" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1533:1611" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1970:2124" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="2016:2112" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
+            <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
+            <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
+            <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2265:2400" ph="/// get university detail information ... " />
+            <marker date="1491794932000" expanded="true" signature="2466:3497" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2583:2661" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3002:3407" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3048:3396" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3503:3638" ph="/// get profession detail information ... " />
+            <marker date="1491794932000" expanded="true" signature="3704:4744" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3821:3899" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="4244:4654" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="4290:4643" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -492,14 +507,18 @@
         <state relative-caret-position="192">
           <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
-            <marker date="1491743157000" expanded="true" signature="6:79" ph="..." />
-            <marker date="1491743157000" expanded="true" signature="112:1526" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="192:1524" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="270:331" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="341:467" ph="/// Gets the profession list. ... " />
-            <marker date="1491743157000" expanded="true" signature="597:900" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="910:1084" ph="/// Get the university list. ... " />
-            <marker date="1491743157000" expanded="true" signature="1214:1517" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="6:79" ph="..." />
+            <marker date="1491794781000" expanded="true" signature="112:2757" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="192:2755" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="270:331" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="341:467" ph="/// Gets the profession list. ... " />
+            <marker date="1491794781000" expanded="true" signature="597:900" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="910:1089" ph="/// Get the university list. ... " />
+            <marker date="1491794781000" expanded="true" signature="1219:1522" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="1532:1732" ph="/// Get the university detail information. ... " />
+            <marker date="1491794781000" expanded="true" signature="1856:2162" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="2172:2319" ph="/// get profession detail information ... " />
+            <marker date="1491794781000" expanded="true" signature="2443:2749" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -520,14 +539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ProtectionServer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ProtectionServer.cs" />
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -584,18 +596,28 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1491742094000" expanded="true" signature="6:112" ph="..." />
-            <marker date="1491742094000" expanded="true" signature="139:2261" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-            <marker date="1491742094000" expanded="false" signature="328:1227" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="447:526" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="888:1092" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="938:1079" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-            <marker date="1491742094000" expanded="false" signature="1416:2259" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1533:1611" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1970:2124" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="2016:2112" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
+            <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
+            <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
+            <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2265:2400" ph="/// get university detail information ... " />
+            <marker date="1491794932000" expanded="true" signature="2466:3497" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2583:2661" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3002:3407" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3048:3396" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3503:3638" ph="/// get profession detail information ... " />
+            <marker date="1491794932000" expanded="true" signature="3704:4744" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3821:3899" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="4244:4654" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="4290:4643" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -605,14 +627,18 @@
         <state relative-caret-position="192">
           <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
-            <marker date="1491743157000" expanded="true" signature="6:79" ph="..." />
-            <marker date="1491743157000" expanded="true" signature="112:1526" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="192:1524" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="270:331" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="341:467" ph="/// Gets the profession list. ... " />
-            <marker date="1491743157000" expanded="true" signature="597:900" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="910:1084" ph="/// Get the university list. ... " />
-            <marker date="1491743157000" expanded="true" signature="1214:1517" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="6:79" ph="..." />
+            <marker date="1491794781000" expanded="true" signature="112:2757" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="192:2755" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="270:331" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="341:467" ph="/// Gets the profession list. ... " />
+            <marker date="1491794781000" expanded="true" signature="597:900" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="910:1089" ph="/// Get the university list. ... " />
+            <marker date="1491794781000" expanded="true" signature="1219:1522" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="1532:1732" ph="/// Get the university detail information. ... " />
+            <marker date="1491794781000" expanded="true" signature="1856:2162" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="2172:2319" ph="/// get profession detail information ... " />
+            <marker date="1491794781000" expanded="true" signature="2443:2749" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -633,14 +659,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ProtectionServer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ProtectionServer.cs" />
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -697,18 +716,28 @@
         <state relative-caret-position="256">
           <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
-            <marker date="1491742094000" expanded="true" signature="6:112" ph="..." />
-            <marker date="1491742094000" expanded="true" signature="139:2261" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-            <marker date="1491742094000" expanded="false" signature="328:1227" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="447:526" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="888:1092" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="938:1079" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-            <marker date="1491742094000" expanded="false" signature="1416:2259" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1533:1611" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1970:2124" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="2016:2112" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
+            <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
+            <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
+            <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2265:2400" ph="/// get university detail information ... " />
+            <marker date="1491794932000" expanded="true" signature="2466:3497" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2583:2661" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3002:3407" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3048:3396" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3503:3638" ph="/// get profession detail information ... " />
+            <marker date="1491794932000" expanded="true" signature="3704:4744" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3821:3899" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="4244:4654" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="4290:4643" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -718,14 +747,18 @@
         <state relative-caret-position="192">
           <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
-            <marker date="1491743157000" expanded="true" signature="6:79" ph="..." />
-            <marker date="1491743157000" expanded="true" signature="112:1526" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="192:1524" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="270:331" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="341:467" ph="/// Gets the profession list. ... " />
-            <marker date="1491743157000" expanded="true" signature="597:900" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="910:1084" ph="/// Get the university list. ... " />
-            <marker date="1491743157000" expanded="true" signature="1214:1517" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="6:79" ph="..." />
+            <marker date="1491794781000" expanded="true" signature="112:2757" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="192:2755" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="270:331" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="341:467" ph="/// Gets the profession list. ... " />
+            <marker date="1491794781000" expanded="true" signature="597:900" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="910:1089" ph="/// Get the university list. ... " />
+            <marker date="1491794781000" expanded="true" signature="1219:1522" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="1532:1732" ph="/// Get the university detail information. ... " />
+            <marker date="1491794781000" expanded="true" signature="1856:2162" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="2172:2319" ph="/// get profession detail information ... " />
+            <marker date="1491794781000" expanded="true" signature="2443:2749" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -746,14 +779,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ProtectionServer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ProtectionServer.cs" />
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -802,18 +828,28 @@
         <state relative-caret-position="336">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1491742094000" expanded="true" signature="6:112" ph="..." />
-            <marker date="1491742094000" expanded="true" signature="139:2261" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-            <marker date="1491742094000" expanded="false" signature="328:1227" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="447:526" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="888:1092" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="938:1079" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-            <marker date="1491742094000" expanded="false" signature="1416:2259" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1533:1611" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1970:2124" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="2016:2112" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
+            <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
+            <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
+            <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2265:2400" ph="/// get university detail information ... " />
+            <marker date="1491794932000" expanded="true" signature="2466:3497" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2583:2661" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3002:3407" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3048:3396" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3503:3638" ph="/// get profession detail information ... " />
+            <marker date="1491794932000" expanded="true" signature="3704:4744" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3821:3899" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="4244:4654" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="4290:4643" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -846,14 +882,18 @@
         <state relative-caret-position="176">
           <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
-            <marker date="1491743157000" expanded="true" signature="6:79" ph="..." />
-            <marker date="1491743157000" expanded="true" signature="112:1526" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="192:1524" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="270:331" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="341:467" ph="/// Gets the profession list. ... " />
-            <marker date="1491743157000" expanded="true" signature="597:900" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="910:1084" ph="/// Get the university list. ... " />
-            <marker date="1491743157000" expanded="true" signature="1214:1517" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="6:79" ph="..." />
+            <marker date="1491794781000" expanded="true" signature="112:2757" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="192:2755" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="270:331" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="341:467" ph="/// Gets the profession list. ... " />
+            <marker date="1491794781000" expanded="true" signature="597:900" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="910:1089" ph="/// Get the university list. ... " />
+            <marker date="1491794781000" expanded="true" signature="1219:1522" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="1532:1732" ph="/// Get the university detail information. ... " />
+            <marker date="1491794781000" expanded="true" signature="1856:2162" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="2172:2319" ph="/// get profession detail information ... " />
+            <marker date="1491794781000" expanded="true" signature="2443:2749" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -907,18 +947,28 @@
         <state relative-caret-position="240">
           <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding>
-            <marker date="1491742094000" expanded="true" signature="6:112" ph="..." />
-            <marker date="1491742094000" expanded="true" signature="139:2261" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-            <marker date="1491742094000" expanded="false" signature="328:1227" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="447:526" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="888:1092" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="938:1079" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-            <marker date="1491742094000" expanded="false" signature="1416:2259" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1533:1611" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1970:2124" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="2016:2112" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
+            <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
+            <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
+            <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2265:2400" ph="/// get university detail information ... " />
+            <marker date="1491794932000" expanded="true" signature="2466:3497" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2583:2661" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3002:3407" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3048:3396" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3503:3638" ph="/// get profession detail information ... " />
+            <marker date="1491794932000" expanded="true" signature="3704:4744" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3821:3899" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="4244:4654" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="4290:4643" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -951,14 +1001,18 @@
         <state relative-caret-position="800">
           <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding>
-            <marker date="1491743157000" expanded="true" signature="6:79" ph="..." />
-            <marker date="1491743157000" expanded="true" signature="112:1526" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="192:1524" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="270:331" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="341:467" ph="/// Gets the profession list. ... " />
-            <marker date="1491743157000" expanded="true" signature="597:900" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="910:1084" ph="/// Get the university list. ... " />
-            <marker date="1491743157000" expanded="true" signature="1214:1517" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="6:79" ph="..." />
+            <marker date="1491794781000" expanded="true" signature="112:2757" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="192:2755" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="270:331" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="341:467" ph="/// Gets the profession list. ... " />
+            <marker date="1491794781000" expanded="true" signature="597:900" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="910:1089" ph="/// Get the university list. ... " />
+            <marker date="1491794781000" expanded="true" signature="1219:1522" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="1532:1732" ph="/// Get the university detail information. ... " />
+            <marker date="1491794781000" expanded="true" signature="1856:2162" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="2172:2319" ph="/// get profession detail information ... " />
+            <marker date="1491794781000" expanded="true" signature="2443:2749" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -968,18 +1022,28 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1491742094000" expanded="true" signature="6:112" ph="..." />
-            <marker date="1491742094000" expanded="true" signature="139:2261" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-            <marker date="1491742094000" expanded="false" signature="328:1227" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="447:526" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="888:1092" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="938:1079" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-            <marker date="1491742094000" expanded="false" signature="1416:2259" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1533:1611" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1970:2124" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="2016:2112" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
+            <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
+            <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
+            <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2265:2400" ph="/// get university detail information ... " />
+            <marker date="1491794932000" expanded="true" signature="2466:3497" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2583:2661" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3002:3407" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3048:3396" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3503:3638" ph="/// get profession detail information ... " />
+            <marker date="1491794932000" expanded="true" signature="3704:4744" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3821:3899" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="4244:4654" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="4290:4643" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1045,51 +1109,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ProtectionServer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/WebApi.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/AdmitServer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="62" column="70" lean-forward="false" selection-start-line="62" selection-start-column="70" selection-end-line="62" selection-end-column="70" />
-          <folding>
-            <marker date="1491742094000" expanded="true" signature="6:112" ph="..." />
-            <marker date="1491742094000" expanded="true" signature="139:2261" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-            <marker date="1491742094000" expanded="false" signature="328:1227" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="447:526" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="888:1092" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="938:1079" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-            <marker date="1491742094000" expanded="false" signature="1416:2259" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1533:1611" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="1970:2124" ph="{...}" />
-            <marker date="1491742094000" expanded="true" signature="2016:2112" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ProtectionServer.cs" />
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/DBLink.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1118,19 +1138,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/WebApi.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2793">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/JetBrains/Shared/v08/DecompilerCache/decompiler/BC474DA5-2DD5-44E2-AE42-214B1412C875/2e/cd646145/IPAddress.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="196" column="21" lean-forward="false" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/AdmitController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="359">
+          <caret line="69" column="51" lean-forward="false" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
           <folding>
-            <marker date="1491743157000" expanded="true" signature="6:79" ph="..." />
-            <marker date="1491743157000" expanded="true" signature="112:1526" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="192:1524" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="270:331" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="341:467" ph="/// Gets the profession list. ... " />
-            <marker date="1491743157000" expanded="true" signature="597:900" ph="{...}" />
-            <marker date="1491743157000" expanded="true" signature="910:1084" ph="/// Get the university list. ... " />
-            <marker date="1491743157000" expanded="true" signature="1214:1517" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="6:79" ph="..." />
+            <marker date="1491794781000" expanded="true" signature="112:2757" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="192:2755" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="270:331" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="341:467" ph="/// Gets the profession list. ... " />
+            <marker date="1491794781000" expanded="true" signature="597:900" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="910:1089" ph="/// Get the university list. ... " />
+            <marker date="1491794781000" expanded="true" signature="1219:1522" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="1532:1732" ph="/// Get the university detail information. ... " />
+            <marker date="1491794781000" expanded="true" signature="1856:2162" ph="{...}" />
+            <marker date="1491794781000" expanded="true" signature="2172:2319" ph="/// get profession detail information ... " />
+            <marker date="1491794781000" expanded="true" signature="2443:2749" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/AdmitServer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="129" column="31" lean-forward="true" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="31" />
+          <folding>
+            <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
+            <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
+            <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
+            <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2265:2400" ph="/// get university detail information ... " />
+            <marker date="1491794932000" expanded="true" signature="2466:3497" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="2583:2661" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3002:3407" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3048:3396" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3503:3638" ph="/// get profession detail information ... " />
+            <marker date="1491794932000" expanded="true" signature="3704:4744" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="3821:3899" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="4244:4654" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="4290:4643" ph="{...}" />
           </folding>
         </state>
       </provider>
