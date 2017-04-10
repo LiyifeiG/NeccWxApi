@@ -1,7 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e692e318-d585-4a95-a2f8-f51b1bdac3f0" name="Default" comment="Move to Rider and Fix" />
+    <list default="true" id="e692e318-d585-4a95-a2f8-f51b1bdac3f0" name="Default" comment="Move to Rider and Fix">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Antiforgery.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Authorization.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Cors.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Cryptography.Internal.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.DataProtection.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.DataProtection.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Diagnostics.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Diagnostics.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Hosting.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Hosting.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Html.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Http.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Http.Extensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Http.Features.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Http.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.HttpOverrides.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.JsonPatch.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Localization.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Mvc.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Mvc.ApiExplorer.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Mvc.Core.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Mvc.Cors.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Mvc.DataAnnotations.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Mvc.Formatters.Json.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Mvc.Localization.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Mvc.Razor.Host.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Mvc.Razor.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Mvc.TagHelpers.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Mvc.ViewFeatures.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Mvc.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Razor.Runtime.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Razor.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Routing.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Routing.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Server.IISIntegration.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.Server.Kestrel.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.AspNetCore.WebUtilities.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.DotNet.PlatformAbstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Caching.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Caching.Memory.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Configuration.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Configuration.Binder.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Configuration.EnvironmentVariables.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Configuration.FileExtensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Configuration.Json.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Configuration.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.DependencyInjection.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.DependencyModel.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.FileProviders.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.FileProviders.Composite.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.FileProviders.Physical.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.FileSystemGlobbing.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Globalization.CultureInfoCache.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Localization.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Localization.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Logging.Abstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Logging.Console.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Logging.Debug.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Logging.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.ObjectPool.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Options.ConfigurationExtensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Options.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.PlatformAbstractions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.Primitives.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Extensions.WebEncoders.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Microsoft.Net.Http.Headers.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/NeccWxApi.deps.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/NeccWxApi.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/NeccWxApi.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/NeccWxApi.runtimeconfig.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Newtonsoft.Json.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/System.Collections.NonGeneric.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/System.Collections.Specialized.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/System.ComponentModel.Primitives.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/System.ComponentModel.TypeConverter.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/System.Data.Common.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/System.Diagnostics.Contracts.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/System.Diagnostics.StackTrace.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/System.Net.WebSockets.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/System.Runtime.CompilerServices.Unsafe.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/System.Runtime.Serialization.Primitives.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/System.Text.Encodings.Web.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/appsettings.Development.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/appsettings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/Microsoft.CSharp.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/Microsoft.CodeAnalysis.CSharp.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/Microsoft.CodeAnalysis.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/Microsoft.VisualBasic.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/Microsoft.Win32.Primitives.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/Microsoft.Win32.Registry.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.AppContext.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Buffers.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Collections.Concurrent.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Collections.Immutable.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Collections.NonGeneric.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Collections.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.ComponentModel.Annotations.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.ComponentModel.Primitives.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.ComponentModel.TypeConverter.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.ComponentModel.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Console.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Data.Common.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Data.SqlClient.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Diagnostics.Contracts.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Diagnostics.Debug.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Diagnostics.DiagnosticSource.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Diagnostics.Process.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Diagnostics.StackTrace.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Diagnostics.Tools.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Diagnostics.Tracing.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Dynamic.Runtime.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Globalization.Calendars.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Globalization.Extensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Globalization.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.IO.Compression.ZipFile.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.IO.Compression.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.IO.FileSystem.Primitives.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.IO.FileSystem.Watcher.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.IO.FileSystem.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.IO.MemoryMappedFiles.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.IO.UnmanagedMemoryStream.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.IO.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Linq.Expressions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Linq.Parallel.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Linq.Queryable.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Linq.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Net.Http.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Net.NameResolution.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Net.Primitives.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Net.Requests.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Net.Security.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Net.Sockets.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Net.WebHeaderCollection.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Net.WebSockets.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Numerics.Vectors.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.ObjectModel.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Reflection.DispatchProxy.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Reflection.Extensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Reflection.Metadata.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Reflection.Primitives.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Reflection.TypeExtensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Reflection.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Resources.Reader.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Resources.ResourceManager.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Runtime.Extensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Runtime.Handles.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Runtime.InteropServices.RuntimeInformation.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Runtime.InteropServices.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Runtime.Loader.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Runtime.Numerics.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Runtime.Serialization.Primitives.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Runtime.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Security.Claims.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Security.Cryptography.Algorithms.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Security.Cryptography.Encoding.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Security.Cryptography.Primitives.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Security.Cryptography.X509Certificates.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Security.Principal.Windows.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Security.Principal.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Text.Encoding.Extensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Text.Encoding.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Text.RegularExpressions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Threading.Tasks.Dataflow.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Threading.Tasks.Extensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Threading.Tasks.Parallel.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Threading.Tasks.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Threading.Thread.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Threading.ThreadPool.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Threading.Timer.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Threading.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Xml.ReaderWriter.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/refs/System.Xml.XDocument.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/runtimes/unix/lib/netstandard1.3/System.Data.SqlClient.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/runtimes/unix/lib/netstandard1.3/System.IO.Pipes.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/runtimes/win/lib/netstandard1.3/System.IO.Pipes.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/runtimes/win7-x64/native/sni.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/runtimes/win7-x86/native/sni.dll" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.NeccWxApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.NeccWxApi/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,18 +200,18 @@
       <file leaf-file-name="AdmitServer.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/AdmitServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="134" column="41" lean-forward="true" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
+            <state relative-caret-position="848">
+              <caret line="134" column="41" lean-forward="false" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
               <folding>
                 <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
                 <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
                 <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-                <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="328:1227" ph="{...}" />
                 <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
                 <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
                 <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
                 <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-                <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+                <marker date="1491794932000" expanded="true" signature="1416:2259" ph="{...}" />
                 <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
                 <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
                 <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
@@ -58,7 +243,7 @@
       <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2793">
+            <state relative-caret-position="368">
               <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding />
             </state>
@@ -68,7 +253,7 @@
       <file leaf-file-name="AdmitController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/AdmitController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
+            <state relative-caret-position="1104">
               <caret line="69" column="51" lean-forward="false" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
               <folding>
                 <marker date="1491794781000" expanded="true" signature="6:79" ph="..." />
@@ -233,42 +418,6 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NeccWxApi (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NeccWxApi" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Servers" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NeccWxApi (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NeccWxApi" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
@@ -372,6 +521,7 @@
       <workItem from="1491719788919" duration="5333000" />
       <workItem from="1491737968085" duration="3765000" />
       <workItem from="1491792860057" duration="2318000" />
+      <workItem from="1491805369272" duration="92000" />
     </task>
     <task id="LOCAL-00001" summary="Move to Rider">
       <created>1491651952548</created>
@@ -398,7 +548,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26762000" />
+    <option name="totallyTimeSpent" value="26854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,19 +561,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.53125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.534375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3173971" sideWeight="0.46875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3173971" sideWeight="0.465625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15390626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15390626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.45234376" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -464,12 +613,12 @@
             <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
             <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-            <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="328:1227" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-            <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1416:2259" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
@@ -592,12 +741,12 @@
             <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
             <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-            <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="328:1227" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-            <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1416:2259" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
@@ -712,12 +861,12 @@
             <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
             <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-            <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="328:1227" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-            <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1416:2259" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
@@ -824,12 +973,12 @@
             <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
             <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-            <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="328:1227" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-            <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1416:2259" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
@@ -943,12 +1092,12 @@
             <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
             <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-            <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="328:1227" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-            <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1416:2259" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
@@ -1018,12 +1167,12 @@
             <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
             <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-            <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="328:1227" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-            <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1416:2259" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
@@ -1141,7 +1290,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2793">
+        <state relative-caret-position="368">
           <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding />
         </state>
@@ -1151,13 +1300,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="196" column="21" lean-forward="false" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/AdmitController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
+        <state relative-caret-position="1104">
           <caret line="69" column="51" lean-forward="false" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
           <folding>
             <marker date="1491794781000" expanded="true" signature="6:79" ph="..." />
@@ -1178,18 +1326,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/AdmitServer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="134" column="41" lean-forward="true" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
+        <state relative-caret-position="848">
+          <caret line="134" column="41" lean-forward="false" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
           <folding>
             <marker date="1491794932000" expanded="true" signature="6:112" ph="..." />
             <marker date="1491794932000" expanded="true" signature="139:4746" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="146:260" ph="/// Gets the profession list. ... " />
-            <marker date="1491794932000" expanded="false" signature="328:1227" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="328:1227" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="447:526" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="888:1092" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="938:1079" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1233:1345" ph="/// Gets the university list ... " />
-            <marker date="1491794932000" expanded="false" signature="1416:2259" ph="{...}" />
+            <marker date="1491794932000" expanded="true" signature="1416:2259" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1533:1611" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="1970:2124" ph="{...}" />
             <marker date="1491794932000" expanded="true" signature="2016:2112" ph="{...}" />
