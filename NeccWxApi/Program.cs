@@ -1,51 +1,52 @@
-﻿    using System.IO;
-    using System.Text.RegularExpressions;
-    using Microsoft.AspNetCore.Hosting;
+﻿using System;
+using System.IO;
+using System.Text.RegularExpressions;
+using Microsoft.AspNetCore.Hosting;
 
-    namespace NeccWxApi
+namespace NeccWxApi
+{
+    public class Program
     {
-        public class Program
+        public static void Main(string[] args)
         {
-            public static void Main(string[] args)
+            if (!GetConnectionString())
             {
-                if (!GetConnectionString())
-                {
-                    return;
-                }
-
-                var host = new WebHostBuilder()
-                    .UseUrls("http://localhost:4888")
-                    .UseKestrel()
-                    .UseContentRoot(Directory.GetCurrentDirectory())
-                    .UseIISIntegration()
-                    .UseStartup<Startup>()
-                    .Build();
-
-                host.Run();
-
+                return;
             }
 
-            private static bool GetConnectionString()
-            {
-                var text = File.ReadAllText("WebApi.config");
+            var host = new WebHostBuilder()
+                .UseUrls("http://localhost:4888")
+                .UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseIISIntegration()
+                .UseStartup<Startup>()
+                .Build();
+            host.Run();
+        }
 
-                //text = Regex.Replace(text, "[\\s\\n]", "");
+        /// <summary>
+        /// 获得连接字符串
+        /// </summary>
+        /// <returns></returns>
+        private static bool GetConnectionString()
+        {
+            var text = File.ReadAllText("WebApi.config");
 
-                DBLink.Log("读取不到连接字符串 , 配置文件内容为 : " + text);
+            //text = Regex.Replace(text, "[\\s\\n]", "");
 
-                var re = new Regex("<connectionstring string = \"(.*)\"/>");
+            DBLink.Log("读取不到连接字符串 , 配置文件内容为 : " + text);
 
-                var m = re.Match(text);
+            var re = new Regex("<connectionstring string = \"(.*)\"/>");
 
-                if (!m.Success) return false;
+            var m = re.Match(text);
 
-                DBLink.SqlConString = m.Groups[1].Value;
+            if (!m.Success) return false;
 
-                DBLink.Log("读取到连接字符串 : " + DBLink.SqlConString);
+            DBLink.SqlConString = m.Groups[1].Value;
 
-                return true;
+            DBLink.Log("读取到连接字符串 : " + DBLink.SqlConString);
 
-            }
-
+            return true;
         }
     }
+}

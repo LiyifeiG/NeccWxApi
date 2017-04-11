@@ -2,7 +2,7 @@
 
 namespace NeccWxApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("Home")]
     public class HomeController : Controller
     {
         [HttpGet]

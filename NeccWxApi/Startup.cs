@@ -42,8 +42,6 @@ namespace NeccWxApi
                                    ForwardedHeaders.XForwardedProto
             });
 
-
-            //app.Run(context => context.Response.WriteAsync("Hello , Welcome our NceeWxAPI home"));
         }
     }
 }
