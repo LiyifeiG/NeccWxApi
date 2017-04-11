@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e692e318-d585-4a95-a2f8-f51b1bdac3f0" name="Default" comment="Move to Rider and Fix">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeccWxApi/Controllers/ProfessionController.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeccWxApi/Controllers/UniversityController.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeccWxApi/Servers/ProfessionServer.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeccWxApi/Servers/UniversityServer.cs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeccWxApi/Controllers/AdmitController.cs" afterPath="$PROJECT_DIR$/NeccWxApi/Controllers/HistoryDataController.cs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeccWxApi/Servers/AdmitServer.cs" afterPath="$PROJECT_DIR$/NeccWxApi/Servers/HistoryDataServer.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.dll" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.pdb" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.dll" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.pdb" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.NeccWxApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.NeccWxApi/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.csproj.FileListAbsolute.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/Servers/ProfessionServer.cs" afterPath="$PROJECT_DIR$/NeccWxApi/Servers/ProfessionServer.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +17,7 @@
       <file leaf-file-name="HistoryDataServer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/HistoryDataServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1648">
+            <state relative-caret-position="899">
               <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding>
                 <marker date="1491886645000" expanded="true" signature="6:112" ph="..." />
@@ -90,7 +79,7 @@
       <file leaf-file-name="UniversityServer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/UniversityServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="29">
               <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
               <folding>
                 <marker date="1491886606000" expanded="true" signature="6:47" ph="..." />
@@ -106,26 +95,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfessionServer.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProfessionServer.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ProfessionServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="192">
+              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding>
-                <marker date="1491886645000" expanded="true" signature="6:47" ph="..." />
-                <marker date="1491886645000" expanded="true" signature="68:1513" ph="{...}" />
-                <marker date="1491886645000" expanded="true" signature="104:1511" ph="{...}" />
-                <marker date="1491886645000" expanded="true" signature="120:267" ph="/// get profession detail information ... " />
-                <marker date="1491886645000" expanded="true" signature="337:1505" ph="{...}" />
-                <marker date="1491886645000" expanded="true" signature="470:564" ph="{...}" />
-                <marker date="1491886645000" expanded="true" signature="937:1399" ph="{...}" />
-                <marker date="1491886645000" expanded="true" signature="995:1384" ph="{...}" />
+                <marker date="1491886921000" expanded="true" signature="6:47" ph="..." />
+                <marker date="1491886921000" expanded="true" signature="68:1502" ph="{...}" />
+                <marker date="1491886921000" expanded="true" signature="104:1500" ph="{...}" />
+                <marker date="1491886921000" expanded="true" signature="120:267" ph="/// get profession detail information ... " />
+                <marker date="1491886921000" expanded="true" signature="326:1494" ph="{...}" />
+                <marker date="1491886921000" expanded="true" signature="459:553" ph="{...}" />
+                <marker date="1491886921000" expanded="true" signature="926:1388" ph="{...}" />
+                <marker date="1491886921000" expanded="true" signature="984:1373" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UniversityController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UniversityController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/UniversityController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
@@ -231,9 +220,9 @@
         <option value="$PROJECT_DIR$/NeccWxApi/Controllers/HistoryDataController.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Servers/UniversityServer.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Servers/HistoryDataServer.cs" />
-        <option value="$PROJECT_DIR$/NeccWxApi/Servers/ProfessionServer.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Controllers/ProfessionController.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Controllers/UniversityController.cs" />
+        <option value="$PROJECT_DIR$/NeccWxApi/Servers/ProfessionServer.cs" />
       </list>
     </option>
   </component>
@@ -427,7 +416,7 @@
       <workItem from="1491737968085" duration="3765000" />
       <workItem from="1491792860057" duration="2318000" />
       <workItem from="1491805369272" duration="92000" />
-      <workItem from="1491886164917" duration="597000" />
+      <workItem from="1491886164917" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="Move to Rider">
       <created>1491651952548</created>
@@ -454,7 +443,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27451000" />
+    <option name="totallyTimeSpent" value="27556000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -467,13 +456,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.5375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.4625" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.4625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1084,61 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ProfessionServer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <marker date="1491886645000" expanded="true" signature="6:47" ph="..." />
-            <marker date="1491886645000" expanded="true" signature="68:1513" ph="{...}" />
-            <marker date="1491886645000" expanded="true" signature="104:1511" ph="{...}" />
-            <marker date="1491886645000" expanded="true" signature="120:267" ph="/// get profession detail information ... " />
-            <marker date="1491886645000" expanded="true" signature="337:1505" ph="{...}" />
-            <marker date="1491886645000" expanded="true" signature="470:564" ph="{...}" />
-            <marker date="1491886645000" expanded="true" signature="937:1399" ph="{...}" />
-            <marker date="1491886645000" expanded="true" signature="995:1384" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/UniversityServer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <marker date="1491886606000" expanded="true" signature="6:47" ph="..." />
-            <marker date="1491886606000" expanded="true" signature="68:1479" ph="{...}" />
-            <marker date="1491886606000" expanded="true" signature="104:1477" ph="{...}" />
-            <marker date="1491886606000" expanded="true" signature="119:266" ph="/// get university detail information ... " />
-            <marker date="1491886606000" expanded="true" signature="325:1471" ph="{...}" />
-            <marker date="1491886606000" expanded="true" signature="458:552" ph="{...}" />
-            <marker date="1491886606000" expanded="true" signature="908:1365" ph="{...}" />
-            <marker date="1491886606000" expanded="true" signature="966:1350" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/HistoryDataServer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1648">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <marker date="1491886645000" expanded="true" signature="6:112" ph="..." />
-            <marker date="1491886645000" expanded="true" signature="145:2270" ph="{...}" />
-            <marker date="1491886645000" expanded="true" signature="152:266" ph="/// Gets the profession list. ... " />
-            <marker date="1491886645000" expanded="true" signature="334:1233" ph="{...}" />
-            <marker date="1491886645000" expanded="true" signature="453:532" ph="{...}" />
-            <marker date="1491886645000" expanded="true" signature="894:1098" ph="{...}" />
-            <marker date="1491886645000" expanded="true" signature="944:1085" ph="{...}" />
-            <marker date="1491886645000" expanded="true" signature="1239:1351" ph="/// Gets the university list ... " />
-            <marker date="1491886645000" expanded="true" signature="1422:2265" ph="{...}" />
-            <marker date="1491886645000" expanded="true" signature="1539:1617" ph="{...}" />
-            <marker date="1491886645000" expanded="true" signature="1976:2130" ph="{...}" />
-            <marker date="1491886645000" expanded="true" signature="2022:2118" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/ProfessionController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -1163,6 +1098,61 @@
             <marker date="1491886684000" expanded="true" signature="227:293" ph="{...}" />
             <marker date="1491886684000" expanded="true" signature="303:503" ph="/// Get the university detail information. ... " />
             <marker date="1491886684000" expanded="true" signature="608:908" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/HistoryDataServer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding>
+            <marker date="1491886645000" expanded="true" signature="6:112" ph="..." />
+            <marker date="1491886645000" expanded="true" signature="145:2270" ph="{...}" />
+            <marker date="1491886645000" expanded="true" signature="152:266" ph="/// Gets the profession list. ... " />
+            <marker date="1491886645000" expanded="true" signature="334:1233" ph="{...}" />
+            <marker date="1491886645000" expanded="true" signature="453:532" ph="{...}" />
+            <marker date="1491886645000" expanded="true" signature="894:1098" ph="{...}" />
+            <marker date="1491886645000" expanded="true" signature="944:1085" ph="{...}" />
+            <marker date="1491886645000" expanded="true" signature="1239:1351" ph="/// Gets the university list ... " />
+            <marker date="1491886645000" expanded="true" signature="1422:2265" ph="{...}" />
+            <marker date="1491886645000" expanded="true" signature="1539:1617" ph="{...}" />
+            <marker date="1491886645000" expanded="true" signature="1976:2130" ph="{...}" />
+            <marker date="1491886645000" expanded="true" signature="2022:2118" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/UniversityServer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <marker date="1491886606000" expanded="true" signature="6:47" ph="..." />
+            <marker date="1491886606000" expanded="true" signature="68:1479" ph="{...}" />
+            <marker date="1491886606000" expanded="true" signature="104:1477" ph="{...}" />
+            <marker date="1491886606000" expanded="true" signature="119:266" ph="/// get university detail information ... " />
+            <marker date="1491886606000" expanded="true" signature="325:1471" ph="{...}" />
+            <marker date="1491886606000" expanded="true" signature="458:552" ph="{...}" />
+            <marker date="1491886606000" expanded="true" signature="908:1365" ph="{...}" />
+            <marker date="1491886606000" expanded="true" signature="966:1350" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ProfessionServer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <marker date="1491886921000" expanded="true" signature="6:47" ph="..." />
+            <marker date="1491886921000" expanded="true" signature="68:1502" ph="{...}" />
+            <marker date="1491886921000" expanded="true" signature="104:1500" ph="{...}" />
+            <marker date="1491886921000" expanded="true" signature="120:267" ph="/// get profession detail information ... " />
+            <marker date="1491886921000" expanded="true" signature="326:1494" ph="{...}" />
+            <marker date="1491886921000" expanded="true" signature="459:553" ph="{...}" />
+            <marker date="1491886921000" expanded="true" signature="926:1388" ph="{...}" />
+            <marker date="1491886921000" expanded="true" signature="984:1373" ph="{...}" />
           </folding>
         </state>
       </provider>

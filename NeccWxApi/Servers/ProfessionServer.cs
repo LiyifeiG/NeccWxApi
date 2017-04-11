@@ -10,7 +10,7 @@ namespace NeccWxApi
         /// get profession detail information
         /// </summary>
         /// <returns>the profession detail information</returns>
-        public static object GetProfessionInformation(string proName)
+        public static object GetProfession(string proName)
         {
             DBLink.Log("开始连接");
             var con = DBLink.Connect();
