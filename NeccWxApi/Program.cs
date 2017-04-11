@@ -14,6 +14,7 @@
                 }
 
                 var host = new WebHostBuilder()
+                    .UseUrls("http://localhost:4888/api/Home")
                     .UseKestrel()
                     .UseContentRoot(Directory.GetCurrentDirectory())
                     .UseIISIntegration()
@@ -23,8 +24,6 @@
                 host.Run();
 
             }
-
-            //.gitignore
 
             private static bool GetConnectionString()
             {

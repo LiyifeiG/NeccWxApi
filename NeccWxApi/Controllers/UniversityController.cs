@@ -5,7 +5,6 @@ namespace NeccWxApi.Controllers
     [Route("api/[controller]")]
     public class UniversityController : Controller
     {
-        // GET api/values
         [HttpGet]
         public string Get()
         {

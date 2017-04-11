@@ -6,7 +6,6 @@ namespace NeccWxApi.Controllers
     [Route("api/[controller]")]
     public class HistoryDataController : Controller
     {
-        // GET api/values
         [HttpGet]
         public string Get()
         {
