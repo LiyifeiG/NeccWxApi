@@ -6,9 +6,9 @@ namespace NeccWxApi.Controllers
     public class ProfessionController : Controller
     {
         [HttpGet]
-        public string Get()
+        public ViewResult Get()
         {
-            return "API Profession连接正常,可以使用";
+            return View();
         }
 
         /// <summary>

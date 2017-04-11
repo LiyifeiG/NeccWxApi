@@ -6,9 +6,9 @@ namespace NeccWxApi.Controllers
     public class UniversityController : Controller
     {
         [HttpGet]
-        public string Get()
+        public ViewResult Get()
         {
-            return "API University连接正常,可以使用";
+            return View();
         }
 
         /// <summary>

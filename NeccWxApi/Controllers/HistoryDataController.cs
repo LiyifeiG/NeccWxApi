@@ -7,9 +7,9 @@ namespace NeccWxApi.Controllers
     public class HistoryDataController : Controller
     {
         [HttpGet]
-        public string Get()
+        public ViewResult Get()
         {
-            return "API HistoryData连接正常,可以使用";
+            return View();
         }
 
         /// <summary>
