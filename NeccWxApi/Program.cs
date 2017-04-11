@@ -14,7 +14,7 @@
                 }
 
                 var host = new WebHostBuilder()
-                    .UseUrls("http://localhost:4888/api/Home")
+                    .UseUrls("http://localhost:4888")
                     .UseKestrel()
                     .UseContentRoot(Directory.GetCurrentDirectory())
                     .UseIISIntegration()
