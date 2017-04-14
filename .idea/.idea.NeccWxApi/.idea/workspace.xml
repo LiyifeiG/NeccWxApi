@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e692e318-d585-4a95-a2f8-f51b1bdac3f0" name="Default" comment="Move to Rider and Fix">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.NeccWxApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.NeccWxApi/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/Views/HistoryData/Get.cshtml" afterPath="$PROJECT_DIR$/NeccWxApi/Views/HistoryData/Get.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/Views/Home/Get.cshtml" afterPath="$PROJECT_DIR$/NeccWxApi/Views/Home/Get.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/Views/Profession/Get.cshtml" afterPath="$PROJECT_DIR$/NeccWxApi/Views/Profession/Get.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/Views/University/Get.cshtml" afterPath="$PROJECT_DIR$/NeccWxApi/Views/University/Get.cshtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,30 +36,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Get.cshtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Get.cshtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Views/HistoryData/Get.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-71">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
+            <state relative-caret-position="57">
+              <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding>
-                <marker date="1492181903000" expanded="true" signature="17:1394" ph="&lt;html.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="24:65" ph="&lt;head.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="66:1386" ph="&lt;body.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="98:1378" ph="&lt;div.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="159:1370" ph="&lt;div.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="173:1359" ph="&lt;table.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="299:343" ph="&lt;th.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="356:400" ph="&lt;th.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="413:459" ph="&lt;th.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="472:861" ph="&lt;tr.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="493:554" ph="&lt;td.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="571:708" ph="&lt;td.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="725:843" ph="&lt;td.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="874:1342" ph="&lt;tr.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="895:1324" ph="&lt;tr.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="920:989" ph="&lt;td.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="1010:1155" ph="&lt;td.../&gt;" />
-                <marker date="1492181903000" expanded="true" signature="1176:1302" ph="&lt;td.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="17:1396" ph="&lt;html.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="24:65" ph="&lt;head.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="66:1388" ph="&lt;body.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="98:1380" ph="&lt;div.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="161:1372" ph="&lt;div.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="175:1361" ph="&lt;table.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="301:345" ph="&lt;th.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="358:402" ph="&lt;th.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="415:461" ph="&lt;th.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="474:863" ph="&lt;tr.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="495:556" ph="&lt;td.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="573:710" ph="&lt;td.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="727:845" ph="&lt;td.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="876:1344" ph="&lt;tr.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="897:1326" ph="&lt;tr.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="922:991" ph="&lt;td.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="1012:1157" ph="&lt;td.../&gt;" />
+                <marker date="1492182519000" expanded="true" signature="1178:1304" ph="&lt;td.../&gt;" />
               </folding>
             </state>
           </provider>
@@ -85,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Get.cshtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Get.cshtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Views/University/Get.cshtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="321">
@@ -238,9 +234,9 @@
         <option value="$PROJECT_DIR$/NeccWxApi/WebApi.config" />
         <option value="$PROJECT_DIR$/NeccWxApi/Views/Styles/Global.css" />
         <option value="$PROJECT_DIR$/NeccWxApi/Views/Home/Get.cshtml" />
-        <option value="$PROJECT_DIR$/NeccWxApi/Views/HistoryData/Get.cshtml" />
         <option value="$PROJECT_DIR$/NeccWxApi/Views/Profession/Get.cshtml" />
         <option value="$PROJECT_DIR$/NeccWxApi/Views/University/Get.cshtml" />
+        <option value="$PROJECT_DIR$/NeccWxApi/Views/HistoryData/Get.cshtml" />
       </list>
     </option>
   </component>
@@ -557,7 +553,7 @@
       <workItem from="1492175002851" duration="417000" />
       <workItem from="1492175913658" duration="24000" />
       <workItem from="1492175965453" duration="153000" />
-      <workItem from="1492179250920" duration="3000000" />
+      <workItem from="1492179250920" duration="3105000" />
     </task>
     <task id="LOCAL-00001" summary="Move to Rider">
       <created>1491651952548</created>
@@ -584,7 +580,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40585000" />
+    <option name="totallyTimeSpent" value="40690000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1076,33 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/Views/HistoryData/Get.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
-          <folding>
-            <marker date="1492181903000" expanded="true" signature="17:1394" ph="&lt;html.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="24:65" ph="&lt;head.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="66:1386" ph="&lt;body.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="98:1378" ph="&lt;div.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="159:1370" ph="&lt;div.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="173:1359" ph="&lt;table.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="299:343" ph="&lt;th.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="356:400" ph="&lt;th.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="413:459" ph="&lt;th.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="472:861" ph="&lt;tr.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="493:554" ph="&lt;td.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="571:708" ph="&lt;td.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="725:843" ph="&lt;td.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="874:1342" ph="&lt;tr.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="895:1324" ph="&lt;tr.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="920:989" ph="&lt;td.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="1010:1155" ph="&lt;td.../&gt;" />
-            <marker date="1492181903000" expanded="true" signature="1176:1302" ph="&lt;td.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Views/Profession/Get.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
@@ -1143,6 +1112,33 @@
             <marker date="1492182406000" expanded="true" signature="493:544" ph="&lt;td.../&gt;" />
             <marker date="1492182406000" expanded="true" signature="561:709" ph="&lt;td.../&gt;" />
             <marker date="1492182406000" expanded="true" signature="726:848" ph="&lt;td.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/Views/HistoryData/Get.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <marker date="1492182519000" expanded="true" signature="17:1396" ph="&lt;html.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="24:65" ph="&lt;head.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="66:1388" ph="&lt;body.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="98:1380" ph="&lt;div.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="161:1372" ph="&lt;div.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="175:1361" ph="&lt;table.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="301:345" ph="&lt;th.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="358:402" ph="&lt;th.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="415:461" ph="&lt;th.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="474:863" ph="&lt;tr.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="495:556" ph="&lt;td.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="573:710" ph="&lt;td.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="727:845" ph="&lt;td.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="876:1344" ph="&lt;tr.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="897:1326" ph="&lt;tr.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="922:991" ph="&lt;td.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="1012:1157" ph="&lt;td.../&gt;" />
+            <marker date="1492182519000" expanded="true" signature="1178:1304" ph="&lt;td.../&gt;" />
           </folding>
         </state>
       </provider>
