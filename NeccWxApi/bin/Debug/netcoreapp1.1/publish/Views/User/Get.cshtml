@@ -2,11 +2,92 @@
 
 <html>
 <head>
-    <title>title</title>
+    <title>用户操作API</title>
 </head>
-<body>
+<body style="font-family: 黑体;">
 <div>
-      
+    <h1 style="text-align: center;">用户操作Api</h1>
+
+    <div>
+        <table width="100%" title="可用API列表" border="1px" style = "border: solid; border-width: 1px; text-align : center">
+            <th>
+                API名称
+            </th>
+            <th>
+                API测试
+            </th>
+            <th>
+                API详细描述
+            </th>
+            <tr>
+                <td>
+                    登录
+                </td>
+                <td>
+                    <a href = "User/Login&lp=陕西&a=yangfan&p=asdfas">登录(测试数据为[陕西][yangfan][asdfas])</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口)/api/User/Login&lp=(生源地)&a=(账号)&p=(密码)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    注册
+                </td>
+                <td>
+                    <a href = "User/Register&c=陕SCGSOZUVHGMDXHSOGC&a=yangfan&p=123456&n=12222222">注册(测试数据为[***][yangfan][**][12222222])</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口)/api/User/Register&c=(秘钥)&a=(账号)&p=(密码)&n=(电话)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    判断账号是否存在
+                </td>
+                <td>
+                    <a href = "User/AccountIsExist&a=yangfan">判断账号是否存在(测试数据为[yangfan])</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口)/api/User/AccountIsExist&a=(账号)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    判断秘钥是否可用（可用， 不可用， 不存在）
+                </td>
+                <td>
+                    <a href = "User/ActiveCodeState&a=陕SCGSOZUVHGMDXHSOGC">判断秘钥是否可用(测试数据为[**])</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口)/api/User/User/ActiveCodeState&a=[秘钥]
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    修改密码
+                </td>
+                <td>
+                    <a href = "User/ModifyPassword&a=yangfan&np=yang">修改密码(测试数据为[yangfan][yang])</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口)/api/User/ModifyPassword&a=(账号)&np=(新密码)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    查看用户信息
+                </td>
+                <td>
+                    <a href = "User/GetUser&a=yangfan">查看用户信息(测试数据为[yangfan])</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口)/api/User/GetUser&a=(账号)
+                </td>
+            </tr>
+        </table>
+    </div>
+
 </div>
 </body>
 </html>
