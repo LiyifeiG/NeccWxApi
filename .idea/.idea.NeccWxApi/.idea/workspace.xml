@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/NeccWxApi/Views/Home/Get.cshtml" line="17" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e692e318-d585-4a95-a2f8-f51b1bdac3f0" name="Default" comment="Move to Rider and Fix">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.NeccWxApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.NeccWxApi/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/Controllers/UserController.cs" afterPath="$PROJECT_DIR$/NeccWxApi/Controllers/UserController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="e692e318-d585-4a95-a2f8-f51b1bdac3f0" name="Default" comment="Move to Rider and Fix" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,8 +207,8 @@
       <file leaf-file-name="UserController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/UserController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="119" column="16" lean-forward="false" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+            <state relative-caret-position="282">
+              <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
               <folding>
                 <marker date="1492267333000" expanded="true" signature="6:45" ph="..." />
                 <marker date="1492267333000" expanded="true" signature="78:5581" ph="{...}" />
@@ -729,7 +725,7 @@
       <workItem from="1492192578155" duration="1795000" />
       <workItem from="1492228711169" duration="41000" />
       <workItem from="1492230641235" duration="156000" />
-      <workItem from="1492236725521" duration="17549000" />
+      <workItem from="1492236725521" duration="17654000" />
     </task>
     <task id="LOCAL-00001" summary="Move to Rider">
       <created>1491651952548</created>
@@ -756,7 +752,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61513000" />
+    <option name="totallyTimeSpent" value="61618000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -775,7 +771,7 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.5765625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.4234375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3173971" sideWeight="0.4234375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
@@ -1564,8 +1560,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/UserController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="119" column="16" lean-forward="false" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+        <state relative-caret-position="282">
+          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding>
             <marker date="1492267333000" expanded="true" signature="6:45" ph="..." />
             <marker date="1492267333000" expanded="true" signature="78:5581" ph="{...}" />
