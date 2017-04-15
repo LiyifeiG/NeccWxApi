@@ -14,9 +14,10 @@ namespace NeccWxApi.Controllers
         }
 
         /// <summary>
-        /// Gets the profession list.
+        /// 全部专业列表
         /// </summary>
-        /// <returns>The profession list.</returns>
+        // <param name="localProvince">生源地</param>
+        /// <returns>专业列表</returns>
         [HttpGet("ProfessionList&lp={localProvince}")]
         public IEnumerable<object> GetProfessionList(string localProvince)
         {
@@ -35,10 +36,10 @@ namespace NeccWxApi.Controllers
         }
 
         /// <summary>
-        /// Get the university list.
+        /// 全部院校列表
         /// </summary>
-        /// <param name="localProvince">学生归属地</param>
-        /// <returns>The university list.</returns>
+        /// <param name="localProvince">生源地</param>
+        /// <returns>学校列表</returns>
         [HttpGet("UniversityList&lp={localProvince}")]
         public IEnumerable<object> GetUniversityList(string localProvince)
         {
@@ -57,15 +58,15 @@ namespace NeccWxApi.Controllers
         }
 
         /// <summary>
-        /// Query Profession
+        /// 专业查询
         /// </summary>
-        /// <param name="localProvince">localProvince</param>
-        /// <param name="year">year</param>
-        /// <param name="classes">classes</param>
-        /// <param name="lscore">lscore</param>
-        /// <param name="rscore">range</param>
-        /// <param name="proName">proName</param>
-        /// <returns>ProfessionList</returns>
+        /// <param name="localProvince">生源地</param>
+        /// <param name="year">年份</param>
+        /// <param name="classes">类别</param>
+        /// <param name="lscore">分数下限</param>
+        /// <param name="rscore">分数上限</param>
+        /// <param name="proName">专业名称</param>
+        /// <returns>专业列表</returns>
         [HttpGet("QueryProfession&lp={localProvince}&y={year}&c={classes}&ls={lscore}&rs={rscore}&proName={proName}")]
         public IEnumerable<object> QueryProfession(string localProvince , int year , string classes , int lscore , int rscore , string proName)
         {
@@ -84,12 +85,12 @@ namespace NeccWxApi.Controllers
         }
 
         /// <summary>
-        /// Query University
+        /// 院校查询
         /// </summary>
-        /// <param name="localProvince">localProvince</param>
-        /// <param name="classes">classes</param>
-        /// <param name="uniName">university name</param>
-        /// <returns>univeristy list</returns>
+        /// <param name="localProvince">生源地</param>
+        /// <param name="classes">类别</param>
+        /// <param name="uniName">院校名称</param>
+        /// <returns>院校列表</returns>
         [HttpGet("QueryUniversity&lp={localProvince}&c={classes}&uniName={uniName}")]
         public IEnumerable<object> QueryUniversity(string localProvince, string classes, string uniName)
         {
@@ -108,14 +109,14 @@ namespace NeccWxApi.Controllers
         }
 
         /// <summary>
-        /// Query Score
+        /// 分数查询
         /// </summary>
-        /// <param name="localProvince">local province</param>
-        /// <param name="year">year</param>
-        /// <param name="classes">classes</param>
-        /// <param name="lscore">lscore</param>
-        /// <param name="rscore">rscore</param>
-        /// <returns>univerisity list</returns>
+        /// <param name="localProvince">生源地</param>
+        /// <param name="year">年份</param>
+        /// <param name="classes">类别</param>
+        /// <param name="lscore">分数下限</param>
+        /// <param name="rscore">分数上限</param>
+        /// <returns>学校列表</returns>
         [HttpGet("QueryScore&lp={localProvince}&y={year}&c={classes}&ls={lscore}&rs={rscore}")]
         public IEnumerable<object> QueryScore(string localProvince, int year, string classes, int lscore, int rscore)
         {

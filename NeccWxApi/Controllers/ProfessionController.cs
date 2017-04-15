@@ -13,9 +13,9 @@ namespace NeccWxApi.Controllers
         }
 
         /// <summary>
-        /// get profession detail information
+        /// 查询专业信息
         /// </summary>
-        /// <returns>the profession detail information</returns>
+        /// <returns>专业信息</returns>
         [HttpGet("GetProfession&proName={proName}")]
         public object GetProfession(string proName)
         {

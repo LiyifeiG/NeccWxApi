@@ -8,9 +8,10 @@ using NeccWxApi;
 public class HistoryDataServer
 {
     /// <summary>
-    /// Gets the profession list.
+    /// 全部专业列表
     /// </summary>
-    /// <returns>The profession list.</returns>
+    // <param name="localProvince">生源地</param>
+    /// <returns>专业列表</returns>
     public static List<object> GetProfessionList(string localProvince)
     {
         DBLink.Log("开始连接");
@@ -57,9 +58,10 @@ public class HistoryDataServer
     }
 
     /// <summary>
-    /// Gets the university list
+    /// 全部院校列表
     /// </summary>
-    /// <returns>the university list</returns>
+    /// <param name="localProvince">生源地</param>
+    /// <returns>学校列表</returns>
     public static List<object> GetUniversityList(string localProvince)
     {
         DBLink.Log("开始连接");
@@ -102,15 +104,15 @@ public class HistoryDataServer
     }
 
     /// <summary>
-    /// Query Profession
+    /// 专业查询
     /// </summary>
-    /// <param name="localProvince">localProvince</param>
-    /// <param name="year">year</param>
-    /// <param name="classes">classes</param>
-    /// <param name="lscore">lscore</param>
-    /// <param name="rscore">rscore</param>
-    /// <param name="proName">proName</param>
-    /// <returns>ProfessionList</returns>
+    /// <param name="localProvince">生源地</param>
+    /// <param name="year">年份</param>
+    /// <param name="classes">类别</param>
+    /// <param name="lscore">分数下限</param>
+    /// <param name="rscore">分数上限</param>
+    /// <param name="proName">专业名称</param>
+    /// <returns>专业列表</returns>
     public static IEnumerable<object> QueryProfession(string localProvince, int year, string classes, int lscore,
         int rscore, string proName)
     {
@@ -166,12 +168,12 @@ public class HistoryDataServer
     }
 
     /// <summary>
-    /// Query University
+    /// 院校查询
     /// </summary>
-    /// <param name="localProvince">localProvince</param>
-    /// <param name="classes">classes</param>
-    /// <param name="uniName">university name</param>
-    /// <returns>univeristy list</returns>
+    /// <param name="localProvince">生源地</param>
+    /// <param name="classes">类别</param>
+    /// <param name="uniName">院校名称</param>
+    /// <returns>院校列表</returns>
     public static IEnumerable<object> QueryUniversity(string localProvince, string classes, string uniName)
     {
         DBLink.Log("开始连接");
@@ -227,14 +229,14 @@ public class HistoryDataServer
     }
 
     /// <summary>
-    /// Query Score
+    /// 分数查询
     /// </summary>
-    /// <param name="localProvince">local province</param>
-    /// <param name="year">year</param>
-    /// <param name="classes">classes</param>
-    /// <param name="lscore">lscore</param>
-    /// <param name="rscore">rscore</param>
-    /// <returns>univerisity list</returns>
+    /// <param name="localProvince">生源地</param>
+    /// <param name="year">年份</param>
+    /// <param name="classes">类别</param>
+    /// <param name="lscore">分数下限</param>
+    /// <param name="rscore">分数上限</param>
+    /// <returns>学校列表</returns>
     public static IEnumerable<object> QueryScore(string localProvince, int year, string classes, int lscore, int rscore)
     {
         DBLink.Log("开始连接");

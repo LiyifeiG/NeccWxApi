@@ -13,10 +13,10 @@ namespace NeccWxApi.Controllers
         }
 
         /// <summary>
-        /// Get the university detail information.
+        /// 查询院校信息
         /// </summary>
         /// <param name="uniName">学校名称</param>
-        /// <returns>The university detail information.</returns>
+        /// <returns>院校信息</returns>
         [HttpGet("GetUniversity&uniName={uniName}")]
         public object GetUniversity(string uniName)
         {

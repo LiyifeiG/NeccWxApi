@@ -6,9 +6,10 @@ namespace NeccWxApi
     public class UniversityServer
     {
         /// <summary>
-        /// get university detail information
+        /// 查询院校信息
         /// </summary>
-        /// <returns>the university detail information</returns>
+        /// <param name="uniName">学校名称</param>
+        /// <returns>院校信息</returns>
         public static object GetUniversity(string uniName)
         {
             DBLink.Log("开始连接");
