@@ -149,9 +149,9 @@ public class HistoryDataServer
                 院校名称 = (string) reader[1],
                 院校所在地 = (string) reader[2],
                 批次 = (string) reader[3],
-                专业最低分 = (int) reader[4] ,
-                专业平均分 = (double) reader[5] ,
-                专业最低位次 = (int) reader[6] ,
+                专业最低分 = (int) reader[4],
+                专业平均分 = (double) reader[5],
+                专业最低位次 = (int) reader[6],
                 专业录取人数 = (int) reader[7]
             });
         }
@@ -210,9 +210,9 @@ public class HistoryDataServer
                 院校类型 = (string) reader[2],
                 批次 = (string) reader[3],
                 年份 = (int) reader[4],
-                院校最低分 = (int) reader[5] ,
-                院校平均分 = (double) reader[6] ,
-                院校录取线差 = (decimal) reader[7] ,
+                院校最低分 = (int) reader[5],
+                院校平均分 = (double) reader[6],
+                院校录取线差 = (decimal) reader[7],
                 院校录取人数 = (int) reader[8]
             });
         }
@@ -271,10 +271,110 @@ public class HistoryDataServer
                 院校名称 = (string) reader[0],
                 院校所在地 = (string) reader[1],
                 批次 = (string) reader[2],
-                院校最低分 = (int) reader[3] ,
-                院校平均分 = (double) reader[4] ,
-                院校最低位次 = (int) reader[5] ,
+                院校最低分 = (int) reader[3],
+                院校平均分 = (double) reader[4],
+                院校最低位次 = (int) reader[5],
                 院校录取人数 = (int) reader[6]
+            });
+        }
+
+        DBLink.Log("获得结果 " + re.Count + "条");
+
+        DBLink.DisConnect(con);
+
+        DBLink.Log("连接关闭");
+
+        return re;
+    }
+
+    /// <summary>
+    /// 学校开设专业列表
+    /// </summary>
+    /// <param name="localProvince">生源地</param>
+    /// <param name="uniName">学校名称</param>
+    /// <returns>专业列表</returns>
+    public static IEnumerable<object> ProfessionListByUniversity(string localProvince, string uniName)
+    {
+        DBLink.Log("开始连接");
+
+        var con = DBLink.Connect();
+
+        if (con.State != ConnectionState.Open)
+        {
+            DBLink.Log("连接未打开");
+
+            return null;
+        }
+
+        var re = new List<object>();
+
+
+        var sqlStr = "SELECT DISTINCT proID , proName , uniName FROM " + DBLink.Province[localProvince] +
+                     "Admit WHERE uniName = '" + uniName + "'  ORDER BY proName";
+
+        var sc = new SqlCommand(sqlStr, con);
+
+        DBLink.Log("开始查询并统计 : 语句为" + sqlStr);
+
+        sc.ExecuteNonQuery();
+
+        var reader = sc.ExecuteReader();
+
+        while (reader.Read())
+        {
+            re.Add(new
+            {
+                专业ID = reader[0] == DBNull.Value ? "错误数据" : (string) reader[0],
+                专业名称 = (string) reader[1],
+                学校名称 = (string) reader[2]
+            });
+        }
+
+        DBLink.Log("获得结果 " + re.Count + "条");
+
+        DBLink.DisConnect(con);
+
+        DBLink.Log("连接关闭");
+
+        return re;
+    }
+
+    /// <summary>
+    /// 查询开设了某专业的学校
+    /// </summary>
+    /// <param name="localProvince">生源地</param>
+    /// <param name="uniName">专业名称</param>
+    /// <returns>学校列表</returns>
+    public static IEnumerable<object> UniversityListByProfession(string localProvince, string proName)
+    {
+        DBLink.Log("开始连接");
+        var con = DBLink.Connect();
+        if (con.State != ConnectionState.Open)
+        {
+            DBLink.Log("连接未打开");
+            return null;
+        }
+
+        var re = new List<object>();
+
+        var sqlStr = "SELECT DISTINCT uniID , uniName , proName FROM " + DBLink.Province[localProvince] +
+                     "Admit WHERE proName ='" + proName + "' ORDER BY uniName";
+
+        var sc = new SqlCommand(sqlStr, con);
+
+        DBLink.Log("开始查询并统计 : 语句为" + sqlStr);
+
+        sc.ExecuteNonQuery();
+
+        var reader = sc.ExecuteReader();
+
+        while (reader.Read())
+        {
+            re.Add(new
+            {
+                院校ID = (int) reader[0],
+                院校名称 = (string) reader[1],
+                专业名称 = (string) reader[2]
             });
         }
 
