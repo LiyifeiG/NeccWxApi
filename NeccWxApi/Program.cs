@@ -31,10 +31,6 @@ namespace NeccWxApi
         {
             var text = File.ReadAllText("WebApi.config");
 
-            //text = Regex.Replace(text, "[\\s\\n]", "");
-
-            DBLink.Log("读取不到连接字符串 , 配置文件内容为 : " + text);
-
             var re = new Regex("<connectionstring string = \"(.*)\"/>");
 
             var m = re.Match(text);
