@@ -117,7 +117,7 @@ namespace NeccWxApi.Controllers
         }
 
         /// <summary>
-        /// 修改密码
+        /// 修改用户密码
         /// </summary>
         /// <param name="account">账号</param>
         /// <param name="newPassword">密码</param>
@@ -144,7 +144,7 @@ namespace NeccWxApi.Controllers
         }
 
         /// <summary>
-        /// 查看用户
+        /// 查看用户信息
         /// </summary>
         /// <param name="account">用户账号</param>
         /// <returns>用户信息</returns>
