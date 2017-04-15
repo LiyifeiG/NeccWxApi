@@ -9,7 +9,7 @@
     <h1 style="text-align: center;">历史录取数据 Api</h1>
 
     <div>
-        <table width="100%" title="可用API列表" border="1px" style = "border: solid; border-width: 1px; text-align : center">
+        <table width="100%" title="可用API列表" border="1px" style="border: solid; border-width: 1px; text-align: center">
             <th>
                 API名称
             </th>
@@ -24,24 +24,77 @@
                     根据学生生源地列出招生的学校
                 </td>
                 <td>
-                    <a href = "HistoryData/UniversityList&lp=河南">获得学校列表(测试参数为河南)</a>
+                    <a href="HistoryData/UniversityList&lp=河南">获得学校列表(测试参数为河南)</a>
                 </td>
                 <td>
-                    调用为&nbsp;http://(IP地址):(端口)/api/HistoryData/UniversityList&lp=(参数 ：生源地)
+                    调用为&nbsp;http://(IP地址):(端口)/api/HistoryData/UniversityList&lp=(生源地)
                 </td>
             </tr>
             <tr>
-                <tr>
-                    <td>
-                        根据学生生源地列出招生的专业
-                    </td>
-                    <td>
-                        <a href = "HistoryData/ProfessionList&lp=河南">获得专业列表(测试参数为河南)</a>
-                    </td>
-                    <td>
-                        调用为&nbsp;http://(IP地址):(端口号)/api/HistoryData/ProfessionList&lp=(参数：生源地)
-                    </td>
-                </tr>
+                <td>
+                    根据学生生源地列出招生的专业
+                </td>
+                <td>
+                    <a href="HistoryData/ProfessionList&lp=河南">获得专业列表(测试参数为河南)</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口号)/api/HistoryData/ProfessionList&lp=(生源地)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    具体分数区间查询
+                </td>
+                <td>
+                    <a href="HistoryData/QueryScore&lp=陕西&y=2015&c=理科&ls=500&rs=550">获得学校列表(测试参数为[陕西][2015][理科][下限500][上限550])</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口号)/api/HistoryData/QueryScore&lp=(生源地)&y=(年份)&c=(文理科)&ls=(分数下限)&rs=(分数上限)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    具体专业查询
+                </td>
+                <td>
+                    <a href="HistoryData/QueryProfession&lp=陕西&y=2015&c=理科&ls=500&rs=550&proName=软件">获得专业列表(测试参数为[陕西][2015][理科][最低500][最高550][软件])</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口号)/api/HistoryData/QueryProfession&lp=(生源地)&y=(年份)&c=(文理科)&ls=(分数下限)&rs=(分数上限)&proName=(专业名[模糊查询])
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    具体学校查询
+                </td>
+                <td>
+                    <a href="HistoryData/QueryUniversity&lp=陕西&c=理科&uniName=邮电大学">获得学校列表(测试参数为[陕西][理科][邮电大学])</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口号)/api/HistoryData/QueryUniversity&lp=(生源地)&c=(文理科)&uniName=(学校名[模糊查询])
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    开设特定专业的院校列表
+                </td>
+                <td>
+                    <a href="HistoryData/UniversityListByProfession&lp=陕西&proName=软件工程">开设了[软件工程]的学校列表(测试参数为[陕西][软件工程])</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口号)/api/HistoryData/UniversityListByProfession&lp=(生源地)&proName=(专业名称)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    院校开设的专业列表
+                </td>
+                <td>
+                    <a href="HistoryData/ProfessionListByUniversity&lp=陕西&uniName=西安邮电大学">[西安邮电大学]专业列表(测试参数为[陕西][西安邮电大学])</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口号)/api/HistoryData/ProfessionListByUniversity&lp=(生源地)&uniName=(院校名称)"
+                </td>
             </tr>
         </table>
     </div>
