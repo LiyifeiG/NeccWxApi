@@ -9901,6 +9901,9 @@
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "files": {
+        "lib/netcoreapp1.1/NeccWxApi.dll": "/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/bin/placeholder/netcoreapp1.1/NeccWxApi.dll"
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
