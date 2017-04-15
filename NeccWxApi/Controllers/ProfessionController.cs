@@ -22,9 +22,9 @@ namespace NeccWxApi.Controllers
             try
             {
                 var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[查询专业具体信息]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[查询专业具体信息]");
                 var re = ProfessionServer.GetProfession(proName);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)

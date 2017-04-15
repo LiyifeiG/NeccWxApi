@@ -1,5 +1,4 @@
-﻿using System.Data;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 
 namespace NeccWxApi
 {
@@ -14,44 +13,33 @@ namespace NeccWxApi
         /// <returns>登录结果</returns>
         public static string Login(string localProvince, string account, string password)
         {
-            string re;
-
-            DBLink.Log("开始连接");
-
-            var con = DBLink.Connect();
-
-            if (con.State != ConnectionState.Open)
+            using (var con = new SqlConnection(Server.SqlConString))
             {
-                DBLink.Log("连接未打开");
+                con.Open();
+                string re;
 
-                return null;
+                var sqlStr = "SELECT password FROM UserAccount " +
+                             "WHERE account = '" + account + "' AND province = '" + localProvince + "' ";
+
+                var sc = new SqlCommand(sqlStr, con);
+
+                Server.Log("开始查询 : 语句为" + sqlStr);
+
+                sc.ExecuteNonQuery();
+
+                var reader = sc.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    re = ((string) reader[0]).Equals(password) ? "登录成功" : "密码错误";
+                }
+                else
+                {
+                    re = "生源地或者账号错误";
+                }
+
+                return re;
             }
-
-            var sqlStr = "SELECT password FROM UserAccount " +
-                         "WHERE account = '" + account + "' AND province = '" + localProvince + "' ";
-
-            var sc = new SqlCommand(sqlStr, con);
-
-            DBLink.Log("开始查询 : 语句为" + sqlStr);
-
-            sc.ExecuteNonQuery();
-
-            var reader = sc.ExecuteReader();
-
-            if (reader.Read())
-            {
-                re = ((string) reader[0]).Equals(password) ? "登录成功" : "密码错误";
-            }
-            else
-            {
-                re = "生源地或者账号错误";
-            }
-
-            DBLink.DisConnect(con);
-
-            DBLink.Log("连接关闭");
-
-            return re;
         }
 
         /// <summary>
@@ -64,34 +52,23 @@ namespace NeccWxApi
         /// <returns>注册结果</returns>
         public static string Register(string active, string account, string password, string phoneNum)
         {
-            DBLink.Log("开始连接");
-
-            var con = DBLink.Connect();
-
-            if (con.State != ConnectionState.Open)
+            using (var con = new SqlConnection(Server.SqlConString))
             {
-                DBLink.Log("连接未打开");
+                con.Open();
+                var sqlStr = "UPDATE UserAccount " +
+                             "SET account = '" + account + "' , " +
+                             "password = '" + password + "' , " +
+                             "phoneNum = '" + phoneNum + "' , " +
+                             "activeState = 0 " +
+                             "WHERE active = '" + active + "' ";
+                var sc = new SqlCommand(sqlStr, con);
 
-                return null;
+                var i = sc.ExecuteNonQuery();
+
+                var re = i == 1 ? "成功" : "失败";
+
+                return re;
             }
-
-            var sqlStr = "UPDATE UserAccount " +
-                     "SET account = '" + account + "' , " +
-                     "password = '" + password + "' , " +
-                     "phoneNum = '" + phoneNum + "' , " +
-                     "activeState = 0 " +
-                     "WHERE active = '" + active + "' ";
-            var sc = new SqlCommand(sqlStr, con);
-
-            var i = sc.ExecuteNonQuery();
-
-            var re = i == 1 ? "成功" : "失败";
-
-            DBLink.DisConnect(con);
-
-            DBLink.Log("连接关闭");
-
-            return re;
         }
 
 
@@ -102,27 +79,18 @@ namespace NeccWxApi
         /// <returns>结果</returns>
         public static string AccountIsExist(string account)
         {
-            DBLink.Log("开始连接");
-
-            var con = DBLink.Connect();
-
-            if (con.State != ConnectionState.Open)
+            using (var con = new SqlConnection(Server.SqlConString))
             {
-                DBLink.Log("连接未打开");
+                con.Open();
+                var sqlStr = "SELECT account FROM UserAccount " +
+                             "WHERE account = '" + account + "'";
+                var sc = new SqlCommand(sqlStr, con);
+                sc.ExecuteNonQuery();
+                var reader = sc.ExecuteReader();
+                var re = reader.Read() ? "已存在" : "不存在";
 
-                return null;
+                return re;
             }
-
-            var sqlStr = "SELECT account FROM UserAccount " +
-                         "WHERE account = '" + account + "'";
-            var sc = new SqlCommand(sqlStr, con);
-            sc.ExecuteNonQuery();
-            var reader = sc.ExecuteReader();
-            var re = reader.Read() ? "已存在" : "不存在";
-            DBLink.DisConnect(con);
-
-            DBLink.Log("连接关闭");
-            return re;
         }
 
         /// <summary>
@@ -132,42 +100,34 @@ namespace NeccWxApi
         /// <returns>结果</returns>
         public static string ActiveCodeState(string activeCode)
         {
-            DBLink.Log("开始连接");
-
-            string re;
-            var con = DBLink.Connect();
-
-            if (con.State != ConnectionState.Open)
+            using (var con = new SqlConnection(Server.SqlConString))
             {
-                DBLink.Log("连接未打开");
+                con.Open();
+                string re;
 
-                return null;
-            }
-
-            var sqlStr = "SELECT activeState FROM UserAccount " +
-                         "WHERE active = '" + activeCode + "'";
-            var sc = new SqlCommand(sqlStr, con);
-            sc.ExecuteNonQuery();
-            var reader = sc.ExecuteReader();
-            if (reader.Read())
-            {
-                if ((bool)reader[0])
+                var sqlStr = "SELECT activeState FROM UserAccount " +
+                             "WHERE active = '" + activeCode + "'";
+                var sc = new SqlCommand(sqlStr, con);
+                sc.ExecuteNonQuery();
+                var reader = sc.ExecuteReader();
+                if (reader.Read())
                 {
-                    re = "秘钥可用";
+                    if ((bool) reader[0])
+                    {
+                        re = "秘钥可用";
+                    }
+                    else
+                    {
+                        re = "秘钥不可用";
+                    }
                 }
                 else
                 {
-                    re = "秘钥不可用";
+                    re = "秘钥不存在";
                 }
-            }
-            else
-            {
-                re = "秘钥不存在";
-            }
-            DBLink.DisConnect(con);
 
-            DBLink.Log("连接关闭");
-            return re;
+                return re;
+            }
         }
 
         /// <summary>
@@ -178,31 +138,20 @@ namespace NeccWxApi
         /// <returns></returns>
         public static string ModifyPassowrd(string account, string newPassword)
         {
-            DBLink.Log("开始连接");
-
-            var con = DBLink.Connect();
-
-            if (con.State != ConnectionState.Open)
+            using (var con = new SqlConnection(Server.SqlConString))
             {
-                DBLink.Log("连接未打开");
+                con.Open();
+                var sqlStr = "UPDATE UserAccount " +
+                             "SET password = '" + newPassword + "' " +
+                             "WHERE account = '" + account + "'";
+                var sc = new SqlCommand(sqlStr, con);
 
-                return null;
+                var i = sc.ExecuteNonQuery();
+
+                var re = i == 1 ? "成功" : "失败";
+
+                return re;
             }
-
-            var sqlStr = "UPDATE UserAccount " +
-                         "SET password = '" + newPassword + "' " +
-                         "WHERE account = '" + account + "'";
-            var sc = new SqlCommand(sqlStr, con);
-
-            var i = sc.ExecuteNonQuery();
-
-            var re = i == 1 ? "成功" : "失败";
-
-            DBLink.DisConnect(con);
-
-            DBLink.Log("连接关闭");
-
-            return re;
         }
 
         /// <summary>
@@ -212,43 +161,34 @@ namespace NeccWxApi
         /// <returns>用户信息</returns>
         public static object GetUser(string account)
         {
-            DBLink.Log("开始连接");
-
-            object re;
-            var con = DBLink.Connect();
-
-            if (con.State != ConnectionState.Open)
+            using (var con = new SqlConnection(Server.SqlConString))
             {
-                DBLink.Log("连接未打开");
+                con.Open();
+                object re;
 
-                return null;
-            }
-
-            var sqlStr = "SELECT account , password , phoneNum , province , userType FROM UserAccount " +
-                         "WHERE account = '" + account + "'";
-            var sc = new SqlCommand(sqlStr, con);
-            sc.ExecuteNonQuery();
-            var reader = sc.ExecuteReader();
-            if (reader.Read())
-            {
-                re = new
+                var sqlStr = "SELECT account , password , phoneNum , province , userType FROM UserAccount " +
+                             "WHERE account = '" + account + "'";
+                var sc = new SqlCommand(sqlStr, con);
+                sc.ExecuteNonQuery();
+                var reader = sc.ExecuteReader();
+                if (reader.Read())
                 {
-                    账号 = (string)reader[0],
-                    密码 = (string)reader[1],
-                    电话 = (string)reader[2],
-                    省份 = (string)reader[3],
-                    用户类型 = (string)reader[4]
-                };
-            }
-            else
-            {
-                re = "秘钥不存在";
-            }
-            DBLink.DisConnect(con);
+                    re = new
+                    {
+                        账号 = (string) reader[0],
+                        密码 = (string) reader[1],
+                        电话 = (string) reader[2],
+                        省份 = (string) reader[3],
+                        用户类型 = (string) reader[4]
+                    };
+                }
+                else
+                {
+                    re = "秘钥不存在";
+                }
 
-            DBLink.Log("连接关闭");
-
-            return re;
+                return re;
+            }
         }
     }
 }

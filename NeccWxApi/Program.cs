@@ -37,9 +37,9 @@ namespace NeccWxApi
 
             if (!m.Success) return false;
 
-            DBLink.SqlConString = m.Groups[1].Value;
+            Server.SqlConString = m.Groups[1].Value;
 
-            DBLink.Log("读取到连接字符串 : " + DBLink.SqlConString);
+            Server.Log("读取到连接字符串 : " + Server.SqlConString);
 
             return true;
         }

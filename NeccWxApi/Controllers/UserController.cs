@@ -25,9 +25,9 @@ namespace NeccWxApi.Controllers
             try
             {
                 var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[登录]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[登录]");
                 var re = UserServer.Login(localProvince, account, password);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)
@@ -50,7 +50,7 @@ namespace NeccWxApi.Controllers
             try
             {
                 var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[注册]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[注册]");
                 if (UserServer.AccountIsExist(account).Equals("已存在"))
                 {
                     return "账号已存在";
@@ -63,7 +63,7 @@ namespace NeccWxApi.Controllers
                 }
 
                 var re = UserServer.Register(active, account, password, phoneNum);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)
@@ -83,9 +83,9 @@ namespace NeccWxApi.Controllers
             try
             {
                 var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[判断账号存在]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[判断账号存在]");
                 var re = UserServer.AccountIsExist(account);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)
@@ -105,9 +105,9 @@ namespace NeccWxApi.Controllers
             try
             {
                 var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[判断秘钥状态]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[判断秘钥状态]");
                 var re = UserServer.ActiveCodeState(activeCode);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)
@@ -132,9 +132,9 @@ namespace NeccWxApi.Controllers
                 {
                     return "账号不存在";
                 }
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[修改密码]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[修改密码]");
                 var re = UserServer.ModifyPassowrd(account, newPassword);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)
@@ -158,9 +158,9 @@ namespace NeccWxApi.Controllers
                 {
                     return "账号不存在";
                 }
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[查看用户]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[查看用户]");
                 var re = UserServer.GetUser(account);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)

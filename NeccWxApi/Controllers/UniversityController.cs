@@ -23,9 +23,9 @@ namespace NeccWxApi.Controllers
             try
             {
                 var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[查询学校具体信息]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[查询学校具体信息]");
                 var re = UniversityServer.GetUniversity(uniName);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)

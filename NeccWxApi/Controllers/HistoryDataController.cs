@@ -24,9 +24,9 @@ namespace NeccWxApi.Controllers
             try
             {
                 var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[获得专业列表]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[获得专业列表]");
                 var re = HistoryDataServer.GetProfessionList(localProvince);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)
@@ -46,9 +46,9 @@ namespace NeccWxApi.Controllers
             try
             {
                 var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[获得学校列表]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[获得学校列表]");
                 var re = HistoryDataServer.GetUniversityList(localProvince);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)
@@ -73,9 +73,9 @@ namespace NeccWxApi.Controllers
             try
             {
                 var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[查询专业列表]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[查询专业列表]");
                 var re = HistoryDataServer.QueryProfession(localProvince , year, classes, lscore, rscore, proName);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)
@@ -97,9 +97,9 @@ namespace NeccWxApi.Controllers
             try
             {
                 var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[查询学校列表]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[查询学校列表]");
                 var re = HistoryDataServer.QueryUniversity(localProvince , classes, uniName);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)
@@ -123,9 +123,9 @@ namespace NeccWxApi.Controllers
             try
             {
                 var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[查询分数列表]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[查询分数列表]");
                 var re = HistoryDataServer.QueryScore(localProvince, year, classes, lscore, rscore);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)
@@ -146,9 +146,9 @@ namespace NeccWxApi.Controllers
             try
             {
                 var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[学校开设专业列表]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[学校开设专业列表]");
                 var re = HistoryDataServer.ProfessionListByUniversity(localProvince, uniName);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)
@@ -169,9 +169,9 @@ namespace NeccWxApi.Controllers
             try
             {
                 var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                DBLink.Log("用户" + addr.MapToIPv4() + "接入接口[开设某专业学校列表]");
+                Server.Log("用户" + addr.MapToIPv4() + "接入接口[开设某专业学校列表]");
                 var re = HistoryDataServer.UniversityListByProfession(localProvince, proName);
-                DBLink.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr.MapToIPv4() + "退出");
                 return re;
             }
             catch (Exception e)
