@@ -15,7 +15,6 @@ namespace NeccWxApi
             }
 
             var host = new WebHostBuilder()
-                .UseUrls("http://localhost:4888")
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
