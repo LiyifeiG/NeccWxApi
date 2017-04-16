@@ -44,6 +44,7 @@ namespace NeccWxApi
             {
                 ip = context.Connection.RemoteIpAddress.MapToIPv4().ToString();
             }
+
             return ip;
         }
 
@@ -69,9 +70,10 @@ namespace NeccWxApi
                     var times = (int) result[0];
 
                     if (times == 0)
-                    {
                         return 0;
-                    }
+                    if (times == -1)
+                        return -1;
+
                     var availableTimes = times - 1;
 
                     str = "UPDATE UserIP SET availableTimes = " + availableTimes +
@@ -88,5 +90,6 @@ namespace NeccWxApi
                 return 500;
             }
         }
+
     }
 }

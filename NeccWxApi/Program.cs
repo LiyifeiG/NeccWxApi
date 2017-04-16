@@ -16,6 +16,7 @@ namespace NeccWxApi
 
             var host = new WebHostBuilder()
                 .UseKestrel()
+                .UseUrls(args[0])
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
