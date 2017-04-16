@@ -24,10 +24,14 @@ namespace NeccWxApi.Controllers
         {
             try
             {
-                var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                Server.Log("用户" + addr.MapToIPv4() + "接入接口[登录]");
+                var addr = Server.GetUserIp(Request.HttpContext);
+                if (Server.IPHandle(addr) == 0)
+                {
+                    return "本IP测试次数已达上限";
+                }
+                Server.Log("用户" + addr + "接入接口[登录]");
                 var re = UserServer.Login(localProvince, account, password);
-                Server.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr + "退出");
                 return re;
             }
             catch (Exception e)
@@ -49,8 +53,12 @@ namespace NeccWxApi.Controllers
         {
             try
             {
-                var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                Server.Log("用户" + addr.MapToIPv4() + "接入接口[注册]");
+                var addr = Server.GetUserIp(Request.HttpContext);
+                if (Server.IPHandle(addr) == 0)
+                {
+                    return "本IP测试次数已达上限";
+                }
+                Server.Log("用户" + addr + "接入接口[注册]");
                 if (UserServer.AccountIsExist(account).Equals("已存在"))
                 {
                     return "账号已存在";
@@ -63,7 +71,7 @@ namespace NeccWxApi.Controllers
                 }
 
                 var re = UserServer.Register(active, account, password, phoneNum);
-                Server.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr + "退出");
                 return re;
             }
             catch (Exception e)
@@ -82,10 +90,14 @@ namespace NeccWxApi.Controllers
         {
             try
             {
-                var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                Server.Log("用户" + addr.MapToIPv4() + "接入接口[判断账号存在]");
+                var addr = Server.GetUserIp(Request.HttpContext);
+                if (Server.IPHandle(addr) == 0)
+                {
+                    return "本IP测试次数已达上限";
+                }
+                Server.Log("用户" + addr + "接入接口[判断账号存在]");
                 var re = UserServer.AccountIsExist(account);
-                Server.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr + "退出");
                 return re;
             }
             catch (Exception e)
@@ -104,10 +116,14 @@ namespace NeccWxApi.Controllers
         {
             try
             {
-                var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                Server.Log("用户" + addr.MapToIPv4() + "接入接口[判断秘钥状态]");
+                var addr = Server.GetUserIp(Request.HttpContext);
+                if (Server.IPHandle(addr) == 0)
+                {
+                    return "本IP测试次数已达上限";
+                }
+                Server.Log("用户" + addr + "接入接口[判断秘钥状态]");
                 var re = UserServer.ActiveCodeState(activeCode);
-                Server.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr + "退出");
                 return re;
             }
             catch (Exception e)
@@ -127,14 +143,18 @@ namespace NeccWxApi.Controllers
         {
             try
             {
-                var addr = Request.HttpContext.Connection.RemoteIpAddress;
+                var addr = Server.GetUserIp(Request.HttpContext);
+                if (Server.IPHandle(addr) == 0)
+                {
+                    return "本IP测试次数已达上限";
+                }
                 if (!UserServer.AccountIsExist(account).Equals("已存在"))
                 {
                     return "账号不存在";
                 }
-                Server.Log("用户" + addr.MapToIPv4() + "接入接口[修改密码]");
+                Server.Log("用户" + addr + "接入接口[修改密码]");
                 var re = UserServer.ModifyPassowrd(account, newPassword);
-                Server.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr + "退出");
                 return re;
             }
             catch (Exception e)
@@ -153,14 +173,18 @@ namespace NeccWxApi.Controllers
         {
             try
             {
-                var addr = Request.HttpContext.Connection.RemoteIpAddress;
+                var addr = Server.GetUserIp(Request.HttpContext);
+                if (Server.IPHandle(addr) == 0)
+                {
+                    return "本IP测试次数已达上限";
+                }
                 if (!UserServer.AccountIsExist(account).Equals("已存在"))
                 {
                     return "账号不存在";
                 }
-                Server.Log("用户" + addr.MapToIPv4() + "接入接口[查看用户]");
+                Server.Log("用户" + addr + "接入接口[查看用户]");
                 var re = UserServer.GetUser(account);
-                Server.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr + "退出");
                 return re;
             }
             catch (Exception e)

@@ -21,10 +21,14 @@ namespace NeccWxApi.Controllers
         {
             try
             {
-                var addr = Request.HttpContext.Connection.RemoteIpAddress;
-                Server.Log("用户" + addr.MapToIPv4() + "接入接口[查询专业具体信息]");
+                var addr = Server.GetUserIp(Request.HttpContext);
+                if (Server.IPHandle(addr) == 0)
+                {
+                    return new[] {"本IP测试次数已达上限"};
+                }
+                Server.Log("用户" + addr + "接入接口[查询专业具体信息]");
                 var re = ProfessionServer.GetProfession(proName);
-                Server.Log("用户" + addr.MapToIPv4() + "退出");
+                Server.Log("用户" + addr + "退出");
                 return re;
             }
             catch (Exception e)
