@@ -16,3 +16,4 @@
 /Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.AssemblyInfo.cs
 /Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.dll
 /Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.pdb
+/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.csproj.CoreCompileInputs.cache

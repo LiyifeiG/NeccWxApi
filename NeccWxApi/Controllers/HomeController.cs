@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace NeccWxApi.Controllers
 {
@@ -7,7 +6,7 @@ namespace NeccWxApi.Controllers
     public class HomeController : Controller
     {
         [HttpGet]
-        public ViewResult Get()
+        public IActionResult Get()
         {
             return View();
         }
