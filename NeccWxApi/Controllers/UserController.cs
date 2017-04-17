@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using NeccWxApi.Models;
 
 namespace NeccWxApi.Controllers
 {
@@ -63,6 +64,56 @@ namespace NeccWxApi.Controllers
                     return new {msg = "本IP测试次数已达上限"};
                 }
                 Server.Log("用户" + addr + "接入接口[注册]");
+                if (UserServer.AccountIsExist(account).Equals("已存在"))
+                {
+                    return new {msg = "账号已存在"};
+                }
+
+                if (UserServer.ActiveCodeState(active).Equals("秘钥不可用")
+                    || UserServer.ActiveCodeState(active).Equals("秘钥不存在"))
+                {
+                    return  new {msg ="秘钥不存在或者不可用"};
+                }
+
+                var re = UserServer.Register(active, account, password, phoneNum);
+                Server.Log("用户" + addr + "退出");
+                return re;
+            }
+            catch (Exception e)
+            {
+                return new {msg = e.Message};
+            }
+        }
+
+
+        /// <summary>
+        /// 注册
+        /// </summary>
+        /// <param name="user">请求正文</param>
+        /// <returns>结果</returns>
+        [HttpPut("pRegister")]
+        [EnableCors("CorsSample")]
+        public object Register([FromBody] User user)
+        {
+            try
+            {
+                var addr = Server.GetUserIp(Request.HttpContext);
+                if (Server.IPHandle(addr) == 0)
+                {
+                    return new {msg = "本IP测试次数已达上限"};
+                }
+                Server.Log("用户" + addr + "接入接口[注册]");
+
+                if (user == null)
+                {
+                    return new {msg = "无效put请求"};
+                }
+
+                var account = user.Account;
+                var active = user.ActiveCode;
+                var password = user.Password;
+                var phoneNum = user.PhoneNum;
+
                 if (UserServer.AccountIsExist(account).Equals("已存在"))
                 {
                     return new {msg = "账号已存在"};
@@ -177,6 +228,58 @@ namespace NeccWxApi.Controllers
             {
                 return new {msg = e.Message};
             }
+        }
+
+        /// <summary>
+        /// 修改用户密码
+        /// </summary>
+        /// <param name="user">请求体</param>
+        /// <returns>结果</returns>
+        [HttpPost("pModifyPassword")]
+        [EnableCors("CorsSample")]
+        public object ModifyPassword([FromBody] User user)
+        {
+            try
+            {
+
+                var addr = Server.GetUserIp(Request.HttpContext);
+                if (Server.IPHandle(addr) == 0)
+                {
+                    return new
+                    {
+                        msg = "本IP测试次数已达上限"
+                    };
+                }
+
+                if (user == null)
+                {
+                    return new {msg = "请求错误"};
+                }
+
+                var account = user.Account;
+                var newPassword = user.Password;
+
+                if (!UserServer.AccountIsExist(account).Equals("已存在"))
+                {
+                    return new
+                    {
+                        msg = "账号不存在"
+                    };
+                }
+                Server.Log("用户" + addr + "接入接口[修改密码]");
+                var re = UserServer.ModifyPassowrd(account, newPassword);
+                Server.Log("用户" + addr + "退出");
+                return new
+                {
+                    msg = re
+                };
+            }
+            catch (Exception e)
+            {
+                return new {msg = e.Message};
+            }
+
+
         }
 
         /// <summary>
