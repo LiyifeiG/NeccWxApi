@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 
 namespace NeccWxApi.Controllers
 {
@@ -15,6 +16,7 @@ namespace NeccWxApi.Controllers
         /// 获得用户IP
         /// </summary>
         /// <returns>IP</returns>
+        [EnableCors("CorsSample")]
         [HttpGet("IP")]
         public string GetUserIP()
         {

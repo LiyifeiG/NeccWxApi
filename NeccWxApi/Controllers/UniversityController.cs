@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace NeccWxApi.Controllers
@@ -17,6 +18,8 @@ namespace NeccWxApi.Controllers
         /// </summary>
         /// <param name="uniName">学校名称</param>
         /// <returns>院校信息</returns>
+        ///
+        [EnableCors("CorsSample")]
         [HttpGet("GetUniversity&uniName={uniName}")]
         public object GetUniversity(string uniName)
         {

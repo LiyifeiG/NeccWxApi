@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace NeccWxApi.Controllers
@@ -19,6 +20,7 @@ namespace NeccWxApi.Controllers
         // <param name="localProvince">生源地</param>
         /// <returns>专业列表</returns>
         [HttpGet("ProfessionList&lp={localProvince}")]
+        [EnableCors("CorsSample")]
         public IEnumerable<object> GetProfessionList(string localProvince)
         {
             try
@@ -45,6 +47,7 @@ namespace NeccWxApi.Controllers
         /// <param name="localProvince">生源地</param>
         /// <returns>学校列表</returns>
         [HttpGet("UniversityList&lp={localProvince}")]
+        [EnableCors("CorsSample")]
         public IEnumerable<object> GetUniversityList(string localProvince)
         {
             try
@@ -76,6 +79,7 @@ namespace NeccWxApi.Controllers
         /// <param name="proName">专业名称</param>
         /// <returns>专业列表</returns>
         [HttpGet("QueryProfession&lp={localProvince}&y={year}&c={classes}&ls={lscore}&rs={rscore}&proName={proName}")]
+        [EnableCors("CorsSample")]
         public IEnumerable<object> QueryProfession(string localProvince , int year , string classes , int lscore , int rscore , string proName)
         {
             try
@@ -104,6 +108,7 @@ namespace NeccWxApi.Controllers
         /// <param name="uniName">院校名称</param>
         /// <returns>院校列表</returns>
         [HttpGet("QueryUniversity&lp={localProvince}&c={classes}&uniName={uniName}")]
+        [EnableCors("CorsSample")]
         public IEnumerable<object> QueryUniversity(string localProvince, string classes, string uniName)
         {
             try
@@ -134,6 +139,7 @@ namespace NeccWxApi.Controllers
         /// <param name="rscore">分数上限</param>
         /// <returns>学校列表</returns>
         [HttpGet("QueryScore&lp={localProvince}&y={year}&c={classes}&ls={lscore}&rs={rscore}")]
+        [EnableCors("CorsSample")]
         public IEnumerable<object> QueryScore(string localProvince, int year, string classes, int lscore, int rscore)
         {
             try
@@ -161,6 +167,7 @@ namespace NeccWxApi.Controllers
         /// <param name="uniName">学校名称</param>
         /// <returns>专业列表</returns>
         [HttpGet("ProfessionListByUniversity&lp={localProvince}&uniName={uniName}")]
+        [EnableCors("CorsSample")]
         public IEnumerable<object> ProfessionListByUniversity(string localProvince, string uniName)
         {
             try
@@ -188,6 +195,7 @@ namespace NeccWxApi.Controllers
         /// <param name="uniName">专业名称</param>
         /// <returns>学校列表</returns>
         [HttpGet("UniversityListByProfession&lp={localProvince}&proName={proName}")]
+        [EnableCors("CorsSample")]
         public IEnumerable<object> UniversityListByProfession(string localProvince, string proName)
         {
             try

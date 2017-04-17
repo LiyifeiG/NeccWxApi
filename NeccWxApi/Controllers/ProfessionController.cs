@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace NeccWxApi.Controllers
@@ -16,6 +17,7 @@ namespace NeccWxApi.Controllers
         /// 查询专业信息
         /// </summary>
         /// <returns>专业信息</returns>
+        [EnableCors("CorsSample")]
         [HttpGet("GetProfession&proName={proName}")]
         public object GetProfession(string proName)
         {
