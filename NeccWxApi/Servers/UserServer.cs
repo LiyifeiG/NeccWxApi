@@ -11,7 +11,7 @@ namespace NeccWxApi
         /// <param name="account">账号</param>
         /// <param name="password">密码</param>
         /// <returns>登录结果</returns>
-        public static string Login(string localProvince, string account, string password)
+        public static string Login(string account, string password)
         {
             using (var con = new SqlConnection(Server.SqlConString))
             {
@@ -19,7 +19,7 @@ namespace NeccWxApi
                 string re;
 
                 var sqlStr = "SELECT password FROM UserAccount " +
-                             "WHERE account = '" + account + "' AND province = '" + localProvince + "' ";
+                             "WHERE account = '" + account + "'";
 
                 var sc = new SqlCommand(sqlStr, con);
 
@@ -35,7 +35,7 @@ namespace NeccWxApi
                 }
                 else
                 {
-                    re = "生源地或者账号错误";
+                    re = "账号未找到";
                 }
 
                 return re;

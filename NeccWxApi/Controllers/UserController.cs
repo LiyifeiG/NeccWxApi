@@ -19,8 +19,8 @@ namespace NeccWxApi.Controllers
         /// <param name="account">账号</param>
         /// <param name="password">密码</param>
         /// <returns>登录结果</returns>
-        [HttpGet("Login&lp={localProvince}&a={account}&p={password}")]
-        public string Login(string localProvince, string account, string password)
+        [HttpGet("Login&a={account}&p={password}")]
+        public string Login(string account, string password)
         {
             try
             {
@@ -30,7 +30,7 @@ namespace NeccWxApi.Controllers
                     return "本IP测试次数已达上限";
                 }
                 Server.Log("用户" + addr + "接入接口[登录]");
-                var re = UserServer.Login(localProvince, account, password);
+                var re = UserServer.Login(account, password);
                 Server.Log("用户" + addr + "退出");
                 return re;
             }
