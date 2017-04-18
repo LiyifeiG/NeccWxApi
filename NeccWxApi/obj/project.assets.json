@@ -9896,7 +9896,7 @@
       "projectUniqueName": "/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/NeccWxApi.csproj",
       "projectName": "NeccWxApi",
       "projectPath": "/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/NeccWxApi.csproj",
-      "outputPath": "/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/obj/",
+      "outputPath": "/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

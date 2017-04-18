@@ -9,7 +9,7 @@
       "DEBUG",
       "NETCOREAPP1_1"
     ],
-    "languageVersion": "default",
+    "languageVersion": "Latest",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,

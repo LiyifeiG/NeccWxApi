@@ -2,7 +2,7 @@
 
 namespace NeccWxApi
 {
-    public class ProfessionServer
+    public static class ProfessionServer
     {
         /// <summary>
         /// 查询专业信息
@@ -27,14 +27,14 @@ namespace NeccWxApi
                 {
                     return new
                     {
-                        专业ID = (string) reader[0],
-                        专业名称 = (string) reader[1],
-                        英文名称 = (string) reader[2],
-                        专业类型 = (string) reader[3],
-                        院校具体类型 = (string) reader[4],
-                        所授学位 = (string) reader[5],
-                        主修课程 = (string) reader[6],
-                        专业简介 = (string) reader[7]
+                        专业ID = (string)reader[0],
+                        专业名称 = (string)reader[1],
+                        英文名称 = (string)reader[2],
+                        专业类型 = (string)reader[3],
+                        院校具体类型 = (string)reader[4],
+                        所授学位 = (string)reader[5],
+                        主修课程 = (string)reader[6],
+                        专业简介 = (string)reader[7]
                     };
                 }
 

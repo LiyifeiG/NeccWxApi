@@ -2,7 +2,7 @@
 
 namespace NeccWxApi
 {
-    public class UserServer
+    public static class UserServer
     {
         /// <summary>
         /// 登录
@@ -31,7 +31,7 @@ namespace NeccWxApi
 
                 if (reader.Read())
                 {
-                    re = ((string) reader[0]).Equals(password) ? "登录成功" : "密码错误";
+                    re = ((string)reader[0]).Equals(password) ? "登录成功" : "密码错误";
                 }
                 else
                 {
@@ -112,7 +112,7 @@ namespace NeccWxApi
                 var reader = sc.ExecuteReader();
                 if (reader.Read())
                 {
-                    if ((bool) reader[0])
+                    if ((bool)reader[0])
                     {
                         re = "秘钥可用";
                     }
@@ -175,11 +175,11 @@ namespace NeccWxApi
                 {
                     re = new
                     {
-                        账号 = (string) reader[0],
-                        密码 = (string) reader[1],
-                        电话 = (string) reader[2],
-                        省份 = (string) reader[3],
-                        用户类型 = (string) reader[4]
+                        账号 = (string)reader[0],
+                        密码 = (string)reader[1],
+                        电话 = (string)reader[2],
+                        省份 = (string)reader[3],
+                        用户类型 = (string)reader[4]
                     };
                 }
                 else

@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e692e318-d585-4a95-a2f8-f51b1bdac3f0" name="Default" comment="Move to Rider and Fix">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeccWxApi/Models/User.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeccWxApi/Controllers/ScoreLineController.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeccWxApi/Servers/ScoreLineServer.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.dll" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.pdb" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/NeccWxApi.dll" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/NeccWxApi.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/NeccWxApi.pdb" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/NeccWxApi.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/CoreCompileInputs.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.dll" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.pdb" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.NeccWxApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.NeccWxApi/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/Controllers/UserController.cs" afterPath="$PROJECT_DIR$/NeccWxApi/Controllers/UserController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/Views/User/Get.cshtml" afterPath="$PROJECT_DIR$/NeccWxApi/Views/User/Get.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Views/User/Get.cshtml" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/publish/Views/User/Get.cshtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi.userprefs" afterPath="$PROJECT_DIR$/NeccWxApi.userprefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/NeccWxApi.csproj" afterPath="$PROJECT_DIR$/NeccWxApi/NeccWxApi.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/NeccWxApi.csproj.user" afterPath="$PROJECT_DIR$/NeccWxApi/NeccWxApi.csproj.user" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.csproj.FileListAbsolute.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +30,7 @@
       <file leaf-file-name="HistoryDataController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/HistoryDataController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-327">
+            <state relative-caret-position="2624">
               <caret line="164" column="22" lean-forward="false" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
               <folding>
                 <marker date="1492426633000" expanded="true" signature="6:112" ph="..." />
@@ -101,7 +100,7 @@
       <file leaf-file-name="ProfessionController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/ProfessionController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="272">
               <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding>
                 <marker date="1492426596000" expanded="false" signature="6:78" ph="..." />
@@ -134,11 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Get.cshtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Get.cshtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Views/User/Get.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-380">
-              <caret line="97" column="32" lean-forward="false" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+            <state relative-caret-position="199">
+              <caret line="132" column="39" lean-forward="false" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
               <folding>
                 <marker date="1492438299000" expanded="true" signature="17:4374" ph="&lt;html.../&gt;" />
                 <marker date="1492438299000" expanded="true" signature="24:65" ph="&lt;head.../&gt;" />
@@ -189,13 +188,42 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ScoreLineController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/ScoreLineController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+              <folding>
+                <marker date="1492520323000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1492520323000" expanded="true" signature="98:550" ph="{...}" />
+                <marker date="1492520323000" expanded="true" signature="182:548" ph="{...}" />
+                <marker date="1492520323000" expanded="true" signature="238:285" ph="{...}" />
+                <marker date="1492520323000" expanded="true" signature="437:542" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScoreLineServer.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ScoreLineServer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding>
+                <marker date="1492520594000" expanded="true" signature="33:160" ph="{...}" />
+                <marker date="1492520594000" expanded="true" signature="68:158" ph="{...}" />
+                <marker date="1492520594000" expanded="true" signature="119:152" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Get.cshtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Views/Home/Get.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="176">
               <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
-                <marker date="1492253858000" expanded="true" signature="0:1131" ph="&lt;html.../&gt;" />
                 <marker date="1492253858000" expanded="true" signature="7:47" ph="&lt;head.../&gt;" />
                 <marker date="1492253858000" expanded="true" signature="48:1123" ph="&lt;body.../&gt;" />
                 <marker date="1492253858000" expanded="true" signature="103:1115" ph="&lt;div.../&gt;" />
@@ -218,69 +246,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServer.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/UserServer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-              <folding>
-                <marker date="1492398284000" expanded="true" signature="79:6016" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="94:324" ph="/// 登录 ... " />
-                <marker date="1492398284000" expanded="true" signature="392:1167" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="471:1157" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="906:1024" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="1045:1115" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="1177:1445" ph="/// 注册 ... " />
-                <marker date="1492398284000" expanded="true" signature="1548:2238" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="1627:2228" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="2249:2385" ph="/// 判断账号是否存在 ... " />
-                <marker date="1492398284000" expanded="true" signature="2445:2947" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="2524:2937" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="2957:3094" ph="/// 判断秘钥状态 ... " />
-                <marker date="1492398284000" expanded="true" signature="3158:4030" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="3237:4020" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="3621:3887" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="3681:3762" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="3787:3869" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="3908:3978" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="4040:4219" ph="/// 修改密码 ... " />
-                <marker date="1492398284000" expanded="true" signature="4299:4811" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="4378:4801" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="4821:4957" ph="/// 查看用户 ... " />
-                <marker date="1492398284000" expanded="true" signature="5010:6010" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="5089:6000" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="5511:5867" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="5579:5848" ph="{...}" />
-                <marker date="1492398284000" expanded="true" signature="5888:5958" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NeccWxApi/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="59" column="15" lean-forward="false" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
-              <folding>
-                <marker date="1492426007000" expanded="false" signature="6:334" ph="..." />
-                <marker date="1492426007000" expanded="true" signature="355:2411" ph="{...}" />
-                <marker date="1492426007000" expanded="true" signature="382:2409" ph="{...}" />
-                <marker date="1492426007000" expanded="true" signature="436:824" ph="{...}" />
-                <marker date="1492426007000" expanded="true" signature="1051:1754" ph="{...}" />
-                <marker date="1492426007000" expanded="true" signature="1145:1230" ph="/* Setup CORS ... */" />
-                <marker date="1492426007000" expanded="true" signature="1644:1742" ph="{...}" />
-                <marker date="1492426007000" expanded="true" signature="1973:2403" ph="{...}" />
-                <marker date="1492426007000" expanded="true" signature="2199:2350" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/UserController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="1648">
               <caret line="103" column="17" lean-forward="false" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
               <folding>
                 <marker date="1492437438000" expanded="true" signature="6:102" ph="..." />
@@ -353,7 +322,6 @@
             <state relative-caret-position="144">
               <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
-                <marker date="1492433797000" expanded="true" signature="26:245" ph="{...}" />
                 <marker date="1492433797000" expanded="true" signature="50:243" ph="{...}" />
               </folding>
             </state>
@@ -440,6 +408,8 @@
         <option value="$PROJECT_DIR$/NeccWxApi/Models/User.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Controllers/UserController.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Views/User/Get.cshtml" />
+        <option value="$PROJECT_DIR$/NeccWxApi/Controllers/ScoreLineController.cs" />
+        <option value="$PROJECT_DIR$/NeccWxApi/Servers/ScoreLineServer.cs" />
       </list>
     </option>
   </component>
@@ -490,104 +460,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="NeccWxApi" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NeccWxApi (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NeccWxApi" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NeccWxApi (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NeccWxApi" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NeccWxApi (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NeccWxApi" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NeccWxApi (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NeccWxApi" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Servers" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NeccWxApi (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NeccWxApi" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -801,7 +673,8 @@
       <workItem from="1492397969781" duration="472000" />
       <workItem from="1492403222609" duration="5000" />
       <workItem from="1492423746242" duration="1924000" />
-      <workItem from="1492432515729" duration="3481000" />
+      <workItem from="1492432515729" duration="3654000" />
+      <workItem from="1492520359704" duration="237000" />
     </task>
     <task id="LOCAL-00001" summary="Move to Rider">
       <created>1491651952548</created>
@@ -828,7 +701,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76394000" />
+    <option name="totallyTimeSpent" value="76804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -847,8 +720,8 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.6" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.4" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3173971" sideWeight="0.4" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -886,14 +759,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ProtectionServer.cs" />
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/appsettings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1210,44 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4816">
           <caret line="301" column="23" lean-forward="false" selection-start-line="301" selection-start-column="23" selection-end-line="301" selection-end-column="23" />
-          <folding>
-            <marker date="1492273981000" expanded="true" signature="6:93" ph="..." />
-            <marker date="1492273981000" expanded="true" signature="133:259" ph="/// 全部专业列表 ... " />
-            <marker date="1492273981000" expanded="true" signature="330:1163" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="401:1157" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="849:1072" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="907:1056" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="1169:1296" ph="/// 全部院校列表 ... " />
-            <marker date="1492273981000" expanded="true" signature="1367:2157" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="1438:2151" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="1883:2066" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="1941:2050" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="2163:2494" ph="/// 专业查询 ... " />
-            <marker date="1492273981000" expanded="true" signature="2644:4216" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="2715:4210" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="3662:4126" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="3720:4110" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="4222:4431" ph="/// 院校查询 ... " />
-            <marker date="1492273981000" expanded="true" signature="4539:6108" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="4610:6102" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="5507:6017" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="5565:6001" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="6114:6402" ph="/// 分数查询 ... " />
-            <marker date="1492273981000" expanded="true" signature="6523:8006" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="6594:8000" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="7498:7915" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="7556:7899" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="8012:8184" ph="/// 学校开设专业列表 ... " />
-            <marker date="1492273981000" expanded="true" signature="8287:9210" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="8358:9204" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="8849:9119" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="8907:9103" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="9216:9391" ph="/// 查询开设了某专业的学校 ... " />
-            <marker date="1492273981000" expanded="true" signature="9494:10375" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="9565:10369" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="10053:10283" ph="{...}" />
-            <marker date="1492273981000" expanded="true" signature="10111:10267" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1326,7 +1153,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/HistoryDataController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-327">
+        <state relative-caret-position="2624">
           <caret line="164" column="22" lean-forward="false" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
           <folding>
             <marker date="1492426633000" expanded="true" signature="6:112" ph="..." />
@@ -1388,7 +1215,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/ProfessionController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="272">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <marker date="1492426596000" expanded="false" signature="6:78" ph="..." />
@@ -1409,7 +1236,6 @@
         <state relative-caret-position="144">
           <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
-            <marker date="1492433797000" expanded="true" signature="26:245" ph="{...}" />
             <marker date="1492433797000" expanded="true" signature="50:243" ph="{...}" />
           </folding>
         </state>
@@ -1417,7 +1243,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/UserController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="1648">
           <caret line="103" column="17" lean-forward="false" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
           <folding>
             <marker date="1492437438000" expanded="true" signature="6:102" ph="..." />
@@ -1485,10 +1311,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Views/Home/Get.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="176">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <marker date="1492253858000" expanded="true" signature="0:1131" ph="&lt;html.../&gt;" />
             <marker date="1492253858000" expanded="true" signature="7:47" ph="&lt;head.../&gt;" />
             <marker date="1492253858000" expanded="true" signature="48:1123" ph="&lt;body.../&gt;" />
             <marker date="1492253858000" expanded="true" signature="103:1115" ph="&lt;div.../&gt;" />
@@ -1512,8 +1337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Views/User/Get.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="97" column="32" lean-forward="false" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+        <state relative-caret-position="199">
+          <caret line="132" column="39" lean-forward="false" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
           <folding>
             <marker date="1492438299000" expanded="true" signature="17:4374" ph="&lt;html.../&gt;" />
             <marker date="1492438299000" expanded="true" signature="24:65" ph="&lt;head.../&gt;" />
@@ -1559,6 +1384,32 @@
             <marker date="1492438299000" expanded="true" signature="3591:3653" ph="&lt;a.../&gt;" />
             <marker date="1492438299000" expanded="true" signature="3692:4304" ph="&lt;td.../&gt;" />
             <marker date="1492438299000" expanded="true" signature="3717:4282" ph="&lt;pre.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/ScoreLineController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <marker date="1492520323000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1492520323000" expanded="true" signature="98:550" ph="{...}" />
+            <marker date="1492520323000" expanded="true" signature="182:548" ph="{...}" />
+            <marker date="1492520323000" expanded="true" signature="238:285" ph="{...}" />
+            <marker date="1492520323000" expanded="true" signature="437:542" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ScoreLineServer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <marker date="1492520594000" expanded="true" signature="33:160" ph="{...}" />
+            <marker date="1492520594000" expanded="true" signature="68:158" ph="{...}" />
+            <marker date="1492520594000" expanded="true" signature="119:152" ph="{...}" />
           </folding>
         </state>
       </provider>

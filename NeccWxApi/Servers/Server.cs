@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Http;
 
 namespace NeccWxApi
 {
-    public class Server
+    public static class Server
     {
         /// <summary>
         /// 连接字符串
@@ -63,11 +63,11 @@ namespace NeccWxApi
 
                 var str = "SELECT availableTimes FROM UserIP WHERE address = '" + ip + "'";
 
-                var result = new SqlCommand(str , con).ExecuteReader();
+                var result = new SqlCommand(str, con).ExecuteReader();
 
                 if (result.Read())
                 {
-                    var times = (int) result[0];
+                    var times = (int)result[0];
 
                     if (times == 0)
                         return 0;

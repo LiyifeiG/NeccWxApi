@@ -2,7 +2,7 @@
 
 namespace NeccWxApi
 {
-    public class UniversityServer
+    public static class UniversityServer
     {
         /// <summary>
         /// 查询院校信息
@@ -27,14 +27,14 @@ namespace NeccWxApi
                 {
                     return new
                     {
-                        院校ID = (int) reader[0],
-                        院校名称 = (string) reader[1],
-                        院校地点 = (string) reader[2],
-                        办学类型 = (string) reader[3],
-                        院校类型 = (string) reader[4],
-                        办学层次 = (string) reader[5],
-                        院校隶属 = (string) reader[6],
-                        院校官网 = (string) reader[7]
+                        院校ID = (int)reader[0],
+                        院校名称 = (string)reader[1],
+                        院校地点 = (string)reader[2],
+                        办学类型 = (string)reader[3],
+                        院校类型 = (string)reader[4],
+                        办学层次 = (string)reader[5],
+                        院校隶属 = (string)reader[6],
+                        院校官网 = (string)reader[7]
                     };
                 }
 
