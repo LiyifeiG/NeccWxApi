@@ -38,7 +38,6 @@ namespace NeccWxApi
                     });
                 }
 
-
                 return re;
             }
         }
