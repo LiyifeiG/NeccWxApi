@@ -1,4 +1,5 @@
 ﻿using System.Data.SqlClient;
+using System.Collections.Generic;
 
 namespace NeccWxApi
 {
@@ -23,7 +24,7 @@ namespace NeccWxApi
 
                 var reader = sc.ExecuteReader();
 
-                if (reader.Read())
+                while (reader.Read())
                 {
                     return new
                     {
@@ -39,6 +40,139 @@ namespace NeccWxApi
                 }
 
                 return null;
+            }
+        }
+
+        /// <summary>
+        /// 获得某一一级学科类的专业
+        /// </summary>
+        /// <returns>专业列表</returns>
+        /// <param name="fieldName">学科类名称</param>
+        public static IEnumerable<object> GetProfessionFieldList(string fieldName)
+        {
+            using (var con = new SqlConnection(Server.SqlConString))
+            {
+                con.Open();
+                var sqlStr =
+                    "SELECT proID , proName FROM " +
+                    "Profession WHERE field = '" + fieldName + "'";
+
+                var sc = new SqlCommand(sqlStr, con);
+
+                var re = new List<object>();
+
+                sc.ExecuteNonQuery();
+
+                var reader = sc.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    re.Add(new
+                    {
+                        专业ID = (string)reader[0],
+                        专业名称 = (string)reader[1]
+
+                    });
+                }
+
+                return re;
+            }
+        }
+
+        /// <summary>
+        /// 获得某一二级学科类的专业
+        /// </summary>
+        /// <returns>专业列表</returns>
+        /// <param name="disName">学科类名称</param>
+        public static IEnumerable<object> GetProfessionDisciplineList(string disName)
+        {
+            using (var con = new SqlConnection(Server.SqlConString))
+            {
+                con.Open();
+                var sqlStr =
+                    "SELECT proID , proName FROM " +
+                    "Profession WHERE discipline = '" + disName + "'";
+
+                var sc = new SqlCommand(sqlStr, con);
+
+                var re = new List<object>();
+
+                sc.ExecuteNonQuery();
+
+                var reader = sc.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    re.Add(new
+                    {
+                        专业ID = (string)reader[0],
+                        专业名称 = (string)reader[1]
+
+                    });
+                }
+
+                return re;
+            }
+        }
+
+
+        /// <summary>
+        /// 获得一级学科类列表
+        /// </summary>
+        /// <returns>学科类列表</returns>
+        public static IEnumerable<object> FieldList()
+        {
+            using (var con = new SqlConnection(Server.SqlConString))
+            {
+                con.Open();
+                var sqlStr =
+                    "SELECT distinct field FROM " +
+                    "Profession";
+
+                var sc = new SqlCommand(sqlStr, con);
+
+                var re = new List<object>();
+
+                sc.ExecuteNonQuery();
+
+                var reader = sc.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    re.Add((string)reader[0]);
+                }
+
+                return re;
+            }
+        }
+
+        /// <summary>
+        /// 获得二级学科类列表
+        /// </summary>
+        /// <returns>学科类列表</returns>
+        public static IEnumerable<object> DisciplineList()
+        {
+            using (var con = new SqlConnection(Server.SqlConString))
+            {
+                con.Open();
+                var sqlStr =
+                    "SELECT distinct discipline FROM " +
+                    "Profession";
+
+                var sc = new SqlCommand(sqlStr, con);
+
+                var re = new List<object>();
+
+                sc.ExecuteNonQuery();
+
+                var reader = sc.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    re.Add((string)reader[0]);
+                }
+
+                return re;
             }
         }
     }

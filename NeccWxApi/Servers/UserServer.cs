@@ -50,7 +50,7 @@ namespace NeccWxApi
         /// <param name="password">密码</param>
         /// <param name="phoneNum">电话</param>
         /// <returns>注册结果</returns>
-        public static string Register(string active, string account, string password, string phoneNum)
+        public static object Register(string active, string account, string password, string phoneNum)
         {
             using (var con = new SqlConnection(Server.SqlConString))
             {
@@ -65,7 +65,7 @@ namespace NeccWxApi
 
                 var i = sc.ExecuteNonQuery();
 
-                var re = i == 1 ? "成功" : "失败";
+                var re = i == 1 ? "注册成功" : "注册失败";
 
                 return re;
             }

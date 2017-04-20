@@ -1,18 +1,26 @@
 ﻿<Properties StartupConfiguration="{25AC486E-502F-4999-95CC-398F0F04AC83}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="NeccWxApi/Servers/AdmitLineServer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NeccWxApi/Controllers/UserController.cs">
     <Files>
-      <File FileName="NeccWxApi/Servers/AdmitLineServer.cs" Line="33" Column="7" />
+      <File FileName="NeccWxApi/Servers/AdmitLineServer.cs" Line="39" Column="18" />
       <File FileName="NeccWxApi/Program.cs" Line="28" Column="20" />
       <File FileName="NeccWxApi/Controllers/AdmitLineController.cs" Line="9" Column="18" />
       <File FileName="NeccWxApi/Views/AdmitLine/Get.cshtml" Line="18" Column="18" />
       <File FileName="NeccWxApi/Views/HistoryData/Get.cshtml" Line="1" Column="1" />
-      <File FileName="NeccWxApi/Views/Profession/Get.cshtml" Line="19" Column="17" />
+      <File FileName="NeccWxApi/Views/Profession/Get.cshtml" Line="70" Column="22" />
       <File FileName="../../../../../../Library/Frameworks/Mono.framework/Versions/5.0.0/lib/mono/msbuild/15.0/bin/Sdks/Microsoft.NET.Sdk/build/Microsoft.NET.Sdk.DefaultItems.targets" Line="153" Column="1" />
       <File FileName="NeccWxApi/Views/Home/Get.cshtml" Line="34" Column="17" />
+      <File FileName="NeccWxApi/Servers/UniversityServer.cs" Line="112" Column="64" />
+      <File FileName="NeccWxApi/Controllers/UniversityController.cs" Line="93" Column="44" />
+      <File FileName="NeccWxApi/Views/University/Get.cshtml" Line="46" Column="30" />
+      <File FileName="NeccWxApi/Controllers/ProfessionController.cs" Line="100" Column="47" />
+      <File FileName="NeccWxApi/Servers/ProfessionServer.cs" Line="153" Column="40" />
+      <File FileName="NeccWxApi/Servers/Server.cs" Line="1" Column="1" />
+      <File FileName="NeccWxApi/Servers/UserServer.cs" Line="63" Column="38" />
+      <File FileName="NeccWxApi/Controllers/UserController.cs" Line="22" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.NeccWxApi PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ActiveRuntime="Mono 5.0.0.48" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
