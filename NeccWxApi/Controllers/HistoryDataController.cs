@@ -28,7 +28,7 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] {"本IP测试次数已达上限"};
+                    return new[] { "本IP测试次数已达上限" };
                 }
                 Server.Log("用户" + addr + "接入接口[获得专业列表]");
                 var re = HistoryDataServer.GetProfessionList(localProvince);
@@ -37,7 +37,7 @@ namespace NeccWxApi.Controllers
             }
             catch (Exception e)
             {
-                return new[] {e.Message};
+                return new[] { e.Message };
             }
         }
 
@@ -55,7 +55,7 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] {"本IP测试次数已达上限"};
+                    return new[] { "本IP测试次数已达上限" };
                 }
                 Server.Log("用户" + addr + "接入接口[获得学校列表]");
                 var re = HistoryDataServer.GetUniversityList(localProvince);
@@ -64,7 +64,7 @@ namespace NeccWxApi.Controllers
             }
             catch (Exception e)
             {
-                return new[] {e.Message};
+                return new[] { e.Message };
             }
         }
 
@@ -80,23 +80,23 @@ namespace NeccWxApi.Controllers
         /// <returns>专业列表</returns>
         [HttpGet("QueryProfession&lp={localProvince}&y={year}&c={classes}&ls={lscore}&rs={rscore}&proName={proName}")]
         [EnableCors("CorsSample")]
-        public IEnumerable<object> QueryProfession(string localProvince , int year , string classes , int lscore , int rscore , string proName)
+        public IEnumerable<object> QueryProfession(string localProvince, int year, string classes, int lscore, int rscore, string proName)
         {
             try
             {
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] {"本IP测试次数已达上限"};
+                    return new[] { "本IP测试次数已达上限" };
                 }
                 Server.Log("用户" + addr + "接入接口[查询专业列表]");
-                var re = HistoryDataServer.QueryProfession(localProvince , year, classes, lscore, rscore, proName);
+                var re = HistoryDataServer.QueryProfession(localProvince, year, classes, lscore, rscore, proName);
                 Server.Log("用户" + addr + "退出");
                 return re;
             }
             catch (Exception e)
             {
-                return new[] {e.Message};
+                return new[] { e.Message };
             }
         }
 
@@ -116,16 +116,16 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] {"本IP测试次数已达上限"};
+                    return new[] { "本IP测试次数已达上限" };
                 }
                 Server.Log("用户" + addr + "接入接口[查询学校列表]");
-                var re = HistoryDataServer.QueryUniversity(localProvince , classes, uniName);
+                var re = HistoryDataServer.QueryUniversity(localProvince, classes, uniName);
                 Server.Log("用户" + addr + "退出");
                 return re;
             }
             catch (Exception e)
             {
-                return new[] {e.Message};
+                return new[] { e.Message };
             }
         }
 
@@ -147,7 +147,7 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] {"本IP测试次数已达上限"};
+                    return new[] { "本IP测试次数已达上限" };
                 }
                 Server.Log("用户" + addr + "接入接口[查询分数列表]");
                 var re = HistoryDataServer.QueryScore(localProvince, year, classes, lscore, rscore);
@@ -156,7 +156,7 @@ namespace NeccWxApi.Controllers
             }
             catch (Exception e)
             {
-                return new[] {e.Message};
+                return new[] { e.Message };
             }
         }
 
@@ -175,7 +175,7 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] {"本IP测试次数已达上限"};
+                    return new[] { "本IP测试次数已达上限" };
                 }
                 Server.Log("用户" + addr + "接入接口[学校开设专业列表]");
                 var re = HistoryDataServer.ProfessionListByUniversity(localProvince, uniName);
@@ -184,7 +184,7 @@ namespace NeccWxApi.Controllers
             }
             catch (Exception e)
             {
-                return new[] {e.Message};
+                return new[] { e.Message };
             }
         }
 
@@ -192,7 +192,7 @@ namespace NeccWxApi.Controllers
         /// 查询开设了某专业的学校
         /// </summary>
         /// <param name="localProvince">生源地</param>
-        /// <param name="uniName">专业名称</param>
+        /// <param name="proName">专业名称</param>
         /// <returns>学校列表</returns>
         [HttpGet("UniversityListByProfession&lp={localProvince}&proName={proName}")]
         [EnableCors("CorsSample")]
@@ -203,7 +203,7 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] {"本IP测试次数已达上限"};
+                    return new[] { "本IP测试次数已达上限" };
                 }
                 Server.Log("用户" + addr + "接入接口[开设某专业学校列表]");
                 var re = HistoryDataServer.UniversityListByProfession(localProvince, proName);
@@ -212,7 +212,7 @@ namespace NeccWxApi.Controllers
             }
             catch (Exception e)
             {
-                return new[] {e.Message};
+                return new[] { e.Message };
             }
         }
     }

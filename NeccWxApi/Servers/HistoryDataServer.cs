@@ -35,8 +35,8 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    专业ID = reader[0] == DBNull.Value ? "错误数据" : (string)reader[0],
-                    专业名称 = (string)reader[1]
+                    pID = reader[0] == DBNull.Value ? "data wrong" : (string)reader[0],
+                    pName = (string)reader[1]
                 });
             }
 
@@ -73,8 +73,8 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    院校ID = (int)reader[0],
-                    院校名称 = (string)reader[1]
+                    pID = (int)reader[0],
+                    pName = (string)reader[1]
                 });
             }
 
@@ -124,14 +124,14 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    专业名称 = (string)reader[0],
-                    院校名称 = (string)reader[1],
-                    院校所在地 = (string)reader[2],
-                    批次 = (string)reader[3],
-                    专业最低分 = (int)reader[4],
-                    专业平均分 = (double)reader[5],
-                    专业最低位次 = (int)reader[6],
-                    专业录取人数 = (int)reader[7]
+                    pName = (string)reader[0],
+                    uName = (string)reader[1],
+                    uAddress = (string)reader[2],
+                    pBatch = (string)reader[3],
+                    pMin = (int)reader[4],
+                    pAve = (double)reader[5],
+                    pMinP = (int)reader[6],
+                    pNum = (int)reader[7]
                 });
             }
 
@@ -176,15 +176,15 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    院校名称 = (string)reader[0],
-                    院校所在地 = (string)reader[1],
-                    院校类型 = (string)reader[2],
-                    批次 = (string)reader[3],
-                    年份 = (int)reader[4],
-                    院校最低分 = (int)reader[5],
-                    院校平均分 = (double)reader[6],
-                    院校录取线差 = (decimal)reader[7],
-                    院校录取人数 = (int)reader[8]
+                    uName = (string)reader[0],
+                    uAddress = (string)reader[1],
+                    uType = (string)reader[2],
+                    uBatch = (string)reader[3],
+                    year = (int)reader[4],
+                    uMin = (int)reader[5],
+                    uAve = (double)reader[6],
+                    uGap = (decimal)reader[7],
+                    uNum = (int)reader[8]
                 });
             }
 
@@ -232,13 +232,13 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    院校名称 = (string)reader[0],
-                    院校所在地 = (string)reader[1],
-                    批次 = (string)reader[2],
-                    院校最低分 = (int)reader[3],
-                    院校平均分 = (double)reader[4],
-                    院校最低位次 = (int)reader[5],
-                    院校录取人数 = (int)reader[6]
+                    uName = (string)reader[0],
+                    uAddress = (string)reader[1],
+                    uBatch = (string)reader[2],
+                    uMin = (int)reader[3],
+                    uAve = (double)reader[4],
+                    uMinP = (int)reader[5],
+                    uNum = (int)reader[6]
                 });
             }
 
@@ -277,9 +277,9 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    专业ID = reader[0] == DBNull.Value ? "错误数据" : (string)reader[0],
-                    专业名称 = (string)reader[1],
-                    学校名称 = (string)reader[2]
+                    pID = reader[0] == DBNull.Value ? "错误数据" : (string)reader[0],
+                    pName = (string)reader[1],
+                    uName = (string)reader[2]
                 });
             }
 
@@ -293,7 +293,7 @@ public static class HistoryDataServer
     /// 查询开设了某专业的学校
     /// </summary>
     /// <param name="localProvince">生源地</param>
-    /// <param name="uniName">专业名称</param>
+    /// <param name="proName">专业名称</param>
     /// <returns>学校列表</returns>
     public static IEnumerable<object> UniversityListByProfession(string localProvince, string proName)
     {
@@ -317,9 +317,9 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    院校ID = (int)reader[0],
-                    院校名称 = (string)reader[1],
-                    专业名称 = (string)reader[2]
+                    pID = (int)reader[0],
+                    uName = (string)reader[1],
+                    pName = (string)reader[2]
                 });
             }
 

@@ -29,14 +29,14 @@ namespace NeccWxApi
                 {
                     return new
                     {
-                        院校ID = (int)reader[0],
-                        院校名称 = (string)reader[1],
-                        院校地点 = (string)reader[2],
-                        办学类型 = (string)reader[3],
-                        院校类型 = (string)reader[4],
-                        办学层次 = (string)reader[5],
-                        院校隶属 = (string)reader[6],
-                        院校官网 = (string)reader[7]
+                        uID = (int)reader[0],
+                        uName = (string)reader[1],
+                        uAddress = (string)reader[2],
+                        uType = (string)reader[3],
+                        uSubject = (string)reader[4],
+                        uEduBackg = (string)reader[5],
+                        uResiding = (string)reader[6],
+                        uWebSite = (string)reader[7]
                     };
                 }
 
@@ -64,7 +64,7 @@ namespace NeccWxApi
 
                 while (reader.Read())
                 {
-                    re.Add(new { 学校名称 = (string)reader[0] });
+                    re.Add(new { uName = (string)reader[0] });
                 }
 
 
@@ -92,7 +92,7 @@ namespace NeccWxApi
 
                 while (reader.Read())
                 {
-                    re.Add(new { 学校名称 = (string)reader[0] });
+                    re.Add(new { uName = (string)reader[0] });
                 }
 
                 return re;

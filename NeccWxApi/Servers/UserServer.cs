@@ -7,7 +7,6 @@ namespace NeccWxApi
         /// <summary>
         /// 登录
         /// </summary>
-        /// <param name="localProvince">生源地</param>
         /// <param name="account">账号</param>
         /// <param name="password">密码</param>
         /// <returns>登录结果</returns>
@@ -31,11 +30,11 @@ namespace NeccWxApi
 
                 if (reader.Read())
                 {
-                    re = ((string)reader[0]).Equals(password) ? "登录成功" : "密码错误";
+                    re = ((string)reader[0]).Equals(password) ? "login successful" : "wrong password";
                 }
                 else
                 {
-                    re = "账号未找到";
+                    re = "account not found";
                 }
 
                 return re;
@@ -65,7 +64,7 @@ namespace NeccWxApi
 
                 var i = sc.ExecuteNonQuery();
 
-                var re = i == 1 ? "注册成功" : "注册失败";
+                var re = i == 1 ? "registration successful" : "registration failed";
 
                 return re;
             }
@@ -87,7 +86,7 @@ namespace NeccWxApi
                 var sc = new SqlCommand(sqlStr, con);
                 sc.ExecuteNonQuery();
                 var reader = sc.ExecuteReader();
-                var re = reader.Read() ? "已存在" : "不存在";
+                var re = reader.Read() ? "account is exists" : "account is not exists";
 
                 return re;
             }
@@ -114,16 +113,16 @@ namespace NeccWxApi
                 {
                     if ((bool)reader[0])
                     {
-                        re = "秘钥可用";
+                        re = "key is available";
                     }
                     else
                     {
-                        re = "秘钥不可用";
+                        re = "key is invalid";
                     }
                 }
                 else
                 {
-                    re = "秘钥不存在";
+                    re = "key is not found";
                 }
 
                 return re;
@@ -148,7 +147,7 @@ namespace NeccWxApi
 
                 var i = sc.ExecuteNonQuery();
 
-                var re = i == 1 ? "成功" : "失败";
+                var re = i == 1 ? "successful" : "faild";
 
                 return re;
             }
@@ -184,7 +183,7 @@ namespace NeccWxApi
                 }
                 else
                 {
-                    re = "秘钥不存在";
+                    re = "key is not found";
                 }
 
                 return re;

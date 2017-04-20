@@ -22,7 +22,7 @@ namespace NeccWxApi.Controllers
         {
             var ip = Server.GetUserIp(Request.HttpContext);
 
-            return "本机IP:" + ip ;
+            return "Your IP:" + ip;
         }
     }
 }

@@ -29,12 +29,12 @@ namespace NeccWxApi
                 {
                     re.Add(new
                     {
-                        年份 = (int)reader[0],
-                        类别 = (string)reader[1],
-                        一本 = (int)reader[2],
-                        二本 = (int)reader[3],
-                        三本 = (int)reader[4],
-                        专科 = (int)reader[5]
+                        year = (int)reader[0],
+                        classes = (string)reader[1],
+                        underGraduateF = (int)reader[2],
+                        underGraduateS = (int)reader[3],
+                        underGraduateT = (int)reader[4],
+                        specialty = (int)reader[5]
                     });
                 }
 

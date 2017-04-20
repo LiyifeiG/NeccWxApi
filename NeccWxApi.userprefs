@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{25AC486E-502F-4999-95CC-398F0F04AC83}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="NeccWxApi/Controllers/UserController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NeccWxApi/Controllers/HomeController.cs">
     <Files>
-      <File FileName="NeccWxApi/Servers/AdmitLineServer.cs" Line="39" Column="18" />
+      <File FileName="NeccWxApi/Servers/AdmitLineServer.cs" Line="30" Column="31" />
       <File FileName="NeccWxApi/Program.cs" Line="28" Column="20" />
       <File FileName="NeccWxApi/Controllers/AdmitLineController.cs" Line="9" Column="18" />
       <File FileName="NeccWxApi/Views/AdmitLine/Get.cshtml" Line="18" Column="18" />
@@ -9,14 +9,17 @@
       <File FileName="NeccWxApi/Views/Profession/Get.cshtml" Line="70" Column="22" />
       <File FileName="../../../../../../Library/Frameworks/Mono.framework/Versions/5.0.0/lib/mono/msbuild/15.0/bin/Sdks/Microsoft.NET.Sdk/build/Microsoft.NET.Sdk.DefaultItems.targets" Line="153" Column="1" />
       <File FileName="NeccWxApi/Views/Home/Get.cshtml" Line="34" Column="17" />
-      <File FileName="NeccWxApi/Servers/UniversityServer.cs" Line="112" Column="64" />
+      <File FileName="NeccWxApi/Servers/UniversityServer.cs" Line="91" Column="49" />
       <File FileName="NeccWxApi/Controllers/UniversityController.cs" Line="93" Column="44" />
       <File FileName="NeccWxApi/Views/University/Get.cshtml" Line="46" Column="30" />
-      <File FileName="NeccWxApi/Controllers/ProfessionController.cs" Line="100" Column="47" />
-      <File FileName="NeccWxApi/Servers/ProfessionServer.cs" Line="153" Column="40" />
+      <File FileName="NeccWxApi/Controllers/ProfessionController.cs" Line="139" Column="32" />
+      <File FileName="NeccWxApi/Servers/ProfessionServer.cs" Line="42" Column="29" />
       <File FileName="NeccWxApi/Servers/Server.cs" Line="1" Column="1" />
-      <File FileName="NeccWxApi/Servers/UserServer.cs" Line="63" Column="38" />
-      <File FileName="NeccWxApi/Controllers/UserController.cs" Line="22" Column="1" />
+      <File FileName="NeccWxApi/Servers/UserServer.cs" Line="186" Column="43" />
+      <File FileName="NeccWxApi/Controllers/UserController.cs" Line="41" Column="14" />
+      <File FileName="NeccWxApi/Servers/HistoryDataServer.cs" Line="327" Column="13" />
+      <File FileName="NeccWxApi/Controllers/HistoryDataController.cs" Line="202" Column="14" />
+      <File FileName="NeccWxApi/Controllers/HomeController.cs" Line="25" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.NeccWxApi PreferredExecutionTarget="MonoDevelop.Default" />
