@@ -30,11 +30,11 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new { msg = "本IP测试次数已达上限" };
+                    return new { msg = "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[登录]");
+
                 var re = UserServer.Login(account, password);
-                Server.Log("用户" + addr + "退出");
+
                 return new { msg = re };
             }
             catch (Exception e)
@@ -60,22 +60,21 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new { msg = "本IP测试次数已达上限" };
+                    return new { msg = "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[注册]");
-                if (UserServer.AccountIsExist(account).Equals("已存在"))
+                if (UserServer.AccountIsExist(account).Equals("account is exists"))
                 {
-                    return new { msg = "账号已存在" };
+                    return new { msg = "account is exists" };
                 }
 
-                if (UserServer.ActiveCodeState(active).Equals("秘钥不可用")
-                    || UserServer.ActiveCodeState(active).Equals("秘钥不存在"))
+                if (UserServer.ActiveCodeState(active).Equals("key is invalid")
+                    || UserServer.ActiveCodeState(active).Equals("key is not found"))
                 {
-                    return new { msg = "秘钥不存在或者不可用" };
+                    return new { msg = "key is not found or invaild" };
                 }
 
                 var re = UserServer.Register(active, account, password, phoneNum);
-                Server.Log("用户" + addr + "退出");
+
                 return new { msg = re };
             }
             catch (Exception e)
@@ -99,13 +98,12 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new { msg = "本IP测试次数已达上限" };
+                    return new { msg = "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[注册]");
 
                 if (user == null)
                 {
-                    return new { msg = "无效put请求" };
+                    return new { msg = "bad request" };
                 }
 
                 var account = user.Account;
@@ -113,19 +111,19 @@ namespace NeccWxApi.Controllers
                 var password = user.Password;
                 var phoneNum = user.PhoneNum;
 
-                if (UserServer.AccountIsExist(account).Equals("已存在"))
+                if (UserServer.AccountIsExist(account).Equals("account is exists"))
                 {
-                    return new { msg = "账号已存在" };
+                    return new { msg = "account is exists" };
                 }
 
-                if (UserServer.ActiveCodeState(active).Equals("秘钥不可用")
-                    || UserServer.ActiveCodeState(active).Equals("秘钥不存在"))
+                if (UserServer.ActiveCodeState(active).Equals("key is invalid")
+                    || UserServer.ActiveCodeState(active).Equals("key is not found"))
                 {
-                    return new { msg = "秘钥不存在或者不可用" };
+                    return new { msg = "key is not found or invaild" };
                 }
 
                 var re = UserServer.Register(active, account, password, phoneNum);
-                Server.Log("用户" + addr + "退出");
+
                 return new { msg = re };
             }
             catch (Exception e)
@@ -148,11 +146,9 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new { msg = "本IP测试次数已达上限" };
+                    return new { msg = "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[判断账号存在]");
                 var re = UserServer.AccountIsExist(account);
-                Server.Log("用户" + addr + "退出");
                 return new { msg = re };
             }
             catch (Exception e)
@@ -175,11 +171,9 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new { msg = "本IP测试次数已达上限" };
+                    return new { msg = "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[判断秘钥状态]");
                 var re = UserServer.ActiveCodeState(activeCode);
-                Server.Log("用户" + addr + "退出");
                 return new { msg = re };
             }
             catch (Exception e)
@@ -205,19 +199,18 @@ namespace NeccWxApi.Controllers
                 {
                     return new
                     {
-                        msg = "本IP测试次数已达上限"
+                        msg = "your ip can't using our api , please contact administrator"
                     };
                 }
-                if (!UserServer.AccountIsExist(account).Equals("已存在"))
+                if (!UserServer.AccountIsExist(account).Equals("account is exists"))
                 {
                     return new
                     {
-                        msg = "账号不存在"
+                        msg = "account not found"
+
                     };
                 }
-                Server.Log("用户" + addr + "接入接口[修改密码]");
                 var re = UserServer.ModifyPassowrd(account, newPassword);
-                Server.Log("用户" + addr + "退出");
                 return new
                 {
                     msg = re
@@ -225,7 +218,10 @@ namespace NeccWxApi.Controllers
             }
             catch (Exception e)
             {
-                return new { msg = e.Message };
+                return new
+                {
+                    msg = e.Message
+                };
             }
         }
 
@@ -246,28 +242,26 @@ namespace NeccWxApi.Controllers
                 {
                     return new
                     {
-                        msg = "本IP测试次数已达上限"
+                        msg = "your ip can't using our api , please contact administrator"
                     };
                 }
 
                 if (user == null)
                 {
-                    return new { msg = "请求错误" };
+                    return new { msg = "request error" };
                 }
 
                 var account = user.Account;
                 var newPassword = user.Password;
 
-                if (!UserServer.AccountIsExist(account).Equals("已存在"))
+                if (!UserServer.AccountIsExist(account).Equals("account is exists"))
                 {
                     return new
                     {
-                        msg = "账号不存在"
+                        msg = "account not found"
                     };
                 }
-                Server.Log("用户" + addr + "接入接口[修改密码]");
                 var re = UserServer.ModifyPassowrd(account, newPassword);
-                Server.Log("用户" + addr + "退出");
                 return new
                 {
                     msg = re
@@ -295,15 +289,13 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new { msg = "本IP测试次数已达上限" };
+                    return new { msg = "your ip can't using our api , please contact administrator" };
                 }
-                if (!UserServer.AccountIsExist(account).Equals("已存在"))
+                if (!UserServer.AccountIsExist(account).Equals("account is exists"))
                 {
-                    return new { msg = "账号不存在" };
+                    return new { msg = "account not found" };
                 }
-                Server.Log("用户" + addr + "接入接口[查看用户]");
                 var re = UserServer.GetUser(account);
-                Server.Log("用户" + addr + "退出");
                 return re;
             }
             catch (Exception e)

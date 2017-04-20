@@ -22,8 +22,6 @@ namespace NeccWxApi
 
                 var sc = new SqlCommand(sqlStr, con);
 
-                Server.Log("开始查询 : 语句为" + sqlStr);
-
                 sc.ExecuteNonQuery();
 
                 var reader = sc.ExecuteReader();
@@ -174,11 +172,11 @@ namespace NeccWxApi
                 {
                     re = new
                     {
-                        账号 = (string)reader[0],
-                        密码 = (string)reader[1],
-                        电话 = (string)reader[2],
-                        省份 = (string)reader[3],
-                        用户类型 = (string)reader[4]
+                        account = (string)reader[0],
+                        password = (string)reader[1],
+                        phoneNumber = (string)reader[2],
+                        province = (string)reader[3],
+                        userType = (string)reader[4]
                     };
                 }
                 else

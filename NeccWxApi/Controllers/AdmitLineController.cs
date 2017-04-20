@@ -21,11 +21,11 @@ namespace NeccWxApi
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "本IP测试次数已达上限" };
+                    return new[] { "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[获得专业列表]");
+
                 var re = AdmitLineServer.GetAllAdmitLine(localProvince);
-                Server.Log("用户" + addr + "退出");
+
                 return re;
             }
             catch (Exception e)

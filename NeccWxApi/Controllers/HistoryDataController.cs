@@ -28,11 +28,11 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "本IP测试次数已达上限" };
+                    return new[] { "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[获得专业列表]");
+
                 var re = HistoryDataServer.GetProfessionList(localProvince);
-                Server.Log("用户" + addr + "退出");
+
                 return re;
             }
             catch (Exception e)
@@ -55,11 +55,11 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "本IP测试次数已达上限" };
+                    return new[] { "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[获得学校列表]");
+
                 var re = HistoryDataServer.GetUniversityList(localProvince);
-                Server.Log("用户" + addr + "退出");
+
                 return re;
             }
             catch (Exception e)
@@ -87,11 +87,11 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "本IP测试次数已达上限" };
+                    return new[] { "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[查询专业列表]");
+
                 var re = HistoryDataServer.QueryProfession(localProvince, year, classes, lscore, rscore, proName);
-                Server.Log("用户" + addr + "退出");
+
                 return re;
             }
             catch (Exception e)
@@ -116,11 +116,11 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "本IP测试次数已达上限" };
+                    return new[] { "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[查询学校列表]");
+
                 var re = HistoryDataServer.QueryUniversity(localProvince, classes, uniName);
-                Server.Log("用户" + addr + "退出");
+
                 return re;
             }
             catch (Exception e)
@@ -147,11 +147,11 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "本IP测试次数已达上限" };
+                    return new[] { "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[查询分数列表]");
+
                 var re = HistoryDataServer.QueryScore(localProvince, year, classes, lscore, rscore);
-                Server.Log("用户" + addr + "退出");
+
                 return re;
             }
             catch (Exception e)
@@ -175,11 +175,11 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "本IP测试次数已达上限" };
+                    return new[] { "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[学校开设专业列表]");
+
                 var re = HistoryDataServer.ProfessionListByUniversity(localProvince, uniName);
-                Server.Log("用户" + addr + "退出");
+
                 return re;
             }
             catch (Exception e)
@@ -203,11 +203,11 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "本IP测试次数已达上限" };
+                    return new[] { "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[开设某专业学校列表]");
+
                 var re = HistoryDataServer.UniversityListByProfession(localProvince, proName);
-                Server.Log("用户" + addr + "退出");
+
                 return re;
             }
             catch (Exception e)

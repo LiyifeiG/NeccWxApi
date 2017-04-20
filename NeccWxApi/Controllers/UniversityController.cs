@@ -29,11 +29,11 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "本IP测试次数已达上限" };
+                    return new[] { "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[查询学校具体信息]");
+
                 var re = UniversityServer.GetUniversity(uniName);
-                Server.Log("用户" + addr + "退出");
+
                 return re;
             }
             catch (Exception e)
@@ -55,11 +55,11 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "本IP测试次数已达上限" };
+                    return new[] { "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[获得985学校列表]");
+
                 var re = UniversityServer.Get985UniversityList();
-                Server.Log("用户" + addr + "退出");
+
                 return re;
             }
             catch (Exception e)
@@ -81,11 +81,11 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "本IP测试次数已达上限" };
+                    return new[] { "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[获得211学校列表]");
+
                 var re = UniversityServer.Get211UniversityList();
-                Server.Log("用户" + addr + "退出");
+
                 return re;
             }
             catch (Exception e)
@@ -107,11 +107,11 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "本IP测试次数已达上限" };
+                    return new[] { "your ip can't using our api , please contact administrator" };
                 }
-                Server.Log("用户" + addr + "接入接口[判断学校是985还是211]");
+
                 var re = UniversityServer.UniversityIs985Or211(uniName);
-                Server.Log("用户" + addr + "退出");
+
                 return re;
             }
             catch (Exception e)

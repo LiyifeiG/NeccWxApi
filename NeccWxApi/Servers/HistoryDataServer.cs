@@ -25,8 +25,6 @@ public static class HistoryDataServer
 
             var sc = new SqlCommand(sqlStr, con);
 
-            Server.Log("开始查询并统计 : 语句为" + sqlStr);
-
             sc.ExecuteNonQuery();
 
             var reader = sc.ExecuteReader();
@@ -39,8 +37,6 @@ public static class HistoryDataServer
                     pName = (string)reader[1]
                 });
             }
-
-            Server.Log("获得结果 " + re.Count + "条");
 
             return re;
         }
@@ -63,8 +59,6 @@ public static class HistoryDataServer
 
             var sc = new SqlCommand(sqlStr, con);
 
-            Server.Log("开始查询并统计 : 语句为" + sqlStr);
-
             sc.ExecuteNonQuery();
 
             var reader = sc.ExecuteReader();
@@ -77,8 +71,6 @@ public static class HistoryDataServer
                     pName = (string)reader[1]
                 });
             }
-
-            Server.Log("获得结果 " + re.Count + "条");
 
             return re;
         }
@@ -114,8 +106,6 @@ public static class HistoryDataServer
 
             var sc = new SqlCommand(sqlStr, con);
 
-            Server.Log("开始查询并统计 : 语句为" + sqlStr);
-
             sc.ExecuteNonQuery();
 
             var reader = sc.ExecuteReader();
@@ -135,7 +125,6 @@ public static class HistoryDataServer
                 });
             }
 
-            Server.Log("获得结果 " + re.Count + "条");
             return re;
         }
     }
@@ -166,8 +155,6 @@ public static class HistoryDataServer
 
             var sc = new SqlCommand(sqlStr, con);
 
-            Server.Log("开始查询并统计 : 语句为" + sqlStr);
-
             sc.ExecuteNonQuery();
 
             var reader = sc.ExecuteReader();
@@ -187,8 +174,6 @@ public static class HistoryDataServer
                     uNum = (int)reader[8]
                 });
             }
-
-            Server.Log("获得结果 " + re.Count + "条");
 
             return re;
         }
@@ -222,8 +207,6 @@ public static class HistoryDataServer
 
             var sc = new SqlCommand(sqlStr, con);
 
-            Server.Log("开始查询并统计 : 语句为" + sqlStr);
-
             sc.ExecuteNonQuery();
 
             var reader = sc.ExecuteReader();
@@ -241,8 +224,6 @@ public static class HistoryDataServer
                     uNum = (int)reader[6]
                 });
             }
-
-            Server.Log("获得结果 " + re.Count + "条");
 
             return re;
         }
@@ -267,8 +248,6 @@ public static class HistoryDataServer
 
             var sc = new SqlCommand(sqlStr, con);
 
-            Server.Log("开始查询并统计 : 语句为" + sqlStr);
-
             sc.ExecuteNonQuery();
 
             var reader = sc.ExecuteReader();
@@ -282,8 +261,6 @@ public static class HistoryDataServer
                     uName = (string)reader[2]
                 });
             }
-
-            Server.Log("获得结果 " + re.Count + "条");
 
             return re;
         }
@@ -307,8 +284,6 @@ public static class HistoryDataServer
 
             var sc = new SqlCommand(sqlStr, con);
 
-            Server.Log("开始查询并统计 : 语句为" + sqlStr);
-
             sc.ExecuteNonQuery();
 
             var reader = sc.ExecuteReader();
@@ -322,9 +297,6 @@ public static class HistoryDataServer
                     pName = (string)reader[2]
                 });
             }
-
-            Server.Log("获得结果 " + re.Count + "条");
-
 
             return re;
         }
