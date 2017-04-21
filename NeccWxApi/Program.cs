@@ -2,6 +2,7 @@
 using System.IO;
 using System.Text.RegularExpressions;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Hosting.Internal;
 
 namespace NeccWxApi
 {
@@ -14,13 +15,28 @@ namespace NeccWxApi
                 return;
             }
 
-            var host = new WebHostBuilder()
+            IWebHost host;
+
+            if (args.Length > 0)
+            {
+                host = new WebHostBuilder()
                 .UseKestrel()
                 .UseUrls(args[0])
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
+            }
+            else
+            {
+                host = new WebHostBuilder()
+                .UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseIISIntegration()
+                .UseStartup<Startup>()
+                .Build();
+            }
+
             host.Run();
         }
 
