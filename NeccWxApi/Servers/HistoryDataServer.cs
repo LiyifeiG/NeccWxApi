@@ -67,8 +67,8 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    pID = (int)reader[0],
-                    pName = (string)reader[1]
+                    uID = (int)reader[0],
+                    uName = (string)reader[1]
                 });
             }
 
