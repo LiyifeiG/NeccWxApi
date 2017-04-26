@@ -11,6 +11,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Servers\" />
+    <Folder Include="Views\Intelligent\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />

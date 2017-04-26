@@ -15,7 +15,7 @@ namespace NeccWxApi
         [HttpGet("GetAllAdmitLine&lp={localProvince}")]
         [EnableCors("CorsSample")]
         public object GetAllAdmitLine(string localProvince)
-        {
+        {           
             try
             {
                 var addr = Server.GetUserIp(Request.HttpContext);
