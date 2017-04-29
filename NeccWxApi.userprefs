@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{25AC486E-502F-4999-95CC-398F0F04AC83}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NeccWxApi/Views/Intelligent/Get.cshtml">
+    <Files>
+      <File FileName="NeccWxApi/Controllers/HistoryDataController.cs" Line="195" Column="39" />
+      <File FileName="NeccWxApi/Controllers/IntelligentController.cs" Line="34" Column="34" />
+      <File FileName="NeccWxApi/Program.cs" Line="1" Column="1" />
+      <File FileName="NeccWxApi/Startup.cs" Line="1" Column="1" />
+      <File FileName="NeccWxApi/Servers/IntelligentServer.cs" Line="56" Column="40" />
+      <File FileName="NeccWxApi/Controllers/AdmitLineController.cs" Line="33" Column="44" />
+      <File FileName="NeccWxApi/Views/Intelligent/Get.cshtml" Line="1" Column="1" />
+      <File FileName="NeccWxApi/Views/Home/Get.cshtml" Line="39" Column="22" />
+      <File FileName="NeccWxApi/Views/AdmitLine/Get.cshtml" Line="26" Column="11" />
+      <File FileName="NeccWxApi/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="NeccWxApi/Servers/AdmitLineServer.cs" Line="1" Column="1" />
+      <File FileName="NeccWxApi/WebApi.config" Line="1" Column="1" />
+      <File FileName="NeccWxApi/Views/Intelligent/Get.cshtml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.NeccWxApi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

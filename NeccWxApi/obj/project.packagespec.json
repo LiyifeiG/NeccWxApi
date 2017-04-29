@@ -1,0 +1,48 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/NeccWxApi.csproj",
+    "projectName": "NeccWxApi",
+    "projectPath": "/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/NeccWxApi.csproj",
+    "outputPath": "/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp1.1"
+    ],
+    "frameworks": {
+      "netcoreapp1.1": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.AspNetCore": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.AspNetCore.HttpOverrides": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.AspNetCore.Mvc": {
+          "target": "Package",
+          "version": "1.1.2"
+        },
+        "Microsoft.Extensions.Logging.Debug": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "System.Data.SqlClient": {
+          "target": "Package",
+          "version": "4.3.0"
+        }
+      }
+    }
+  }
+}

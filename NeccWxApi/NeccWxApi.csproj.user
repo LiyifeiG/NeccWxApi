@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <StartAction>Project</StartAction>
+    <StartProgram>..\..\..\..\..\..\..\Applications\Safari.app</StartProgram>
+    <StartArguments>http://localhost:8000</StartArguments>
+    <ApplicationURL>http://localhost:53254</ApplicationURL>
+    <LaunchUrl>http://localhost:5555</LaunchUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == '.NETCORE' ">
+    <StartAction>Project</StartAction>
+    <EnvironmentVariables>
+      <Variable name="ASPNETCORE_ENVIRONMENT" value="Development" xmlns="" />
+    </EnvironmentVariables>
+    <LaunchUrl>
+    </LaunchUrl>
+    <ApplicationURL>http://localhost:58319</ApplicationURL>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
+  </PropertyGroup>
+</Project>
