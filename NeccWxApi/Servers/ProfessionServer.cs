@@ -185,7 +185,7 @@ namespace NeccWxApi
         public static Dictionary<object , IEnumerable<object>> GetProfessionList()
         {
             var fieldList = FieldList();
-            return fieldList.ToDictionary<object, object, IEnumerable<object>>(f => new {fieldName = (string) f},
+            return fieldList.ToDictionary<object, object, IEnumerable<object>>(f => f,
                 f => new List<object>(GetProfessionFieldList((string) f)));
         }
     }

@@ -10,6 +10,7 @@
     <LangVersion>Latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Properties" />
     <Folder Include="Servers\" />
     <Folder Include="Views\Intelligent\" />
   </ItemGroup>
