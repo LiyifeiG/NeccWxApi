@@ -147,7 +147,7 @@ namespace NeccWxApi.Controllers
         /// <summary>
         /// 获得专业类别与专业对照表
         /// </summary>
-        /// <returns>专业类别与专业对照表</returns>
+        /// <returns>专业类别与类别所有专业</returns>
         [EnableCors("CorsSample")]
         [HttpGet("GetProfessionList")]
         public Dictionary<object, IEnumerable<object>> GetProfessionList()

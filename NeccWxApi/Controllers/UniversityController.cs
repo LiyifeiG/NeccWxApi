@@ -121,7 +121,7 @@ namespace NeccWxApi.Controllers
         }
 
         /// <summary>
-        /// 获得前N个学校信息
+        /// 获得前N个学校信息列表
         /// </summary>
         /// <param name="listCount">学校个数</param>
         /// <returns>学校列表</returns>
