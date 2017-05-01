@@ -52,7 +52,7 @@
                     调用为&nbsp;http://(IP地址):(端口)/api/University/Get211UniversityList
                 </td>
             </tr>
-					<tr>
+            <tr>
                 <td>
                     判断院校属于985还是211
                 </td>
@@ -61,7 +61,18 @@
                 </td>
                 <td>
                     调用为&nbsp;http://(IP地址):(端口)/api/University/UniversityIs985Or211&uniName=清华大学
-							&nbsp 返回值为(985,211)|985|211|000
+                    &nbsp 返回值为(985,211)|985|211|000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    获得前N个学校
+                </td>
+                <td>
+                    <a href = "University/GetUniversityList&c=50">前50个学校</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口)/api/University/University/GetUniversityList&c=(个数)
                 </td>
             </tr>
         </table>

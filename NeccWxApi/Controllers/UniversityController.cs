@@ -120,6 +120,32 @@ namespace NeccWxApi.Controllers
             }
         }
 
+        /// <summary>
+        /// 获得前N个学校信息
+        /// </summary>
+        /// <param name="listCount">学校个数</param>
+        /// <returns>学校列表</returns>
+        [EnableCors("CorSample")]
+        [HttpGet("GetUniversityList&c={listCount}")]
+        public IEnumerable<object> GetUniversityList(int listCount)
+        {
+            try
+            {
+                var addr = Server.GetUserIp(Request.HttpContext);
+                if (Server.IPHandle(addr) == 0)
+                {
+                    return new[] { "your ip can't using our api , please contact administrator" };
+                }
+
+                var re = UniversityServer.GetUniversityList(listCount);
+
+                return re;
+            }
+            catch (Exception e)
+            {
+                return new[] { e.Message };
+            }
+        }
 
     }
 }

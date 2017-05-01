@@ -27,7 +27,7 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "your ip can't using our api , please contact administrator" };
+                    return new[] {"your ip can't using our api , please contact administrator"};
                 }
 
                 var re = ProfessionServer.GetProfession(proName);
@@ -36,7 +36,7 @@ namespace NeccWxApi.Controllers
             }
             catch (Exception e)
             {
-                return new[] { e.Message };
+                return new[] {e.Message};
             }
         }
 
@@ -53,7 +53,7 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "your ip can't using our api , please contact administrator" };
+                    return new[] {"your ip can't using our api , please contact administrator"};
                 }
 
                 var re = ProfessionServer.GetProfessionFieldList(fieldName);
@@ -62,9 +62,10 @@ namespace NeccWxApi.Controllers
             }
             catch (Exception e)
             {
-                return new[] { e.Message };
+                return new[] {e.Message};
             }
         }
+
         /// <summary>
         /// 获得二等科类专业列表
         /// </summary>
@@ -78,7 +79,7 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "your ip can't using our api , please contact administrator" };
+                    return new[] {"your ip can't using our api , please contact administrator"};
                 }
 
                 var re = ProfessionServer.GetProfessionDisciplineList(disName);
@@ -87,7 +88,7 @@ namespace NeccWxApi.Controllers
             }
             catch (Exception e)
             {
-                return new[] { e.Message };
+                return new[] {e.Message};
             }
         }
 
@@ -104,7 +105,7 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "your ip can't using our api , please contact administrator" };
+                    return new[] {"your ip can't using our api , please contact administrator"};
                 }
 
                 var re = ProfessionServer.FieldList();
@@ -113,9 +114,10 @@ namespace NeccWxApi.Controllers
             }
             catch (Exception e)
             {
-                return new[] { e.Message };
+                return new[] {e.Message};
             }
         }
+
         /// <summary>
         /// 获得二等科类专业列表
         /// </summary>
@@ -129,7 +131,7 @@ namespace NeccWxApi.Controllers
                 var addr = Server.GetUserIp(Request.HttpContext);
                 if (Server.IPHandle(addr) == 0)
                 {
-                    return new[] { "your ip can't using our api , please contact administrator" };
+                    return new[] {"your ip can't using our api , please contact administrator"};
                 }
 
                 var re = ProfessionServer.DisciplineList();
@@ -138,7 +140,46 @@ namespace NeccWxApi.Controllers
             }
             catch (Exception e)
             {
-                return new[] { e.Message };
+                return new[] {e.Message};
+            }
+        }
+
+        /// <summary>
+        /// 获得专业类别与专业对照表
+        /// </summary>
+        /// <returns>专业类别与专业对照表</returns>
+        [EnableCors("CorsSample")]
+        [HttpGet("GetProfessionList")]
+        public Dictionary<object, IEnumerable<object>> GetProfessionList()
+        {
+            try
+            {
+                Dictionary<object, IEnumerable<object>> re;
+                var addr = Server.GetUserIp(Request.HttpContext);
+                if (Server.IPHandle(addr) == 0)
+                {
+                    re = new Dictionary<object, IEnumerable<object>>
+                    {
+                        {
+                            new {result = "wrong"},
+                            new[] {(object) "your ip can't using our api , please contact administrator"}
+                        }
+                    };
+                    return re;
+                }
+
+                re = ProfessionServer.GetProfessionList();
+
+                return re;
+            }
+            catch (Exception e)
+            {
+                return new Dictionary<object, IEnumerable<object>>
+                {
+                    {
+                        new {result = "wrong"}, new[] {e.Message}
+                    }
+                };
             }
         }
     }

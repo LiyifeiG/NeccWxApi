@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>院校数据API</title>
+</head>
+<body style="font-family: 黑体;">
+<div>
+    <h1 style="text-align: center;">院校数据 Api</h1>
+
+    <div>
+        <table width="100%" title="可用API列表" border="1px" style = "border: solid; border-width: 1px; text-align : center">
+            <th>
+                API名称
+            </th>
+            <th>
+                API测试
+            </th>
+            <th>
+                API详细描述
+            </th>
+            <tr>
+                <td>
+                    查询院校
+                </td>
+                <td>
+                    <a href = "University/GetUniversity&uniName=西安邮电大学">获得学校信息(测试参数为西安邮电大学)</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口)/api/University/GetUniversity&uniName=(参数 ：院校名称)
+                </td>
+            </tr>
+					<tr>
+                <td>
+                    获得985院校列表
+                </td>
+                <td>
+                    <a href = "University/Get985UniversityList">获得985学校列表</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口)/api/University/Get985UniversityList
+                </td>
+            </tr>
+					<tr>
+                <td>
+                    获得211院校列表
+                </td>
+                <td>
+                    <a href = "University/Get211UniversityList">获得211学校列表</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口)/api/University/Get211UniversityList
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    判断院校属于985还是211
+                </td>
+                <td>
+                    <a href = "University/UniversityIs985Or211&uniName=清华大学">判断院校属于985还是211(参数:清华大学)</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口)/api/University/UniversityIs985Or211&uniName=清华大学
+                    &nbsp 返回值为(985,211)|985|211|000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    获得前N个学校
+                </td>
+                <td>
+                    <a href = "University/GetUniversityList&c=50">前50个学校</a>
+                </td>
+                <td>
+                    调用为&nbsp;http://(IP地址):(端口)/api/University/University/GetUniversityList&c=(个数)
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+</body>
+</html>

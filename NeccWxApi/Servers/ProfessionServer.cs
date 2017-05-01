@@ -1,5 +1,7 @@
 ﻿using System.Data.SqlClient;
 using System.Collections.Generic;
+using System.Linq;
+using System.Security;
 
 namespace NeccWxApi
 {
@@ -174,6 +176,17 @@ namespace NeccWxApi
 
                 return re;
             }
+        }
+
+        /// <summary>
+        /// 获得专业类别与专业对照表
+        /// </summary>
+        /// <returns>专业类别与专业对照表</returns>
+        public static Dictionary<object , IEnumerable<object>> GetProfessionList()
+        {
+            var fieldList = FieldList();
+            return fieldList.ToDictionary<object, object, IEnumerable<object>>(f => new {fieldName = (string) f},
+                f => new List<object>(GetProfessionFieldList((string) f)));
         }
     }
 }

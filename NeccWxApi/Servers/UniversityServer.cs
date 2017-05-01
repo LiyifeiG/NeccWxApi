@@ -115,24 +115,47 @@ namespace NeccWxApi
                 sc.ExecuteNonQuery();
 
                 var reader = sc.ExecuteReader();
-                if (reader.Read())
+                if (!reader.Read()) return new {msg = "000"};
+                if ((int)reader[1] == 985)
                 {
-                    if ((int)reader[1] == 985)
-                    {
-                        if ((int)reader[2] == 211)
-                        {
-                            return new { msg = "985,211" };
-                        }
-                        return new { msg = "985" };
-                    }
-                    if ((int)reader[2] == 211)
-                    {
-                        return new { msg = "211" };
-                    }
-                    return new { msg = "000" };
+                    return (int)reader[2] == 211 ? new { msg = "985,211" } : new { msg = "985" };
                 }
-                return new { msg = "000" };
+                return (int)reader[2] == 211 ? new { msg = "211" } : new { msg = "000" };
+            }
+        }
 
+        /// <summary>
+        /// 获得前N个学校信息
+        /// </summary>
+        /// <param name="listCount">学校个数</param>
+        /// <returns>学校列表</returns>
+        public static IEnumerable<object> GetUniversityList(int listCount)
+        {
+            using (var con = new SqlConnection(Server.SqlConString))
+            {
+                con.Open();
+                var sqlStr = "select top " + listCount + " uniID , uniName , address , type , subject , eduBackg , residing , webSite " +
+                             " from University order by uniID";
+                var re = new List<object>();
+                var sc = new SqlCommand(sqlStr , con);
+                sc.ExecuteNonQuery();
+                var reader = sc.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    re.Add(new
+                    {
+                        uID = (int)reader[0] ,
+                        uNmae = (string)reader[1],
+                        uAddress = (string)reader[2],
+                        uType = (string)reader[3],
+                        uSubject = (string)reader[4] ,
+                        uEduBackg = (string)reader[5] ,
+                        uWebSite = (string)reader[6]
+                    });
+                }
+
+                return re;
             }
         }
     }
