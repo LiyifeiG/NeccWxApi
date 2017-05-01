@@ -1,6 +1,5 @@
 ﻿using System.Data.SqlClient;
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc.Razor;
 
 namespace NeccWxApi
 {
