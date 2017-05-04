@@ -125,7 +125,7 @@ namespace NeccWxApi.Controllers
         /// </summary>
         /// <param name="listCount">学校个数</param>
         /// <returns>学校列表</returns>
-        [EnableCors("CorSample")]
+        [EnableCors("CorsSample")]
         [HttpGet("GetUniversityList&c={listCount}")]
         public IEnumerable<object> GetUniversityList(int listCount)
         {

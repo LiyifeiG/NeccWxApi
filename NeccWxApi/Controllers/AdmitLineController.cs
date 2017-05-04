@@ -12,6 +12,11 @@ namespace NeccWxApi
             return View();
         }
 
+        /// <summary>
+        /// 获得分数线信息
+        /// </summary>
+        /// <param name="localProvince">生源地</param>
+        /// <returns>分数线</returns>
         [HttpGet("GetAllAdmitLine&lp={localProvince}")]
         [EnableCors("CorsSample")]
         public object GetAllAdmitLine(string localProvince)

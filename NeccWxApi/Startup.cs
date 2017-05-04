@@ -1,12 +1,12 @@
-﻿using System;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace NeccWxApi
 {
@@ -29,6 +29,24 @@ namespace NeccWxApi
         {
             // Add framework services.
             services.AddMvc();
+
+            //doc
+
+            // Add our repository type
+            services.AddSingleton<HttpGetAttribute, HttpGetAttribute>();
+            services.AddSingleton<HttpPutAttribute, HttpPutAttribute>();
+            services.AddSingleton<HttpDeleteAttribute, HttpDeleteAttribute>();
+            services.AddSingleton<HttpPostAttribute, HttpPostAttribute>();
+
+            // Register the Swagger generator, defining one or more Swagger documents
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "NeccWxApi", Version = "v1.0" });
+                //Set the comments path for the swagger json and ui.
+//                var basePath = PlatformServices.Default.Application.ApplicationBasePath;
+//                var xmlPath = Path.Combine(basePath, "NeccWxApi.xml");
+//                c.IncludeXmlComments(xmlPath);
+            });
 
             // ********************
             // Setup CORS
@@ -60,6 +78,15 @@ namespace NeccWxApi
             });
 
             app.UseCors("CorsSample");
+
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS etc.), specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "NeccWxApi");
+            });
 
         }
     }
