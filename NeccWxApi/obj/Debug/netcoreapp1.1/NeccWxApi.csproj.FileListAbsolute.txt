@@ -19,13 +19,13 @@
 <<<<<<< HEAD
 /Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.csproj.CoreCompileInputs.cache
 =======
-C:\Users\Julien\Documents\Visual Studio 2017\Projects\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.deps.json
-C:\Users\Julien\Documents\Visual Studio 2017\Projects\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.runtimeconfig.json
-C:\Users\Julien\Documents\Visual Studio 2017\Projects\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.runtimeconfig.dev.json
-C:\Users\Julien\Documents\Visual Studio 2017\Projects\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.dll
-C:\Users\Julien\Documents\Visual Studio 2017\Projects\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.pdb
-C:\Users\Julien\Documents\Visual Studio 2017\Projects\NeccWxApi\NeccWxApi\obj\Debug\netcoreapp1.1\NeccWxApi.csprojResolveAssemblyReference.cache
-C:\Users\Julien\Documents\Visual Studio 2017\Projects\NeccWxApi\NeccWxApi\obj\Debug\netcoreapp1.1\NeccWxApi.AssemblyInfo.cs
-C:\Users\Julien\Documents\Visual Studio 2017\Projects\NeccWxApi\NeccWxApi\obj\Debug\netcoreapp1.1\NeccWxApi.dll
-C:\Users\Julien\Documents\Visual Studio 2017\Projects\NeccWxApi\NeccWxApi\obj\Debug\netcoreapp1.1\NeccWxApi.pdb
+C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.deps.json
+C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.runtimeconfig.json
+C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.runtimeconfig.dev.json
+C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.dll
+C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.pdb
+C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.csprojResolveAssemblyReference.cache
+C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.AssemblyInfo.cs
+C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.dll
+C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.pdb
 >>>>>>> 8a3c8e70a5fb463e69b2a8db66dad8dd0752b370

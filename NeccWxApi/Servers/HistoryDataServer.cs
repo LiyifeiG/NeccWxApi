@@ -119,7 +119,7 @@ public static class HistoryDataServer
                     uAddress = (string)reader[2],
                     pBatch = (string)reader[3],
                     pMin = (int)reader[4],
-                    pAve = (double)reader[5],
+                    pAve = (decimal)reader[5],
                     pMinP = (int)reader[6],
                     pNum = (int)reader[7]
                 });
@@ -169,7 +169,7 @@ public static class HistoryDataServer
                     uBatch = (string)reader[3],
                     year = (int)reader[4],
                     uMin = (int)reader[5],
-                    uAve = (double)reader[6],
+                    uAve = (decimal)reader[6],
                     uGap = (decimal)reader[7],
                     uNum = (int)reader[8]
                 });
@@ -219,7 +219,7 @@ public static class HistoryDataServer
                     uAddress = (string)reader[1],
                     uBatch = (string)reader[2],
                     uMin = (int)reader[3],
-                    uAve = (double)reader[4],
+                    uAve = (decimal)reader[4],
                     uMinP = (int)reader[5],
                     uNum = (int)reader[6]
                 });

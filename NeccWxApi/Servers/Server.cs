@@ -87,6 +87,7 @@ namespace NeccWxApi
 
                 new SqlCommand(str, con).ExecuteNonQuery();
 
+
                 return 500;
             }
         }

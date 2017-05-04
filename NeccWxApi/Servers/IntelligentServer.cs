@@ -49,7 +49,7 @@ namespace NeccWxApi.Servers
                         eduBackg = (string)reader[2],
                         uMax = (int)reader[3],
                         uMin = (int)reader[4],
-                        uAve = (double)reader[5],
+                        uAve = (decimal)reader[5],
                         uMinP = (int)reader[6],
                         uMaxP = (int)reader[7],
                         uBatch = (string)reader[8],
