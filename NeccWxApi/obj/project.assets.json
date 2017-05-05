@@ -21916,12 +21916,6 @@
         }
       }
     },
-    "dependencies": {
-      "Swashbuckle.AspNetCore.Swagger": {
-        "target": "Package",
-        "version": "[1.0.0, )"
-      }
-    },
     "frameworks": {
       "netcoreapp1.1": {
         "dependencies": {
@@ -21946,6 +21940,10 @@
             "version": "1.1.1"
           },
           "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "1.0.0"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
             "target": "Package",
             "version": "1.0.0"
           },
