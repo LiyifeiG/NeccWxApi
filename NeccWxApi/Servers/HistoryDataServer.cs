@@ -101,7 +101,7 @@ public static class HistoryDataServer
                 Server.Province[localProvince] +
                 "Admit.uniName = University.uniName " +
                 "WHERE province = '" + localProvince + "' AND year = " + year + " AND classes = '" + classes + "'" +
-                "AND (proMin < " + rscore + " AND proMin > " + lscore + " ) AND proname like '%" +
+                "AND (proMin <= " + rscore + " AND proMin >= " + lscore + " ) AND proname like '%" +
                 proName + "%' ORDER BY proMin";
 
             var sc = new SqlCommand(sqlStr, con);
@@ -202,7 +202,7 @@ public static class HistoryDataServer
                 Server.Province[localProvince] +
                 "Admit.uniName = University.uniName " +
                 "WHERE province = '" + localProvince + "' " + " AND classes = '" + classes + "'" +
-                "AND uniMin > " + lscore + " AND uniMin < " + rscore + " AND year = " + year +
+                "AND uniMin >= " + lscore + " AND uniMin <= " + rscore + " AND year = " + year +
                 "ORDER BY uniMin";
 
             var sc = new SqlCommand(sqlStr, con);

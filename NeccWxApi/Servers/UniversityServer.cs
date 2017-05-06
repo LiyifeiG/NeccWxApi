@@ -150,7 +150,8 @@ namespace NeccWxApi
                         uType = (string)reader[3],
                         uSubject = (string)reader[4] ,
                         uEduBackg = (string)reader[5] ,
-                        uWebSite = (string)reader[6]
+                        uResiding = (string)reader[6] ,
+                        uWebSite = (string)reader[7]
                     });
                 }
 
