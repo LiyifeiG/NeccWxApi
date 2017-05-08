@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using NeccWxApi.Models;
 
 namespace NeccWxApi.Controllers
 {
@@ -223,7 +224,6 @@ namespace NeccWxApi.Controllers
         /// <param name="uniName">学校名</param>
         /// <returns></returns>
         [HttpGet("ProfessionListByDetailUniversity&lp={localProvince}&uniName={uniName}")]
-        [EnableCors("CorsSample")]
         public IEnumerable<object> ProfessionListByDetailUniversity(string localProvince,string uniName)
         {
             try

@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data.SqlClient;
 
 namespace NeccWxApi.Servers
 {
     public static class IntelligentServer
     {
+
         /// <summary>
         /// 智能推荐
         /// </summary>
@@ -61,5 +61,10 @@ namespace NeccWxApi.Servers
                 return re;
             }
         }
+
+//        public static IEnumerable<object> IntelligentRecommendation(IntelligentModel score, string localProvince)
+//        {
+//
+//        }
     }
 }

@@ -33,8 +33,8 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    pID = reader[0] == DBNull.Value ? "data wrong" : (string)reader[0],
-                    pName = (string)reader[1]
+                    pID = reader[0] == DBNull.Value ? "data wrong" : (string) reader[0],
+                    pName = (string) reader[1]
                 });
             }
 
@@ -67,8 +67,8 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    uID = (int)reader[0],
-                    uName = (string)reader[1]
+                    uID = (int) reader[0],
+                    uName = (string) reader[1]
                 });
             }
 
@@ -114,14 +114,14 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    pName = (string)reader[0],
-                    uName = (string)reader[1],
-                    uAddress = (string)reader[2],
-                    pBatch = (string)reader[3],
-                    pMin = (int)reader[4],
-                    pAve = (decimal)reader[5],
-                    pMinP = (int)reader[6],
-                    pNum = (int)reader[7]
+                    pName = (string) reader[0],
+                    uName = (string) reader[1],
+                    uAddress = (string) reader[2],
+                    pBatch = (string) reader[3],
+                    pMin = (int) reader[4],
+                    pAve = (decimal) reader[5],
+                    pMinP = (int) reader[6],
+                    pNum = (int) reader[7]
                 });
             }
 
@@ -163,15 +163,15 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    uName = (string)reader[0],
-                    uAddress = (string)reader[1],
-                    uType = (string)reader[2],
-                    uBatch = (string)reader[3],
-                    year = (int)reader[4],
-                    uMin = (int)reader[5],
-                    uAve = (decimal)reader[6],
-                    uGap = (decimal)reader[7],
-                    uNum = (int)reader[8]
+                    uName = (string) reader[0],
+                    uAddress = (string) reader[1],
+                    uType = (string) reader[2],
+                    uBatch = (string) reader[3],
+                    year = (int) reader[4],
+                    uMin = (int) reader[5],
+                    uAve = (decimal) reader[6],
+                    uGap = (decimal) reader[7],
+                    uNum = (int) reader[8]
                 });
             }
 
@@ -215,13 +215,13 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    uName = (string)reader[0],
-                    uAddress = (string)reader[1],
-                    uBatch = (string)reader[2],
-                    uMin = (int)reader[3],
-                    uAve = (decimal)reader[4],
-                    uMinP = (int)reader[5],
-                    uNum = (int)reader[6]
+                    uName = (string) reader[0],
+                    uAddress = (string) reader[1],
+                    uBatch = (string) reader[2],
+                    uMin = (int) reader[3],
+                    uAve = (decimal) reader[4],
+                    uMinP = (int) reader[5],
+                    uNum = (int) reader[6]
                 });
             }
 
@@ -256,9 +256,9 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    pID = reader[0] == DBNull.Value ? "错误数据" : (string)reader[0],
-                    pName = (string)reader[1],
-                    uName = (string)reader[2]
+                    pID = reader[0] == DBNull.Value ? "错误数据" : (string) reader[0],
+                    pName = (string) reader[1],
+                    uName = (string) reader[2]
                 });
             }
 
@@ -292,9 +292,9 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    pID = (int)reader[0],
-                    uName = (string)reader[1],
-                    pName = (string)reader[2]
+                    pID = (int) reader[0],
+                    uName = (string) reader[1],
+                    pName = (string) reader[2]
                 });
             }
 
@@ -308,7 +308,7 @@ public static class HistoryDataServer
     /// <param name="localProvince">生源地</param>
     /// <param name="uniName">学校名</param>
     /// <returns></returns>
-    public static IEnumerable<object> ProfessionListByDetailUniversity(string localProvince,string uniName)
+    public static IEnumerable<object> ProfessionListByDetailUniversity(string localProvince, string uniName)
     {
         using (var con = new SqlConnection(Server.SqlConString))
         {
@@ -316,7 +316,8 @@ public static class HistoryDataServer
             var re = new List<object>();
 
 
-            var sqlStr = "SELECT DISTINCT uniName , proName , year , proAve , proMin , proMinP , proNum  FROM " + Server.Province[localProvince] +
+            var sqlStr = "SELECT DISTINCT uniName , proName , year , proAve , proMin , proMinP , proNum  FROM " +
+                         Server.Province[localProvince] +
                          "Admit WHERE uniName = '" + uniName + "'  ORDER BY proName";
 
             var sc = new SqlCommand(sqlStr, con);
@@ -329,17 +330,18 @@ public static class HistoryDataServer
             {
                 re.Add(new
                 {
-                    uName = (string)reader[0],
-                    pName = (string)reader[1],
-                    year = (int)reader[2],
-                    pAve = (decimal)reader[3],
-                    pMin = (int)reader[4],
-                    pMinP = (int)reader[5],
-                    pNum = (int)reader[6]
+                    uName = (string) reader[0],
+                    pName = (string) reader[1],
+                    year = (int) reader[2],
+                    pAve = (decimal) reader[3],
+                    pMin = (int) reader[4],
+                    pMinP = (int) reader[5],
+                    pNum = (int) reader[6]
                 });
             }
 
             return re;
         }
     }
+
 }
