@@ -145,7 +145,7 @@ namespace NeccWxApi
                     re.Add(new
                     {
                         uID = (int)reader[0] ,
-                        uNmae = (string)reader[1],
+                        uName = (string)reader[1],
                         uAddress = (string)reader[2],
                         uType = (string)reader[3],
                         uSubject = (string)reader[4] ,
@@ -154,7 +154,6 @@ namespace NeccWxApi
                         uWebSite = (string)reader[7]
                     });
                 }
-
                 return re;
             }
         }

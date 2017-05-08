@@ -215,5 +215,33 @@ namespace NeccWxApi.Controllers
                 return new[] { e.Message };
             }
         }
+
+        /// <summary>
+        /// 获得学校的具体专业信息
+        /// </summary>
+        /// <param name="localProvince">生源地</param>
+        /// <param name="uniName">学校名</param>
+        /// <returns></returns>
+        [HttpGet("ProfessionListByDetailUniversity&lp={localProvince}&uniName={uniName}")]
+        [EnableCors("CorsSample")]
+        public IEnumerable<object> ProfessionListByDetailUniversity(string localProvince,string uniName)
+        {
+            try
+            {
+                var addr = Server.GetUserIp(Request.HttpContext);
+                if (Server.IPHandle(addr) == 0)
+                {
+                    return new[] { "your ip can't using our api , please contact administrator" };
+                }
+
+                var re = HistoryDataServer.ProfessionListByDetailUniversity(localProvince,uniName);
+
+                return re;
+            }
+            catch (Exception e)
+            {
+                return new[] { e.Message };
+            }
+        }
     }
 }

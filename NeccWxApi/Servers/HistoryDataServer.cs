@@ -301,4 +301,45 @@ public static class HistoryDataServer
             return re;
         }
     }
+
+    /// <summary>
+    /// 获得学校的具体专业信息
+    /// </summary>
+    /// <param name="localProvince">生源地</param>
+    /// <param name="uniName">学校名</param>
+    /// <returns></returns>
+    public static IEnumerable<object> ProfessionListByDetailUniversity(string localProvince,string uniName)
+    {
+        using (var con = new SqlConnection(Server.SqlConString))
+        {
+            con.Open();
+            var re = new List<object>();
+
+
+            var sqlStr = "SELECT DISTINCT uniName , proName , year , proAve , proMin , proMinP , proNum  FROM " + Server.Province[localProvince] +
+                         "Admit WHERE uniName = '" + uniName + "'  ORDER BY proName";
+
+            var sc = new SqlCommand(sqlStr, con);
+
+            sc.ExecuteNonQuery();
+
+            var reader = sc.ExecuteReader();
+
+            while (reader.Read())
+            {
+                re.Add(new
+                {
+                    uName = (string)reader[0],
+                    pName = (string)reader[1],
+                    year = (int)reader[2],
+                    pAve = (decimal)reader[3],
+                    pMin = (int)reader[4],
+                    pMinP = (int)reader[5],
+                    pNum = (int)reader[6]
+                });
+            }
+
+            return re;
+        }
+    }
 }

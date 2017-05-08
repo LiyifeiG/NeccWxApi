@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e692e318-d585-4a95-a2f8-f51b1bdac3f0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.dll" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.pdb" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Release/netcoreapp1.1/NeccWxApi.dll" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Release/netcoreapp1.1/NeccWxApi.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Release/netcoreapp1.1/NeccWxApi.pdb" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Release/netcoreapp1.1/NeccWxApi.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Release/netcoreapp1.1/publish/NeccWxApi.dll" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Release/netcoreapp1.1/publish/NeccWxApi.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Release/netcoreapp1.1/publish/NeccWxApi.pdb" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Release/netcoreapp1.1/publish/NeccWxApi.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.dll" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.pdb" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Release/netcoreapp1.1/NeccWxApi.dll" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Release/netcoreapp1.1/NeccWxApi.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/obj/Release/netcoreapp1.1/NeccWxApi.pdb" afterPath="$PROJECT_DIR$/NeccWxApi/obj/Release/netcoreapp1.1/NeccWxApi.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.NeccWxApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.NeccWxApi/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/Controllers/HistoryDataController.cs" afterPath="$PROJECT_DIR$/NeccWxApi/Controllers/HistoryDataController.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/Servers/HistoryDataServer.cs" afterPath="$PROJECT_DIR$/NeccWxApi/Servers/HistoryDataServer.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/Servers/UniversityServer.cs" afterPath="$PROJECT_DIR$/NeccWxApi/Servers/UniversityServer.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Release/netcoreapp1.1/publish/Views/Home/Get.cshtml" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Release/netcoreapp1.1/publish/Views/Home/Get.cshtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/Views/HistoryData/Get.cshtml" afterPath="$PROJECT_DIR$/NeccWxApi/Views/HistoryData/Get.cshtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeccWxApi/bin/Release/netcoreapp1.1/publish/Views/HistoryData/Get.cshtml" afterPath="$PROJECT_DIR$/NeccWxApi/bin/Release/netcoreapp1.1/publish/Views/HistoryData/Get.cshtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,11 +35,10 @@
       <file leaf-file-name="ProfessionServer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ProfessionServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-83">
+            <state relative-caret-position="180">
               <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <marker date="1493635786000" expanded="true" signature="6:81" ph="..." />
-                <marker date="1493635786000" expanded="true" signature="102:5400" ph="{...}" />
                 <marker date="1493635786000" expanded="true" signature="145:5398" ph="{...}" />
                 <marker date="1493635786000" expanded="true" signature="160:251" ph="/// 查询专业信息 ... " />
                 <marker date="1493635786000" expanded="true" signature="310:1429" ph="{...}" />
@@ -65,37 +70,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UniversityServer.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UniversityServer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/UniversityServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+            <state relative-caret-position="461">
+              <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
               <folding>
-                <marker date="1494074592000" expanded="false" signature="6:62" ph="..." />
-                <marker date="1494074592000" expanded="true" signature="83:5295" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="126:5293" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="141:279" ph="/// 查询院校信息 ... " />
-                <marker date="1494074592000" expanded="true" signature="338:1422" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="417:1412" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="837:1368" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="907:1349" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="1432:1526" ph="/// 获得985学校列表 ... " />
-                <marker date="1494074592000" expanded="true" signature="1591:2186" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="1670:2176" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="2034:2133" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="2196:2290" ph="/// 获得211学校列表 ... " />
-                <marker date="1494074592000" expanded="true" signature="2355:2949" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="2434:2939" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="2798:2897" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="2958:3118" ph="/// 判断学校是985还是211 ... " />
-                <marker date="1494074592000" expanded="true" signature="3184:3922" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="3263:3912" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="3674:3808" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="3932:4075" ph="/// 获得前N个学校信息 ... " />
-                <marker date="1494074592000" expanded="true" signature="4150:5287" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="4229:5277" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="4699:5235" ph="{...}" />
-                <marker date="1494074592000" expanded="true" signature="4769:5215" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="6:62" ph="..." />
+                <marker date="1494253270000" expanded="true" signature="83:5294" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="126:5292" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="141:279" ph="/// 查询院校信息 ... " />
+                <marker date="1494253270000" expanded="true" signature="338:1422" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="417:1412" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="837:1368" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="907:1349" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="1432:1526" ph="/// 获得985学校列表 ... " />
+                <marker date="1494253270000" expanded="true" signature="1591:2186" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="1670:2176" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="2034:2133" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="2196:2290" ph="/// 获得211学校列表 ... " />
+                <marker date="1494253270000" expanded="true" signature="2355:2949" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="2434:2939" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="2798:2897" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="2958:3118" ph="/// 判断学校是985还是211 ... " />
+                <marker date="1494253270000" expanded="true" signature="3184:3922" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="3263:3912" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="3674:3808" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="3932:4075" ph="/// 获得前N个学校信息 ... " />
+                <marker date="1494253270000" expanded="true" signature="4150:5286" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="4229:5276" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="4699:5235" ph="{...}" />
+                <marker date="1494253270000" expanded="true" signature="4769:5215" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -104,70 +109,158 @@
       <file leaf-file-name="HistoryDataServer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/HistoryDataServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1401">
-              <caret line="204" column="30" lean-forward="false" selection-start-line="204" selection-start-column="30" selection-end-line="204" selection-end-column="30" />
+            <state relative-caret-position="161">
+              <caret line="310" column="70" lean-forward="false" selection-start-line="310" selection-start-column="70" selection-end-line="310" selection-end-column="70" />
               <folding>
-                <marker date="1494074178000" expanded="true" signature="6:93" ph="..." />
-                <marker date="1494074178000" expanded="true" signature="133:9663" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="140:266" ph="/// 全部专业列表 ... " />
-                <marker date="1494074178000" expanded="true" signature="337:1072" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="408:1066" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="805:1032" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="863:1016" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="1078:1205" ph="/// 全部院校列表 ... " />
-                <marker date="1494074178000" expanded="true" signature="1276:1962" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="1347:1956" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="1741:1922" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="1799:1906" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="1968:2299" ph="/// 专业查询 ... " />
-                <marker date="1494074178000" expanded="true" signature="2449:3919" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="2520:3913" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="3418:3879" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="3476:3863" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="3925:4134" ph="/// 院校查询 ... " />
-                <marker date="1494074178000" expanded="true" signature="4242:5706" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="4313:5700" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="5159:5666" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="5217:5650" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="5712:6000" ph="/// 分数查询 ... " />
-                <marker date="1494074178000" expanded="true" signature="6121:7501" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="6192:7495" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="7047:7461" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="7105:7445" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="7507:7679" ph="/// 学校开设专业列表 ... " />
-                <marker date="1494074178000" expanded="true" signature="7782:8601" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="7853:8595" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="8293:8561" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="8351:8545" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="8607:8782" ph="/// 查询开设了某专业的学校 ... " />
-                <marker date="1494074178000" expanded="true" signature="8885:9661" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="8956:9655" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="9393:9621" ph="{...}" />
-                <marker date="1494074178000" expanded="true" signature="9451:9605" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="6:93" ph="..." />
+                <marker date="1494254392000" expanded="true" signature="133:10941" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="140:266" ph="/// 全部专业列表 ... " />
+                <marker date="1494254392000" expanded="true" signature="337:1072" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="408:1066" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="805:1032" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="863:1016" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="1078:1205" ph="/// 全部院校列表 ... " />
+                <marker date="1494254392000" expanded="true" signature="1276:1962" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="1347:1956" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="1741:1922" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="1799:1906" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="1968:2299" ph="/// 专业查询 ... " />
+                <marker date="1494254392000" expanded="true" signature="2449:3919" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="2520:3913" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="3418:3879" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="3476:3863" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="3925:4134" ph="/// 院校查询 ... " />
+                <marker date="1494254392000" expanded="true" signature="4242:5706" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="4313:5700" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="5159:5666" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="5217:5650" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="5712:6000" ph="/// 分数查询 ... " />
+                <marker date="1494254392000" expanded="true" signature="6121:7501" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="6192:7495" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="7047:7461" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="7105:7445" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="7507:7679" ph="/// 学校开设专业列表 ... " />
+                <marker date="1494254392000" expanded="true" signature="7782:8601" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="7853:8595" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="8293:8561" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="8351:8545" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="8607:8782" ph="/// 查询开设了某专业的学校 ... " />
+                <marker date="1494254392000" expanded="true" signature="8885:9661" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="8956:9655" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="9393:9621" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="9451:9605" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="9667:9837" ph="/// 获得学校的具体专业信息 ... " />
+                <marker date="1494254392000" expanded="true" signature="9945:10939" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="10016:10933" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="10493:10899" ph="{...}" />
+                <marker date="1494254392000" expanded="true" signature="10551:10883" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NeccWxApi/Startup.cs">
+      <file leaf-file-name="Get.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NeccWxApi/Views/HistoryData/Get.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="129">
+              <caret line="100" column="33" lean-forward="true" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
               <folding>
-                <marker date="1493896972000" expanded="true" signature="6:357" ph="..." />
-                <marker date="1493896972000" expanded="true" signature="378:3685" ph="{...}" />
-                <marker date="1493896972000" expanded="true" signature="405:3683" ph="{...}" />
-                <marker date="1493896972000" expanded="true" signature="459:847" ph="{...}" />
-                <marker date="1493896972000" expanded="true" signature="1074:2663" ph="{...}" />
-                <marker date="1493896972000" expanded="true" signature="1168:1213" ph="/* doc ... */" />
-                <marker date="1493896972000" expanded="true" signature="1640:2038" ph="{...}" />
-                <marker date="1493896972000" expanded="true" signature="1759:2024" ph="/* Set the comments path for the swagger json and ui. ... */" />
-                <marker date="1493896972000" expanded="true" signature="2054:2139" ph="/* Setup CORS ... */" />
-                <marker date="1493896972000" expanded="true" signature="2553:2651" ph="{...}" />
-                <marker date="1493896972000" expanded="true" signature="2882:3677" ph="{...}" />
-                <marker date="1493896972000" expanded="true" signature="3108:3259" ph="{...}" />
-                <marker date="1493896972000" expanded="true" signature="3560:3664" ph="{...}" />
+                <marker date="1494254456000" expanded="true" signature="17:3931" ph="&lt;html.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="24:65" ph="&lt;head.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="66:3923" ph="&lt;body.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="98:3915" ph="&lt;div.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="161:3907" ph="&lt;div.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="175:3896" ph="&lt;table.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="298:342" ph="&lt;th.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="355:399" ph="&lt;th.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="412:458" ph="&lt;th.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="471:828" ph="&lt;tr.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="492:553" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="570:679" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="696:810" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="841:1199" ph="&lt;tr.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="862:923" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="940:1049" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="1066:1181" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="1212:1643" ph="&lt;tr.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="1233:1288" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="1305:1462" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="1479:1625" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="1656:2130" ph="&lt;tr.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="1677:1730" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="1747:1924" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="1941:2112" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="2143:2553" ph="&lt;tr.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="2164:2217" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="2234:2374" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="2391:2535" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="2566:2989" ph="&lt;tr.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="2587:2645" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="2662:2812" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="2829:2971" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="3002:3426" ph="&lt;tr.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="3023:3079" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="3096:3248" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="3265:3408" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="3439:3879" ph="&lt;tr.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="3460:3520" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="3537:3695" ph="&lt;td.../&gt;" />
+                <marker date="1494254456000" expanded="true" signature="3712:3861" ph="&lt;td.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HistoryDataController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/HistoryDataController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="220" column="22" lean-forward="true" selection-start-line="220" selection-start-column="22" selection-end-line="220" selection-end-column="22" />
+              <folding>
+                <marker date="1494254407000" expanded="true" signature="6:112" ph="..." />
+                <marker date="1494254407000" expanded="true" signature="145:8294" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="231:8292" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="287:334" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="344:486" ph="/// 全部专业列表 ... " />
+                <marker date="1494254407000" expanded="true" signature="651:1174" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="677:1060" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="805:940" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="1092:1164" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="1184:1327" ph="/// 全部院校列表 ... " />
+                <marker date="1494254407000" expanded="true" signature="1492:2015" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="1518:1901" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="1646:1781" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="1933:2005" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="2025:2392" ph="/// 专业查询 ... " />
+                <marker date="1494254407000" expanded="true" signature="2685:3246" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="2711:3132" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="2839:2974" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="3164:3236" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="3256:3489" ph="/// 院校查询 ... " />
+                <marker date="1494254407000" expanded="true" signature="3715:4254" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="3741:4140" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="3869:4004" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="4172:4244" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="4264:4584" ph="/// 分数查询 ... " />
+                <marker date="1494254407000" expanded="true" signature="4833:5380" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="4859:5266" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="4987:5122" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="5298:5370" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="5390:5582" ph="/// 学校开设专业列表 ... " />
+                <marker date="1494254407000" expanded="true" signature="5802:6343" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="5828:6229" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="5956:6091" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="6261:6333" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="6353:6548" ph="/// 查询开设了某专业的学校 ... " />
+                <marker date="1494254407000" expanded="true" signature="6768:7309" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="6794:7195" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="6922:7057" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="7227:7299" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="7319:7509" ph="/// 获得学校的具体专业信息 ... " />
+                <marker date="1494254407000" expanded="true" signature="7740:8286" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="7766:8172" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="7894:8029" ph="{...}" />
+                <marker date="1494254407000" expanded="true" signature="8204:8276" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -287,7 +380,7 @@
       <file leaf-file-name="Get.cshtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Views/Home/Get.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="324">
               <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <marker date="1493902378000" expanded="true" signature="7:47" ph="&lt;head.../&gt;" />
@@ -324,29 +417,9 @@
       <file leaf-file-name="AdmitLineServer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/AdmitLineServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-282">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdmitLineController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/AdmitLineController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding>
-                <marker date="1493895438000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1493895438000" expanded="true" signature="98:1127" ph="{...}" />
-                <marker date="1493895438000" expanded="true" signature="182:1125" ph="{...}" />
-                <marker date="1493895438000" expanded="true" signature="238:285" ph="{...}" />
-                <marker date="1493895438000" expanded="true" signature="295:438" ph="/// 获得分数线信息 ... " />
-                <marker date="1493895438000" expanded="true" signature="589:1119" ph="{...}" />
-                <marker date="1493895438000" expanded="true" signature="626:1005" ph="{...}" />
-                <marker date="1493895438000" expanded="true" signature="754:889" ph="{...}" />
-                <marker date="1493895438000" expanded="true" signature="1037:1109" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -354,7 +427,7 @@
       <file leaf-file-name="IntelligentServer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/IntelligentServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
+            <state relative-caret-position="918">
               <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
               <folding>
                 <marker date="1493883327000" expanded="true" signature="6:76" ph="..." />
@@ -427,7 +500,6 @@
         <option value="$PROJECT_DIR$/NeccWxApi/Views/Index.html" />
         <option value="$PROJECT_DIR$/NeccWxApi/Controllers/APIHomeController.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Views/Styles/Global.css" />
-        <option value="$PROJECT_DIR$/NeccWxApi/Views/HistoryData/Get.cshtml" />
         <option value="$PROJECT_DIR$/NeccWxApi/log.txt" />
         <option value="$PROJECT_DIR$/NeccWxApi/Models/UserAccount.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Program.cs" />
@@ -435,7 +507,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/NeccWxApi/Servers/UserServer.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/NeccWxApi/Controllers/HistoryDataController.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Controllers/UserController.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Views/User/Get.cshtml" />
         <option value="$PROJECT_DIR$/NeccWxApi/Controllers/ScoreLineController.cs" />
@@ -453,8 +524,10 @@
         <option value="$PROJECT_DIR$/NeccWxApi/Startup.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Controllers/UniversityController.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Views/Home/Get.cshtml" />
-        <option value="$PROJECT_DIR$/NeccWxApi/Servers/HistoryDataServer.cs" />
         <option value="$PROJECT_DIR$/NeccWxApi/Servers/UniversityServer.cs" />
+        <option value="$PROJECT_DIR$/NeccWxApi/Servers/HistoryDataServer.cs" />
+        <option value="$PROJECT_DIR$/NeccWxApi/Controllers/HistoryDataController.cs" />
+        <option value="$PROJECT_DIR$/NeccWxApi/Views/HistoryData/Get.cshtml" />
       </list>
     </option>
   </component>
@@ -492,7 +565,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -523,7 +595,43 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NeccWxApi (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NeccWxApi" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Servers" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NeccWxApi (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NeccWxApi" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -531,6 +639,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -749,7 +858,8 @@
       <workItem from="1493892179713" duration="3177000" />
       <workItem from="1493902311575" duration="111000" />
       <workItem from="1493953134124" duration="52000" />
-      <workItem from="1494074093452" duration="643000" />
+      <workItem from="1494074093452" duration="878000" />
+      <workItem from="1494253190487" duration="2013000" />
     </task>
     <task id="LOCAL-00001" summary="Move to Rider">
       <created>1491651952548</created>
@@ -783,7 +893,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87338000" />
+    <option name="totallyTimeSpent" value="89586000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -800,9 +910,9 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.6117188" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.6140625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3173971" sideWeight="0.38828126" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3173971" sideWeight="0.3859375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31606907" sideWeight="0.475" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.49375" order="7" side_tool="false" content_ui="tabs" />
@@ -1046,13 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/Views/HistoryData/Get.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="78" column="29" lean-forward="false" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/UserServer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -1071,55 +1174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/HistoryDataController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <marker date="1492679005000" expanded="false" signature="6:112" ph="..." />
-            <marker date="1492679005000" expanded="true" signature="145:7317" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="231:7315" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="287:334" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="344:486" ph="/// 全部专业列表 ... " />
-            <marker date="1492679005000" expanded="true" signature="651:1174" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="677:1060" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="805:940" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="1092:1164" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="1184:1327" ph="/// 全部院校列表 ... " />
-            <marker date="1492679005000" expanded="true" signature="1492:2015" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="1518:1901" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="1646:1781" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="1933:2005" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="2025:2392" ph="/// 专业查询 ... " />
-            <marker date="1492679005000" expanded="true" signature="2685:3246" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="2711:3132" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="2839:2974" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="3164:3236" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="3256:3489" ph="/// 院校查询 ... " />
-            <marker date="1492679005000" expanded="true" signature="3715:4254" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="3741:4140" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="3869:4004" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="4172:4244" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="4264:4584" ph="/// 分数查询 ... " />
-            <marker date="1492679005000" expanded="true" signature="4833:5380" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="4859:5266" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="4987:5122" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="5298:5370" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="5390:5582" ph="/// 学校开设专业列表 ... " />
-            <marker date="1492679005000" expanded="true" signature="5802:6343" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="5828:6229" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="5956:6091" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="6261:6333" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="6353:6548" ph="/// 查询开设了某专业的学校 ... " />
-            <marker date="1492679005000" expanded="true" signature="6768:7309" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="6794:7195" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="6922:7057" ph="{...}" />
-            <marker date="1492679005000" expanded="true" signature="7227:7299" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1272,7 +1326,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Views/Home/Get.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="324">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <marker date="1493902378000" expanded="true" signature="7:47" ph="&lt;head.../&gt;" />
@@ -1307,61 +1361,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/AdmitLineServer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/HistoryDataServer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1401">
-          <caret line="204" column="30" lean-forward="false" selection-start-line="204" selection-start-column="30" selection-end-line="204" selection-end-column="30" />
-          <folding>
-            <marker date="1494074178000" expanded="true" signature="6:93" ph="..." />
-            <marker date="1494074178000" expanded="true" signature="133:9663" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="140:266" ph="/// 全部专业列表 ... " />
-            <marker date="1494074178000" expanded="true" signature="337:1072" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="408:1066" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="805:1032" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="863:1016" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="1078:1205" ph="/// 全部院校列表 ... " />
-            <marker date="1494074178000" expanded="true" signature="1276:1962" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="1347:1956" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="1741:1922" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="1799:1906" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="1968:2299" ph="/// 专业查询 ... " />
-            <marker date="1494074178000" expanded="true" signature="2449:3919" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="2520:3913" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="3418:3879" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="3476:3863" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="3925:4134" ph="/// 院校查询 ... " />
-            <marker date="1494074178000" expanded="true" signature="4242:5706" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="4313:5700" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="5159:5666" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="5217:5650" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="5712:6000" ph="/// 分数查询 ... " />
-            <marker date="1494074178000" expanded="true" signature="6121:7501" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="6192:7495" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="7047:7461" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="7105:7445" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="7507:7679" ph="/// 学校开设专业列表 ... " />
-            <marker date="1494074178000" expanded="true" signature="7782:8601" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="7853:8595" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="8293:8561" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="8351:8545" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="8607:8782" ph="/// 查询开设了某专业的学校 ... " />
-            <marker date="1494074178000" expanded="true" signature="8885:9661" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="8956:9655" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="9393:9621" ph="{...}" />
-            <marker date="1494074178000" expanded="true" signature="9451:9605" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/IntelligentServer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
+        <state relative-caret-position="918">
           <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
           <folding>
             <marker date="1493883327000" expanded="true" signature="6:76" ph="..." />
@@ -1378,11 +1386,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/ProfessionServer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
+        <state relative-caret-position="180">
           <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <marker date="1493635786000" expanded="true" signature="6:81" ph="..." />
-            <marker date="1493635786000" expanded="true" signature="102:5400" ph="{...}" />
             <marker date="1493635786000" expanded="true" signature="145:5398" ph="{...}" />
             <marker date="1493635786000" expanded="true" signature="160:251" ph="/// 查询专业信息 ... " />
             <marker date="1493635786000" expanded="true" signature="310:1429" ph="{...}" />
@@ -1413,36 +1420,190 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/HistoryDataServer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="310" column="70" lean-forward="false" selection-start-line="310" selection-start-column="70" selection-end-line="310" selection-end-column="70" />
+          <folding>
+            <marker date="1494254392000" expanded="true" signature="6:93" ph="..." />
+            <marker date="1494254392000" expanded="true" signature="133:10941" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="140:266" ph="/// 全部专业列表 ... " />
+            <marker date="1494254392000" expanded="true" signature="337:1072" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="408:1066" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="805:1032" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="863:1016" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="1078:1205" ph="/// 全部院校列表 ... " />
+            <marker date="1494254392000" expanded="true" signature="1276:1962" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="1347:1956" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="1741:1922" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="1799:1906" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="1968:2299" ph="/// 专业查询 ... " />
+            <marker date="1494254392000" expanded="true" signature="2449:3919" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="2520:3913" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="3418:3879" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="3476:3863" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="3925:4134" ph="/// 院校查询 ... " />
+            <marker date="1494254392000" expanded="true" signature="4242:5706" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="4313:5700" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="5159:5666" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="5217:5650" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="5712:6000" ph="/// 分数查询 ... " />
+            <marker date="1494254392000" expanded="true" signature="6121:7501" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="6192:7495" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="7047:7461" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="7105:7445" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="7507:7679" ph="/// 学校开设专业列表 ... " />
+            <marker date="1494254392000" expanded="true" signature="7782:8601" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="7853:8595" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="8293:8561" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="8351:8545" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="8607:8782" ph="/// 查询开设了某专业的学校 ... " />
+            <marker date="1494254392000" expanded="true" signature="8885:9661" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="8956:9655" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="9393:9621" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="9451:9605" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="9667:9837" ph="/// 获得学校的具体专业信息 ... " />
+            <marker date="1494254392000" expanded="true" signature="9945:10939" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="10016:10933" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="10493:10899" ph="{...}" />
+            <marker date="1494254392000" expanded="true" signature="10551:10883" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/Views/HistoryData/Get.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="100" column="33" lean-forward="true" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
+          <folding>
+            <marker date="1494254456000" expanded="true" signature="17:3931" ph="&lt;html.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="24:65" ph="&lt;head.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="66:3923" ph="&lt;body.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="98:3915" ph="&lt;div.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="161:3907" ph="&lt;div.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="175:3896" ph="&lt;table.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="298:342" ph="&lt;th.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="355:399" ph="&lt;th.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="412:458" ph="&lt;th.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="471:828" ph="&lt;tr.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="492:553" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="570:679" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="696:810" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="841:1199" ph="&lt;tr.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="862:923" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="940:1049" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="1066:1181" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="1212:1643" ph="&lt;tr.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="1233:1288" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="1305:1462" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="1479:1625" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="1656:2130" ph="&lt;tr.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="1677:1730" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="1747:1924" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="1941:2112" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="2143:2553" ph="&lt;tr.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="2164:2217" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="2234:2374" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="2391:2535" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="2566:2989" ph="&lt;tr.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="2587:2645" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="2662:2812" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="2829:2971" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="3002:3426" ph="&lt;tr.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="3023:3079" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="3096:3248" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="3265:3408" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="3439:3879" ph="&lt;tr.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="3460:3520" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="3537:3695" ph="&lt;td.../&gt;" />
+            <marker date="1494254456000" expanded="true" signature="3712:3861" ph="&lt;td.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NeccWxApi/Servers/UniversityServer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        <state relative-caret-position="461">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding>
-            <marker date="1494074592000" expanded="false" signature="6:62" ph="..." />
-            <marker date="1494074592000" expanded="true" signature="83:5295" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="126:5293" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="141:279" ph="/// 查询院校信息 ... " />
-            <marker date="1494074592000" expanded="true" signature="338:1422" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="417:1412" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="837:1368" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="907:1349" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="1432:1526" ph="/// 获得985学校列表 ... " />
-            <marker date="1494074592000" expanded="true" signature="1591:2186" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="1670:2176" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="2034:2133" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="2196:2290" ph="/// 获得211学校列表 ... " />
-            <marker date="1494074592000" expanded="true" signature="2355:2949" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="2434:2939" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="2798:2897" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="2958:3118" ph="/// 判断学校是985还是211 ... " />
-            <marker date="1494074592000" expanded="true" signature="3184:3922" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="3263:3912" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="3674:3808" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="3932:4075" ph="/// 获得前N个学校信息 ... " />
-            <marker date="1494074592000" expanded="true" signature="4150:5287" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="4229:5277" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="4699:5235" ph="{...}" />
-            <marker date="1494074592000" expanded="true" signature="4769:5215" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="6:62" ph="..." />
+            <marker date="1494253270000" expanded="true" signature="83:5294" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="126:5292" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="141:279" ph="/// 查询院校信息 ... " />
+            <marker date="1494253270000" expanded="true" signature="338:1422" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="417:1412" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="837:1368" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="907:1349" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="1432:1526" ph="/// 获得985学校列表 ... " />
+            <marker date="1494253270000" expanded="true" signature="1591:2186" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="1670:2176" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="2034:2133" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="2196:2290" ph="/// 获得211学校列表 ... " />
+            <marker date="1494253270000" expanded="true" signature="2355:2949" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="2434:2939" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="2798:2897" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="2958:3118" ph="/// 判断学校是985还是211 ... " />
+            <marker date="1494253270000" expanded="true" signature="3184:3922" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="3263:3912" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="3674:3808" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="3932:4075" ph="/// 获得前N个学校信息 ... " />
+            <marker date="1494253270000" expanded="true" signature="4150:5286" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="4229:5276" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="4699:5235" ph="{...}" />
+            <marker date="1494253270000" expanded="true" signature="4769:5215" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeccWxApi/Controllers/HistoryDataController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="220" column="22" lean-forward="true" selection-start-line="220" selection-start-column="22" selection-end-line="220" selection-end-column="22" />
+          <folding>
+            <marker date="1494254407000" expanded="true" signature="6:112" ph="..." />
+            <marker date="1494254407000" expanded="true" signature="145:8294" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="231:8292" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="287:334" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="344:486" ph="/// 全部专业列表 ... " />
+            <marker date="1494254407000" expanded="true" signature="651:1174" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="677:1060" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="805:940" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="1092:1164" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="1184:1327" ph="/// 全部院校列表 ... " />
+            <marker date="1494254407000" expanded="true" signature="1492:2015" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="1518:1901" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="1646:1781" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="1933:2005" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="2025:2392" ph="/// 专业查询 ... " />
+            <marker date="1494254407000" expanded="true" signature="2685:3246" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="2711:3132" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="2839:2974" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="3164:3236" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="3256:3489" ph="/// 院校查询 ... " />
+            <marker date="1494254407000" expanded="true" signature="3715:4254" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="3741:4140" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="3869:4004" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="4172:4244" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="4264:4584" ph="/// 分数查询 ... " />
+            <marker date="1494254407000" expanded="true" signature="4833:5380" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="4859:5266" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="4987:5122" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="5298:5370" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="5390:5582" ph="/// 学校开设专业列表 ... " />
+            <marker date="1494254407000" expanded="true" signature="5802:6343" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="5828:6229" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="5956:6091" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="6261:6333" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="6353:6548" ph="/// 查询开设了某专业的学校 ... " />
+            <marker date="1494254407000" expanded="true" signature="6768:7309" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="6794:7195" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="6922:7057" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="7227:7299" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="7319:7509" ph="/// 获得学校的具体专业信息 ... " />
+            <marker date="1494254407000" expanded="true" signature="7740:8286" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="7766:8172" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="7894:8029" ph="{...}" />
+            <marker date="1494254407000" expanded="true" signature="8204:8276" ph="{...}" />
           </folding>
         </state>
       </provider>
