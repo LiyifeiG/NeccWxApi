@@ -24,7 +24,7 @@ namespace NeccWxApi.Controllers
         /// <param name="classes">科类</param>
         /// <param name="year">年份</param>
         [HttpGet("IntelligentRecommendation&lp={localProvince}&s={score}&p={pnum}&c={classes}&y={year}")]
-        [EnableCors("CorSample")]
+        [EnableCors("CorsSample")]
         public IEnumerable<object> IntelligentRecommendation(decimal score , int pnum , string localProvince , string classes , int year)
         {
             try
@@ -45,7 +45,7 @@ namespace NeccWxApi.Controllers
             }
         }
 //        [HttpGet("IntelligentRecommendation&lp={localProvince}")]
-//        [EnableCors("CorSample")]
+//        [EnableCors("CorsSample")]
 //        public IEnumerable<object> IntelligentRecommendation([FromBody] IntelligentModel im, string localProvince)
 //        {
 //            try
