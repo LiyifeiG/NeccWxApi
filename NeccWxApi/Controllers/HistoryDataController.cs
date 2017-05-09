@@ -224,6 +224,7 @@ namespace NeccWxApi.Controllers
         /// <param name="uniName">学校名</param>
         /// <returns></returns>
         [HttpGet("ProfessionListByDetailUniversity&lp={localProvince}&uniName={uniName}")]
+        [EnableCors("CorsSample")]
         public IEnumerable<object> ProfessionListByDetailUniversity(string localProvince,string uniName)
         {
             try
