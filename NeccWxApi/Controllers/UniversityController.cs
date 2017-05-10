@@ -6,9 +6,16 @@ using NeccWxApi.Servers;
 
 namespace NeccWxApi.Controllers
 {
+    /// <summary>
+    /// 院校API
+    /// </summary>
     [Route("api/[controller]")]
     public class UniversityController : Controller
     {
+        /// <summary>
+        /// 界面
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ViewResult Get()
         {

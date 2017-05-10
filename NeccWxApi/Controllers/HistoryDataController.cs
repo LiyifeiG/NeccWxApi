@@ -6,9 +6,16 @@ using NeccWxApi.Servers;
 
 namespace NeccWxApi.Controllers
 {
+    /// <summary>
+    /// 历史数据API
+    /// </summary>
     [Route("api/[controller]")]
     public class HistoryDataController : Controller
     {
+        /// <summary>
+        /// 界面
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ViewResult Get()
         {
@@ -18,7 +25,7 @@ namespace NeccWxApi.Controllers
         /// <summary>
         /// 全部专业列表
         /// </summary>
-        // <param name="localProvince">生源地</param>
+        /// <param name="localProvince">生源地</param>
         /// <returns>专业列表</returns>
         [HttpGet("ProfessionList&lp={localProvince}")]
         [EnableCors("CorsSample")]

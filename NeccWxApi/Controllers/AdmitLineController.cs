@@ -5,9 +5,16 @@ using NeccWxApi.Servers;
 
 namespace NeccWxApi.Controllers
 {
+    /// <summary>
+    /// 获得分数线API
+    /// </summary>
     [Route("api/[controller]")]
     public class AdmitLineController : Controller
     {
+        /// <summary>
+        /// 界面
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ViewResult Get()
         {

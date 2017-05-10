@@ -6,10 +6,16 @@ using NeccWxApi.Servers;
 
 namespace NeccWxApi.Controllers
 {
+    /// <summary>
+    /// 用户操作API
+    /// </summary>
     [Route("api/[controller]")]
     public class UserController : Controller
     {
-        [EnableCors("CorsSample")]
+        /// <summary>
+        /// 界面
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ViewResult Get()
         {

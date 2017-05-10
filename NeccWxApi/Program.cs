@@ -7,15 +7,17 @@ using NeccWxApi.Servers;
 
 namespace NeccWxApi
 {
+    /// <summary>
+    /// 启动类
+    /// </summary>
     public class Program
     {
+        /// <summary>
+        /// 主方法
+        /// </summary>
+        /// <param name="args">启动参数</param>
         public static void Main(string[] args)
         {
-            if (!GetConnectionString())
-            {
-                return;
-            }
-
             IWebHost host;
 
             if (args.Length > 0)
@@ -25,7 +27,9 @@ namespace NeccWxApi
                 .UseUrls(args[0])
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
+                .UseSetting("detailedErrors", "true")
                 .UseStartup<Startup>()
+                .CaptureStartupErrors(true)
                 .Build();
             }
             else
@@ -34,32 +38,13 @@ namespace NeccWxApi
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
+                .UseSetting("detailedErrors", "true")
                 .UseStartup<Startup>()
+                .CaptureStartupErrors(true)
                 .Build();
             }
 
             host.Run();
-        }
-
-        /// <summary>
-        /// 获得连接字符串
-        /// </summary>
-        /// <returns></returns>
-        private static bool GetConnectionString()
-        {
-            var text = File.ReadAllText("WebApi.config");
-
-            var re = new Regex("<connectionstring string = \"(.*)\"/>");
-
-            var m = re.Match(text);
-
-            if (!m.Success) return false;
-
-            Server.SqlConString = m.Groups[1].Value;
-
-            Server.Log("读取到连接字符串 : " + Server.SqlConString);
-
-            return true;
         }
     }
 }

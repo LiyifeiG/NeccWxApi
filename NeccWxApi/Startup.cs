@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System.IO;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -6,12 +7,20 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.PlatformAbstractions;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace NeccWxApi
 {
+    /// <summary>
+    /// 启动类
+    /// </summary>
     public class Startup
     {
+        /// <summary>
+        /// 启动方法
+        /// </summary>
+        /// <param name="env"></param>
         public Startup(IHostingEnvironment env)
         {
             var builder = new ConfigurationBuilder()
@@ -22,8 +31,15 @@ namespace NeccWxApi
             Configuration = builder.Build();
         }
 
+        /// <summary>
+        /// 启动参数
+        /// </summary>
         public IConfigurationRoot Configuration { get; }
 
+        /// <summary>
+        /// 配置启动
+        /// </summary>
+        /// <param name="services"></param>
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -42,10 +58,8 @@ namespace NeccWxApi
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "NeccWxApi", Version = "v1.0" });
-                //Set the comments path for the swagger json and ui.
-//                var basePath = PlatformServices.Default.Application.ApplicationBasePath;
-//                var xmlPath = Path.Combine(basePath, "NeccWxApi.xml");
-//                c.IncludeXmlComments(xmlPath);
+                c.IncludeXmlComments(Path.Combine(PlatformServices.Default.Application.ApplicationBasePath,
+                    "WxNceeAPI.XML"));
             });
 
             // ********************
@@ -64,8 +78,12 @@ namespace NeccWxApi
             });
         }
 
-
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /// <summary>
+        /// 启动配置
+        /// </summary>
+        /// <param name="app"></param>
+        /// <param name="env"></param>
+        /// <param name="loggerFactory"></param>
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
@@ -76,6 +94,9 @@ namespace NeccWxApi
                 ForwardedHeaders = ForwardedHeaders.XForwardedFor |
                                    ForwardedHeaders.XForwardedProto
             });
+
+            //
+            Servers.Server.SqlConString = Configuration.GetConnectionString("WxNceeSqlString");
 
             app.UseCors("CorsSample");
 

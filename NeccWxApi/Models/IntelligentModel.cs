@@ -1,5 +1,8 @@
 ﻿namespace NeccWxApi.Models
 {
+    /// <summary>
+    /// 智能查询模型
+    /// </summary>
     public class IntelligentModel
     {
         /// <summary>

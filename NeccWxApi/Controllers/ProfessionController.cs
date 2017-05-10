@@ -6,9 +6,16 @@ using NeccWxApi.Servers;
 
 namespace NeccWxApi.Controllers
 {
+    /// <summary>
+    /// 专业查询API
+    /// </summary>
     [Route("api/[controller]")]
     public class ProfessionController : Controller
     {
+        /// <summary>
+        /// 界面
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ViewResult Get()
         {

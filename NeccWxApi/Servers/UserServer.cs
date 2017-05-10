@@ -2,6 +2,9 @@
 
 namespace NeccWxApi.Servers
 {
+    /// <summary>
+    /// 用户操作Server
+    /// </summary>
     public static class UserServer
     {
         /// <summary>

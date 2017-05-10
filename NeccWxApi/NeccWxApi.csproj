@@ -2,12 +2,18 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <LangVersion>default</LangVersion>
+    <Description>万向高考教育网站的后台api部分</Description>
+    <Authors>ksgin</Authors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <LangVersion>Latest</LangVersion>
+    <DocumentationFile>bin\release\netcoreapp1.1\netcoreapp1.1\WxNceeAPI.xml</DocumentationFile>
+    <OutputPath>bin\release\netcoreapp1.1\</OutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <LangVersion>Latest</LangVersion>
+    <DocumentationFile>bin\Release\netcoreapp1.1\publish\WxNceeAPI.xml</DocumentationFile>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Properties" />

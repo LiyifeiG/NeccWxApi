@@ -4,6 +4,9 @@ using NeccWxApi.Models;
 
 namespace NeccWxApi.Servers
 {
+    /// <summary>
+    /// 新历史数据查询Server
+    /// </summary>
     public class NewHistoryDataQueryServer
     {
         /// <summary>

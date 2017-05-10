@@ -1,7 +1,7 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/ksgin/.nuget/packages"
+      "C:\\Users\\KsGin\\.nuget\\packages"
     ]
   }
 }

@@ -4,12 +4,15 @@ using System.Data.SqlClient;
 
 namespace NeccWxApi.Servers
 {
+    /// <summary>
+    /// 历史数据Server
+    /// </summary>
     public static class HistoryDataServer
     {
         /// <summary>
-        /// 全部专业列表
+        /// 所有的专业列表
         /// </summary>
-        // <param name="localProvince">生源地</param>
+        /// <param name="localProvince">生源地</param>
         /// <returns>专业列表</returns>
         public static List<object> GetProfessionList(string localProvince)
         {
@@ -42,10 +45,10 @@ namespace NeccWxApi.Servers
         }
 
         /// <summary>
-        /// 全部院校列表
+        /// 获得全部院校列表
         /// </summary>
         /// <param name="localProvince">生源地</param>
-        /// <returns>学校列表</returns>
+        /// <returns>所有学校列表</returns>
         public static List<object> GetUniversityList(string localProvince)
         {
             using (var con = new SqlConnection(Server.SqlConString))

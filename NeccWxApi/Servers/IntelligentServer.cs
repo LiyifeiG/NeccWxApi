@@ -3,9 +3,11 @@ using System.Data.SqlClient;
 
 namespace NeccWxApi.Servers
 {
+    /// <summary>
+    /// 智能推荐Server
+    /// </summary>
     public static class IntelligentServer
     {
-
         /// <summary>
         /// 智能推荐
         /// </summary>

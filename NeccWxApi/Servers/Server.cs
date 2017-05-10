@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Http;
 
 namespace NeccWxApi.Servers
 {
+    /// <summary>
+    /// Server类
+    /// </summary>
     public static class Server
     {
         /// <summary>

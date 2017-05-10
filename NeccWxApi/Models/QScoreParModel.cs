@@ -1,5 +1,8 @@
 ﻿namespace NeccWxApi.Models
 {
+    /// <summary>
+    /// 分数查询模型
+    /// </summary>
     public class QScoreParModel
     {
         /// <summary>

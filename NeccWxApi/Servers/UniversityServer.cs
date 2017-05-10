@@ -3,6 +3,9 @@ using System.Data.SqlClient;
 
 namespace NeccWxApi.Servers
 {
+    /// <summary>
+    /// 学校数据Server
+    /// </summary>
     public static class UniversityServer
     {
         /// <summary>

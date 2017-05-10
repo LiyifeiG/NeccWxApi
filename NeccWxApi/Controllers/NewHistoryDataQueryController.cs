@@ -7,9 +7,16 @@ using NeccWxApi.Servers;
 
 namespace NeccWxApi.Controllers
 {
+    /// <summary>
+    /// 新历史数据查询API
+    /// </summary>
     [Route("api/[controller]")]
     public class NewHistoryDataQueryController : Controller
     {
+        /// <summary>
+        /// 界面
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ViewResult Get()
         {

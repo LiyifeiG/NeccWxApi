@@ -3,12 +3,15 @@ using System.Data.SqlClient;
 
 namespace NeccWxApi.Servers
 {
+    /// <summary>
+    /// 分数线Server
+    /// </summary>
     public static class AdmitLineServer
     {
         /// <summary>
-        /// Get all score line
+        /// 获得所有的分数线数据
         /// </summary>
-        /// <returns>The all score line.</returns>
+        /// <returns>所有的分数线数据</returns>
         public static IEnumerable<object> GetAllAdmitLine(string localProvince)
         {
             using (var con = new SqlConnection(Server.SqlConString))

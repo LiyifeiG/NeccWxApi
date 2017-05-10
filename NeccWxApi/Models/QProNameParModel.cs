@@ -1,5 +1,8 @@
 ﻿namespace NeccWxApi.Models
 {
+    /// <summary>
+    /// 专业查询模型
+    /// </summary>
     public class QProNameParModel
     {
         /// <summary>

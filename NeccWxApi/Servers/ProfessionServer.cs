@@ -4,6 +4,9 @@ using System.Linq;
 
 namespace NeccWxApi.Servers
 {
+    /// <summary>
+    /// 专业数据Server
+    /// </summary>
     public static class ProfessionServer
     {
         /// <summary>

@@ -1,40 +1,16 @@
-/Users/ksgin/code/VSProject/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.deps.json
-/Users/ksgin/code/VSProject/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.runtimeconfig.json
-/Users/ksgin/code/VSProject/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.runtimeconfig.dev.json
-/Users/ksgin/code/VSProject/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.dll
-/Users/ksgin/code/VSProject/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.pdb
-/Users/ksgin/code/VSProject/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.csprojResolveAssemblyReference.cache
-/Users/ksgin/code/VSProject/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.AssemblyInfo.cs
-/Users/ksgin/code/VSProject/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.dll
-/Users/ksgin/code/VSProject/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.pdb
-/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.deps.json
-/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.runtimeconfig.json
-/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.runtimeconfig.dev.json
-/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.dll
-/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.pdb
-/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.csprojResolveAssemblyReference.cache
-/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.AssemblyInfo.cs
-/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.dll
-/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.pdb
-<<<<<<< HEAD
-/Users/ksgin/Documents/Code/DotNetProject/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.csproj.CoreCompileInputs.cache
-=======
-C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.deps.json
-C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.runtimeconfig.json
-C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.runtimeconfig.dev.json
-C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.dll
-C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/bin/Debug/netcoreapp1.1/NeccWxApi.pdb
-C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.csprojResolveAssemblyReference.cache
-C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.AssemblyInfo.cs
-C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.dll
-C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.pdb
->>>>>>> 8a3c8e70a5fb463e69b2a8db66dad8dd0752b370
 E:\DotNetProject\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.deps.json
 E:\DotNetProject\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.runtimeconfig.json
 E:\DotNetProject\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.runtimeconfig.dev.json
+E:\DotNetProject\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\WxNceeAPI.xml
 E:\DotNetProject\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.dll
 E:\DotNetProject\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.pdb
-E:\DotNetProject\NeccWxApi\NeccWxApi\obj\Debug\netcoreapp1.1\NeccWxApi.csprojResolveAssemblyReference.cache
 E:\DotNetProject\NeccWxApi\NeccWxApi\obj\Debug\netcoreapp1.1\NeccWxApi.AssemblyInfo.cs
 E:\DotNetProject\NeccWxApi\NeccWxApi\obj\Debug\netcoreapp1.1\NeccWxApi.dll
 E:\DotNetProject\NeccWxApi\NeccWxApi\obj\Debug\netcoreapp1.1\NeccWxApi.pdb
+E:\DotNetProject\NeccWxApi\NeccWxApi\bin\release\netcoreapp1.1\netcoreapp1.1\NeccWxApi.deps.json
+E:\DotNetProject\NeccWxApi\NeccWxApi\bin\release\netcoreapp1.1\netcoreapp1.1\NeccWxApi.runtimeconfig.json
+E:\DotNetProject\NeccWxApi\NeccWxApi\bin\release\netcoreapp1.1\netcoreapp1.1\NeccWxApi.runtimeconfig.dev.json
+E:\DotNetProject\NeccWxApi\NeccWxApi\bin\release\netcoreapp1.1\netcoreapp1.1\WxNceeAPI.xml
+E:\DotNetProject\NeccWxApi\NeccWxApi\bin\release\netcoreapp1.1\netcoreapp1.1\NeccWxApi.dll
+E:\DotNetProject\NeccWxApi\NeccWxApi\bin\release\netcoreapp1.1\netcoreapp1.1\NeccWxApi.pdb
+E:\DotNetProject\NeccWxApi\NeccWxApi\obj\Debug\netcoreapp1.1\NeccWxApi.csprojResolveAssemblyReference.cache
