@@ -1,7 +1,7 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Collections.Generic;
-namespace NeccWxApi
+
+namespace NeccWxApi.Servers
 {
     public static class AdmitLineServer
     {

@@ -29,3 +29,12 @@ C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/obj/De
 C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.dll
 C:/Users/Julien/Documents/Visual Studio 2017/Projects/NeccWxApi/NeccWxApi/obj/Debug/netcoreapp1.1/NeccWxApi.pdb
 >>>>>>> 8a3c8e70a5fb463e69b2a8db66dad8dd0752b370
+E:\DotNetProject\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.deps.json
+E:\DotNetProject\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.runtimeconfig.json
+E:\DotNetProject\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.runtimeconfig.dev.json
+E:\DotNetProject\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.dll
+E:\DotNetProject\NeccWxApi\NeccWxApi\bin\Debug\netcoreapp1.1\NeccWxApi.pdb
+E:\DotNetProject\NeccWxApi\NeccWxApi\obj\Debug\netcoreapp1.1\NeccWxApi.csprojResolveAssemblyReference.cache
+E:\DotNetProject\NeccWxApi\NeccWxApi\obj\Debug\netcoreapp1.1\NeccWxApi.AssemblyInfo.cs
+E:\DotNetProject\NeccWxApi\NeccWxApi\obj\Debug\netcoreapp1.1\NeccWxApi.dll
+E:\DotNetProject\NeccWxApi\NeccWxApi\obj\Debug\netcoreapp1.1\NeccWxApi.pdb

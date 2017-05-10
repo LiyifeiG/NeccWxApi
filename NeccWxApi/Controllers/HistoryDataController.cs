@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using NeccWxApi.Models;
+using NeccWxApi.Servers;
 
 namespace NeccWxApi.Controllers
 {

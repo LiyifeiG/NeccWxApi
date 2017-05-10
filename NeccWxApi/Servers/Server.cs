@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using Microsoft.AspNetCore.Http;
 
-namespace NeccWxApi
+namespace NeccWxApi.Servers
 {
     public static class Server
     {

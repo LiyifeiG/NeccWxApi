@@ -1,6 +1,6 @@
 ﻿using System.Data.SqlClient;
 
-namespace NeccWxApi
+namespace NeccWxApi.Servers
 {
     public static class UserServer
     {

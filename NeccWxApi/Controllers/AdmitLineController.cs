@@ -1,7 +1,9 @@
 ﻿using System;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Cors;
-namespace NeccWxApi
+using Microsoft.AspNetCore.Mvc;
+using NeccWxApi.Servers;
+
+namespace NeccWxApi.Controllers
 {
     [Route("api/[controller]")]
     public class AdmitLineController : Controller
