@@ -26,7 +26,7 @@ namespace NeccWxApi.Controllers
         /// <returns>IP</returns>
         [EnableCors("CorsSample")]
         [HttpGet("IP")]
-        public string GetUserIP()
+        public string GetUserIp()
         {
             var ip = Server.GetUserIp(Request.HttpContext);
 
