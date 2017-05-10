@@ -8,3 +8,4 @@ E:\DotNetProject\NeccWxApi\NeccWxApi\bin\Release\netcoreapp1.1\WxNceeAPI.xml
 E:\DotNetProject\NeccWxApi\NeccWxApi\obj\Release\netcoreapp1.1\NeccWxApi.AssemblyInfo.cs
 E:\DotNetProject\NeccWxApi\NeccWxApi\obj\Release\netcoreapp1.1\NeccWxApi.dll
 E:\DotNetProject\NeccWxApi\NeccWxApi\obj\Release\netcoreapp1.1\NeccWxApi.pdb
+E:\DotNetProject\NeccWxApi\NeccWxApi\obj\Release\netcoreapp1.1\NeccWxApi.csprojResolveAssemblyReference.cache
