@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Data.SqlClient;
 
 namespace NeccWxApi.Servers
@@ -118,7 +119,7 @@ namespace NeccWxApi.Servers
 
                 var reader = sc.ExecuteReader();
                 if (!reader.Read()) return new {msg = "000"};
-                if ((int)reader[1] == 985)
+                if (reader[1] != DBNull.Value && (int)reader[1] == 985)
                 {
                     return (int)reader[2] == 211 ? new { msg = "985,211" } : new { msg = "985" };
                 }
