@@ -318,7 +318,7 @@ namespace NeccWxApi.Servers
                 var re = new List<object>();
 
 
-                var sqlStr = "SELECT DISTINCT uniName , proName , year , proAve , proMin , proMinP , proNum  FROM " +
+                var sqlStr = "SELECT DISTINCT uniName , proName , year , proAve , proMin , proMinP , proNum , classes FROM " +
                              Server.Province[localProvince] +
                              "Admit WHERE uniName = '" + uniName + "'  ORDER BY proName";
 
@@ -338,7 +338,8 @@ namespace NeccWxApi.Servers
                         pAve = (decimal) reader[3],
                         pMin = (int) reader[4],
                         pMinP = (int) reader[5],
-                        pNum = (int) reader[6]
+                        pNum = (int) reader[6],
+                        pClasses = (string) reader[7]
                     });
                 }
 

@@ -238,6 +238,7 @@ namespace NeccWxApi.Controllers
         /// <param name="user">请求体</param>
         /// <returns>结果</returns>
         [HttpPatch("pModifyPassword")]
+        [HttpPost("pModifyPassword")]
         [EnableCors("CorsSample")]
         public object ModifyPassword([FromBody] User user)
         {

@@ -31,6 +31,7 @@ namespace NeccWxApi.Controllers
         /// <param name="localProvince">生源地</param>
         /// <returns></returns>
         [HttpPatch("QueryUniversity&lp={localProvince}")]
+        [HttpPost("QueryUniversity&lp={localProvince}")]
         [EnableCors("CorsSample")]
         public IEnumerable<object> QueryUniversity([FromBody]QUniNameParModel qunpm , string localProvince)
         {
@@ -59,6 +60,7 @@ namespace NeccWxApi.Controllers
         /// <param name="localProvince">生源地</param>
         /// <returns>查询结果</returns>
         [HttpPatch("QueryProfession&lp={localProvince}")]
+        [HttpPost("QueryProfession&lp={localProvince}")]
         [EnableCors("CorsSample")]
         public IEnumerable<object> QueryProfession([FromBody] QProNameParModel qpnpm, string localProvince)
         {
@@ -87,6 +89,7 @@ namespace NeccWxApi.Controllers
         /// <param name="localProvince">生源地</param>
         /// <returns>查询结果</returns>
         [HttpPatch("QueryScore&lp={localProvince}")]
+        [HttpPost("QueryScore&lp={localProvince}")]
         [EnableCors("CorsSample")]
         public IEnumerable<object> QueryScore([FromBody] QScoreParModel qspm, string localProvince)
         {
